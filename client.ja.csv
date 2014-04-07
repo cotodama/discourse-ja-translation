@@ -456,15 +456,15 @@ js.filters.category.title.one,{{categoryName}} (1)
 js.filters.read.help,既読のトピックを、最後に読んだ順に表示
 js.filters.read.title,既読
 js.filters.top.yearly.title,***TO BE TRANSLATED***Top Yearly
-js.filters.top.this_week,***TO BE TRANSLATED***This week
+js.filters.top.this_week,今週
 js.filters.top.help,"***TO BE TRANSLATED***a selection of best topics in the last year, month, week or day"
 js.filters.top.title,トップ
 js.filters.top.monthly.title,***TO BE TRANSLATED***Top Monthly
 js.filters.top.daily.title,***TO BE TRANSLATED***Top Daily
-js.filters.top.this_year,***TO BE TRANSLATED***This year
-js.filters.top.other_periods,***TO BE TRANSLATED***see more top topics
-js.filters.top.this_month,***TO BE TRANSLATED***This month
-js.filters.top.today,***TO BE TRANSLATED***Today
+js.filters.top.this_year,今年
+js.filters.top.other_periods,トップトピックをもっと見る
+js.filters.top.this_month,今月
+js.filters.top.today,本日
 js.filters.top.weekly.title,***TO BE TRANSLATED***Top Weekly
 js.filters.hot.help,話題のトピック
 js.filters.hot.title,ホット
@@ -566,7 +566,7 @@ js.dates.tiny.x_seconds.other,%{count}s
 js.dates.tiny.x_seconds.one,1s
 js.dates.tiny.x_days.other,%{count}d
 js.dates.tiny.x_days.one,1d
-js.dates.tiny.date_month,***TO BE TRANSLATED***D MMM
+js.dates.tiny.date_month,M月D日
 js.dates.tiny.less_than_x_seconds.other,< %{count}s
 js.dates.tiny.less_than_x_seconds.one,< 1s
 js.dates.tiny.about_x_years.other,%{count}d
@@ -737,7 +737,7 @@ js.topics.none.top,***TO BE TRANSLATED***There are no top topics.
 js.topics.none.hot,ホットなトピックはありません。
 js.topics.none.latest,最新のトピックはありません。
 js.topics.none.new,新着トピックはありません。
-js.topics.none.starred,"***TO BE TRANSLATED***You haven't starred any topics yet. To star a topic, click or tap the star next to the title."
+js.topics.none.starred,"まだどのトピックにもスターを付けていません。トピックにスターを付けるには、タイトルの横にある☆をクリック（タップ）します。"
 js.topics.none.unread,未読トピックはありません。
 js.topics.none.posted,まだトピックを一つも投稿していません。
 js.topics.bottom.category,{{category}} トピックは以上です。
@@ -1175,14 +1175,14 @@ js.login.or,または
 js.history,History
 js.or,or
 js.user.mute,ミュート
-js.user.tracked_categories,***TO BE TRANSLATED***Tracked
+js.user.tracked_categories,トラック中
 js.user.moderator,{{user}} はモデレータです
 js.user.dynamic_favicon,favicon に受信したメッセージ通知を表示する
 js.user.suspended_notice,このユーザは {{date}} までサスペンド状態です。
 js.user.log_out,ログアウト
 js.user.change_about.title,自己紹介の変更
 js.user.email_direct,ポストが引用されたり、回答を受けたり、 @ユーザ名 でメンションを受けた際にメール通知を受け取る
-js.user.mailing_list_mode,***TO BE TRANSLATED***Receive an email every time a post is made on the forum (unless you have muted the topic or category)
+js.user.mailing_list_mode,フォーラムに投稿がされる度にメールで通知を受け取る(ミュートしているトピックやカテゴリ以外)
 js.user.password.too_short,パスワードが短すぎます。
 js.user.password.title,パスワード
 js.user.password.ok,パスワード OK。
@@ -1207,7 +1207,7 @@ js.user.auto_track_options.always,常にトラックする
 js.user.auto_track_options.never,トラックしない
 js.user.auto_track_options.after_n_seconds.other,{{count}}秒後
 js.user.auto_track_options.after_n_seconds.one,1秒後
-js.user.muted_categories,***TO BE TRANSLATED***Muted
+js.user.muted_categories,ミュート中
 js.user.username.available,ユーザ名は利用可能です。
 js.user.username.title,ユーザ名
 js.user.username.checking,ユーザ名が利用可能か確認しています...
@@ -1225,10 +1225,10 @@ js.user.email_private_messages,プライベートメッセージを受けた際�
 js.user.deleted_yourself,***TO BE TRANSLATED***Your account has been deleted successfully.
 js.user.change_profile_background.title,***TO BE TRANSLATED***Change Profile Background
 js.user.notifications,通知
-js.user.categories_settings,***TO BE TRANSLATED***Categories
+js.user.categories_settings,カテゴリ設定
 js.user.ip_address.title,最終 IP アドレス
 js.user.trust_level,トラストレベル
-js.user.watched_categories_instructions,"***TO BE TRANSLATED***You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic's listing."
+js.user.watched_categories_instructions,"これらのカテゴリに新しく作成される全てのトピックが自動的にウォッチされます。全ての新しい投稿やトピックについて通知が行われ、未読や新着の数がトピック一覧の隣に表示されるようになります。"
 js.user.name.too_short,名前が短すぎます。
 js.user.name.title,名前
 js.user.name.ok,名前 OK。
@@ -1274,12 +1274,12 @@ js.user.profile,プロフィール
 js.user.last_posted,最終投稿
 js.user.deleted,(削除済)
 js.user.invited_by,招待者
-js.user.muted_categories_instructions,"***TO BE TRANSLATED***You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
+js.user.muted_categories_instructions,"これらのカテゴリについて何も通知されなくなり、未読タブにも表示されなくなります。"
 js.user.change_email.taken,このメールアドレスは既に使われています。
 js.user.change_email.title,メールドレスの変更
 js.user.change_email.success,このアドレスにメールを送信しました。メールの指示に従って確認処理を行ってください。
 js.user.change_email.error,メールアドレス変更中にエラーが発生しました。既にこのアドレスが使われているのかもしれません。
-js.user.watched_categories,***TO BE TRANSLATED***Watched
+js.user.watched_categories,ウォッチ中
 js.user.other_settings,その他
 js.user.email_digests.bi_weekly,隔週
 js.user.email_digests.title,新規トピックのダイジェストをメールで受信する
@@ -1316,7 +1316,7 @@ js.user.messages.all,すべて
 js.user.messages.unread,未読
 js.user.messages.mine,私の
 js.user.activity_stream,アクティビティ
-js.user.tracked_categories_instructions,***TO BE TRANSLATED***You will automatically track all new topics in these categories. The count of unread and new posts will appear next to the topic's listing.
+js.user.tracked_categories_instructions,これらのカテゴリに新しく作成される全てのトピックが自動的にトラックされます。未読や新着の数がトピック一覧の隣に表示されるようになります。
 js.user.change_password.action,パスワードリセット用メールを送信する
 js.user.change_password.in_progress,(メールを送信中)
 js.user.change_password.set_password,***TO BE TRANSLATED***Set Password
