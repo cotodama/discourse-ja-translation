@@ -1,0 +1,1325 @@
+admin_js.admin.logs.match_count,マッチ
+admin_js.admin.logs.screened_urls.url,URL
+admin_js.admin.logs.screened_urls.domain,ドメイン
+admin_js.admin.logs.screened_urls.description,スパマーからのポストにおいて引用されていた URL のリスト。
+admin_js.admin.logs.screened_urls.title,ブロック対象URL
+admin_js.admin.logs.delete,削除
+admin_js.admin.logs.title,ログ
+admin_js.admin.logs.edit,編集
+admin_js.admin.logs.created_at,作成
+admin_js.admin.logs.last_match_at,最終マッチ
+admin_js.admin.logs.screened_ips.delete_confirm,%{ip_address} のルールを本当に削除しますか?
+admin_js.admin.logs.screened_ips.actions.do_nothing,許可
+admin_js.admin.logs.screened_ips.actions.block,ブロック
+admin_js.admin.logs.screened_ips.description,"監視中のIPアドレス。IPアドレスをホワイトリストに追加するには ""許可"" を利用してください。"
+admin_js.admin.logs.screened_ips.form.add,追加
+admin_js.admin.logs.screened_ips.form.ip_address,IPアドレス
+admin_js.admin.logs.screened_ips.form.label,新規:
+admin_js.admin.logs.screened_ips.title,スクリーン対象IP
+admin_js.admin.logs.screened_emails.title,ブロック対象アドレス
+admin_js.admin.logs.screened_emails.email,メールアドレス
+admin_js.admin.logs.screened_emails.description,新規アカウント作成時、次のメールアドレスからの登録をブロックする。
+admin_js.admin.logs.screened_actions.do_nothing,何もしない
+admin_js.admin.logs.screened_actions.block,ブロック
+admin_js.admin.logs.action,アクション
+admin_js.admin.logs.save,保存
+admin_js.admin.logs.ip_address,IP
+admin_js.admin.logs.staff_actions.show,詳しく見る
+admin_js.admin.logs.staff_actions.deleted,変更後の値がありません。レコードが削除されました。
+admin_js.admin.logs.staff_actions.target_user,対象ユーザ
+admin_js.admin.logs.staff_actions.actions.change_site_setting,サイトの設定を変更
+admin_js.admin.logs.staff_actions.actions.change_site_customization,サイトのカスタマイズ設定を変更
+admin_js.admin.logs.staff_actions.actions.revoke_badge,***TO BE TRANSLATED***revoke badge
+admin_js.admin.logs.staff_actions.actions.grant_badge,***TO BE TRANSLATED***grant badge
+admin_js.admin.logs.staff_actions.actions.change_trust_level,トラストレベルを変更
+admin_js.admin.logs.staff_actions.actions.unsuspend_user,ユーザのサスペンドを解除する
+admin_js.admin.logs.staff_actions.actions.delete_site_customization,サイトのカスタマイズ設定を削除
+admin_js.admin.logs.staff_actions.actions.delete_user,ユーザを削除
+admin_js.admin.logs.staff_actions.actions.suspend_user,ユーザをサスペンドにする
+admin_js.admin.logs.staff_actions.no_previous,変更前の値がありません。
+admin_js.admin.logs.staff_actions.new_value,変更後
+admin_js.admin.logs.staff_actions.diff,差分を見る
+admin_js.admin.logs.staff_actions.previous_value,変更前
+admin_js.admin.logs.staff_actions.instructions,ユーザ名やアクションをクリックするとリストをフィルタできます。アバターをクリックするとユーザページに遷移します。
+admin_js.admin.logs.staff_actions.title,スタッフ操作
+admin_js.admin.logs.staff_actions.staff_user,スタッフユーザ
+admin_js.admin.logs.staff_actions.modal_title,詳細
+admin_js.admin.logs.staff_actions.when,いつ
+admin_js.admin.logs.staff_actions.details,詳細
+admin_js.admin.logs.staff_actions.context,コンテンツ
+admin_js.admin.logs.staff_actions.subject,対象
+admin_js.admin.logs.staff_actions.clear_filters,全てを表示する
+admin_js.admin.customize.new_style,新規スタイル
+admin_js.admin.customize.undo_preview,プレビューをundo
+admin_js.admin.customize.mobile_css,モバイル向けスタイルシート
+admin_js.admin.customize.mobile_header,モバイル向けヘッダ
+admin_js.admin.customize.header,ヘッダ
+admin_js.admin.customize.override_default,標準のスタイルシートを読み込まない
+admin_js.admin.customize.long_title,サイトのカスタマイズ
+admin_js.admin.customize.about,サイトカスタマイズ設定により、サイトのヘッダとスタイルシートを変更できます。設定を選択するか、編集を開始して新たな設定を追加してください。
+admin_js.admin.customize.preview,プレビュー
+admin_js.admin.customize.title,カスタマイズ
+admin_js.admin.customize.enabled,有効にする
+admin_js.admin.customize.delete_confirm,このカスタマイズ設定を削除しますか?
+admin_js.admin.customize.new,新規
+admin_js.admin.customize.save,保存
+admin_js.admin.customize.css,スタイルシート
+admin_js.admin.customize.delete,削除
+admin_js.admin.commits.latest_changes,最新の更新内容:
+admin_js.admin.commits.by,by
+admin_js.admin.moderator,モデレータ
+admin_js.admin.api.none,現在アクティブなAPIキーが存在しません。
+admin_js.admin.api.confirm_regen,このAPIキーを新しいものに置き換えてもよろしいですか?
+admin_js.admin.api.revoke,無効化
+admin_js.admin.api.confirm_revoke,このキーを無効化しても本当によろしいですか?
+admin_js.admin.api.regenerate,API キーを再生成
+admin_js.admin.api.title,API
+admin_js.admin.api.info_html,API キーを使うと、JSON 呼び出しでトピックの作成・更新を行うことが出来ます。
+admin_js.admin.api.note_html,このキーは<strong>秘密</strong>情報です。キーを知るユーザは、任意のユーザとして任意のポストを作成することができます。
+admin_js.admin.api.generate,API キーを生成
+admin_js.admin.api.user,ユーザ
+admin_js.admin.api.key,Key
+admin_js.admin.api.all_users,全てのユーザ
+admin_js.admin.api.generate_master,マスターAPIキーを生成
+admin_js.admin.impersonate.username_or_email,ユーザ名かメールアドレス
+admin_js.admin.impersonate.not_found,ユーザが見つかりませんでした。
+admin_js.admin.impersonate.help,デバッグ用途でユーザアカウントになりすますためのツールです。
+admin_js.admin.impersonate.invalid,申し訳ありませんがこのユーザにはなりすませません。
+admin_js.admin.impersonate.title,ユーザになりすます
+admin_js.admin.user.suspend,サスペンド
+admin_js.admin.user.grant_admin,管理者権限を付与
+admin_js.admin.user.delete_and_block,<b>はい</b>。さらにこのメールアドレスからのサインアップを以後<b>ブロック</b>
+admin_js.admin.user.trust_level_2_users,***TO BE TRANSLATED***Trust Level 2 Users
+admin_js.admin.user.show_public_profile,一般プロファイルを表示
+admin_js.admin.user.unblock,ブロック解除
+admin_js.admin.user.suspended,サスペンド中?
+admin_js.admin.user.suspended_by,サスペンドしたユーザ
+admin_js.admin.user.blocked,ブロック中?
+admin_js.admin.user.revoke_admin,管理者権限を剥奪
+admin_js.admin.user.posts_read_count,読んだポスト数
+admin_js.admin.user.unblock_failed,ユーザのブロック解除に失敗しました。
+admin_js.admin.user.post_count,投稿したポスト数
+admin_js.admin.user.grant_moderation,モデレータ権限を付与
+admin_js.admin.user.delete_confirm,本当にこのユーザを削除しますか? この操作はやり直しできません!
+admin_js.admin.user.approve,承認
+admin_js.admin.user.show_admin_profile,管理者
+admin_js.admin.user.activate_failed,ユーザのアクティベートに失敗しました。
+admin_js.admin.user.private_topics_count,プライベートトピック数
+admin_js.admin.user.moderator,モデレータ?
+admin_js.admin.user.suspend_reason_label,サスペンドする理由を簡潔に説明してください。ここに書いた理由は、このユーザのプロファイルページにおいて<b>全員が閲覧可能な状態</b>で公開されます。またこのユーザがログインを試みた際にも表示されます。
+admin_js.admin.user.flags_received_count,設定されたフラグ数
+admin_js.admin.user.flags_given_count,設定したフラグ数
+admin_js.admin.user.permissions,パーミッション
+admin_js.admin.user.cant_delete_all_posts.other,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} days old.
+admin_js.admin.user.cant_delete_all_posts.one,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} day old.
+admin_js.admin.user.deactivate_failed,ユーザのアクティベート解除に失敗しました。
+admin_js.admin.user.tl3_requirements.site_promotion,***TO BE TRANSLATED***Site Promotion
+admin_js.admin.user.tl3_requirements.flagged_posts,***TO BE TRANSLATED***Flagged Posts
+admin_js.admin.user.tl3_requirements.table_title,***TO BE TRANSLATED***In the last 100 days:
+admin_js.admin.user.tl3_requirements.title,***TO BE TRANSLATED***Requirements for Trust Level 3
+admin_js.admin.user.tl3_requirements.days,***TO BE TRANSLATED***days
+admin_js.admin.user.tl3_requirements.quality_content,***TO BE TRANSLATED***Quality Content
+admin_js.admin.user.tl3_requirements.value_heading,***TO BE TRANSLATED***Value
+admin_js.admin.user.tl3_requirements.topics_with_replies,***TO BE TRANSLATED***Topics with Replies
+admin_js.admin.user.tl3_requirements.visits,***TO BE TRANSLATED***Visits
+admin_js.admin.user.tl3_requirements.topics_replied_to,***TO BE TRANSLATED***Topics Replied To
+admin_js.admin.user.tl3_requirements.reading,***TO BE TRANSLATED***Reading
+admin_js.admin.user.tl3_requirements.requirement_heading,***TO BE TRANSLATED***Requirement
+admin_js.admin.user.suspend_modal_title,サスペンド中ユーザ
+admin_js.admin.user.activity,アクティビティ
+admin_js.admin.user.delete_dont_block,<b>はい</b>。ただしこのメールアドレスからのサインアップは<b>許可</b>
+admin_js.admin.user.delete,ユーザを削除
+admin_js.admin.user.suspend_duration_units,(日)
+admin_js.admin.user.activate,アカウントのアクティベート
+admin_js.admin.user.block_explanation,ブロック中のユーザはポストの投稿およびトピックの作成ができません。
+admin_js.admin.user.approve_bulk_success,成功! 選択したユーザ全員が承認され、メールが送信されました。
+admin_js.admin.user.like_count,「いいね！」された数
+admin_js.admin.user.impersonate,このユーザになりすます
+admin_js.admin.user.unsuspend_failed,ユーザのサスペンド解除に失敗しました {{error}}
+admin_js.admin.user.delete_forbidden.other,登録後%{count}日以上が経過したユーザ、およびポスト投稿済のユーザは削除できません (ユーザ削除の前に全てのポストを削除してください)。
+admin_js.admin.user.delete_forbidden.one,登録後%{count}日以上が経過したユーザ、およびポスト投稿済のユーザは削除できません (ユーザ削除の前に全てのポストを削除してください)。
+admin_js.admin.user.delete_failed,ユーザ削除中にエラーが発生しました。このユーザの全てのポストを削除したことを確認してください。
+admin_js.admin.user.save_title,タイトルを保存
+admin_js.admin.user.send_activation_email_failed,アクティベーションメールの送信に失敗しました。 %{error}
+admin_js.admin.user.approve_success,ユーザが承認され、アクティベーション方法を記載したメールが送信されました。
+admin_js.admin.user.suspend_duration,ユーザを何日間サスペンドしますか?
+admin_js.admin.user.approved_by,承認したユーザ
+admin_js.admin.user.refresh_browsers,ブラウザを強制リフレッシュ
+admin_js.admin.user.deactivate_account,アカウントのアクティベート解除
+admin_js.admin.user.activation_email_sent,アクティベーションメールが送信されました。
+admin_js.admin.user.delete_all_posts_confirm,%{posts}個のポストと%{topics}個のトピックが削除されます。よろしいですか?
+admin_js.admin.user.edit_title,タイトルを編集
+admin_js.admin.user.delete_all_posts,全てのポストを削除
+admin_js.admin.user.unsuspend,サスペンド解除
+admin_js.admin.user.suspended_explanation,サスペンド中のユーザはログインできません。
+admin_js.admin.user.deleted,ユーザが削除されました。
+admin_js.admin.user.revoke_moderation,モデレータ権限を剥奪
+admin_js.admin.user.trust_level_change_failed,ユーザのトラストレベル変更に失敗しました。
+admin_js.admin.user.suspend_failed,ユーザのサスペンドに失敗しました {{error}}
+admin_js.admin.user.deactivate_explanation,アクティベート解除されたユーザは、メールで再アクティベートする必要があります。
+admin_js.admin.user.time_read,リード時間
+admin_js.admin.user.admin,管理者?
+admin_js.admin.user.send_activation_email,アクティベーションメールを送信
+admin_js.admin.user.reputation,レピュテーション
+admin_js.admin.user.block_failed,ユーザのブロックに失敗しました。
+admin_js.admin.user.topics_entered,投稿したトピック数
+admin_js.admin.user.delete_forbidden_because_staff,***TO BE TRANSLATED***Admins and moderators can't be deleted.
+admin_js.admin.user.suspend_reason,理由
+admin_js.admin.user.trust_level_3_requirements,***TO BE TRANSLATED***Trust Level 3 Requirements
+admin_js.admin.user.block,ブロック
+admin_js.admin.groups.about,グループメンバーとグループ名を編集
+admin_js.admin.groups.delete_failed,グループの削除に失敗しました。自動作成グループを削除することはできません。
+admin_js.admin.groups.title,グループ
+admin_js.admin.groups.edit,グループの編集
+admin_js.admin.groups.name_placeholder,グループ名を入力 (ユーザ名同様にスペースなし)
+admin_js.admin.groups.primary,***TO BE TRANSLATED***Primary Group
+admin_js.admin.groups.refresh,***TO BE TRANSLATED***Refresh
+admin_js.admin.groups.selector_placeholder,ユーザの追加
+admin_js.admin.groups.no_primary,***TO BE TRANSLATED***(no primary group)
+admin_js.admin.groups.group_members,***TO BE TRANSLATED***Group members
+admin_js.admin.groups.delete_confirm,このグループを削除しますか?
+admin_js.admin.groups.new,***TO BE TRANSLATED***New
+admin_js.admin.groups.delete,削除
+admin_js.admin.backups.read_only.enable.text,***TO BE TRANSLATED***Enable read-only mode
+admin_js.admin.backups.read_only.enable.title,***TO BE TRANSLATED***Enable the read-only mode
+admin_js.admin.backups.read_only.enable.confirm,***TO BE TRANSLATED***Are you sure you want to enable the read-only mode?
+admin_js.admin.backups.read_only.disable.text,***TO BE TRANSLATED***Disable read-only mode
+admin_js.admin.backups.read_only.disable.title,***TO BE TRANSLATED***Disable the read-only mode
+admin_js.admin.backups.operations.restore.text,***TO BE TRANSLATED***Restore
+admin_js.admin.backups.operations.restore.title,***TO BE TRANSLATED***Restore the backup
+admin_js.admin.backups.operations.restore.is_disabled,***TO BE TRANSLATED***Restore is disabled in the site settings.
+admin_js.admin.backups.operations.restore.confirm,***TO BE TRANSLATED***Are your sure you want to restore this backup?
+admin_js.admin.backups.operations.rollback.text,***TO BE TRANSLATED***Rollback
+admin_js.admin.backups.operations.rollback.title,***TO BE TRANSLATED***Rollback the database to previous working state
+admin_js.admin.backups.operations.rollback.confirm,***TO BE TRANSLATED***Are your sure you want to rollback the database to the previous working state?
+admin_js.admin.backups.operations.is_running,***TO BE TRANSLATED***An operation is currently running...
+admin_js.admin.backups.operations.failed,***TO BE TRANSLATED***The {{operation}} failed. Please check the logs.
+admin_js.admin.backups.operations.cancel.text,***TO BE TRANSLATED***Cancel
+admin_js.admin.backups.operations.cancel.title,***TO BE TRANSLATED***Cancel the current operation
+admin_js.admin.backups.operations.cancel.confirm,***TO BE TRANSLATED***Are you sure you want to cancel the current operation?
+admin_js.admin.backups.operations.destroy.text,***TO BE TRANSLATED***Delete
+admin_js.admin.backups.operations.destroy.title,***TO BE TRANSLATED***Remove the backup
+admin_js.admin.backups.operations.destroy.confirm,***TO BE TRANSLATED***Are you sure you want to destroy this backup?
+admin_js.admin.backups.operations.download.text,***TO BE TRANSLATED***Download
+admin_js.admin.backups.operations.download.title,***TO BE TRANSLATED***Download the backup
+admin_js.admin.backups.operations.backup.text,***TO BE TRANSLATED***Backup
+admin_js.admin.backups.operations.backup.title,***TO BE TRANSLATED***Create a backup
+admin_js.admin.backups.operations.backup.confirm,***TO BE TRANSLATED***Are you sure you want to start a new backup?
+admin_js.admin.backups.none,***TO BE TRANSLATED***No backup available.
+admin_js.admin.backups.logs.none,***TO BE TRANSLATED***No logs yet...
+admin_js.admin.backups.title,***TO BE TRANSLATED***Backups
+admin_js.admin.backups.menu.backups,***TO BE TRANSLATED***Backups
+admin_js.admin.backups.menu.logs,***TO BE TRANSLATED***Logs
+admin_js.admin.backups.upload.text,***TO BE TRANSLATED***UPLOAD
+admin_js.admin.backups.upload.uploading,***TO BE TRANSLATED***UPLOADING
+admin_js.admin.backups.upload.success,***TO BE TRANSLATED***'{{filename}}' has successfully been uploaded.
+admin_js.admin.backups.upload.error,***TO BE TRANSLATED***There has been an error while uploading '{{filename}}': {{message}}
+admin_js.admin.backups.columns.filename,***TO BE TRANSLATED***Filename
+admin_js.admin.backups.columns.size,***TO BE TRANSLATED***Size
+admin_js.admin.badges.revoke,***TO BE TRANSLATED***Revoke
+admin_js.admin.badges.granted_at,***TO BE TRANSLATED***Granted At
+admin_js.admin.badges.new_badge,***TO BE TRANSLATED***New Badge
+admin_js.admin.badges.granted_by,***TO BE TRANSLATED***Granted By
+admin_js.admin.badges.revoke_confirm,***TO BE TRANSLATED***Are you sure you want to revoke this badge?
+admin_js.admin.badges.no_user_badges,***TO BE TRANSLATED***%{name} has not been granted any badges.
+admin_js.admin.badges.description,***TO BE TRANSLATED***Description
+admin_js.admin.badges.no_badges,***TO BE TRANSLATED***There are no badges that can be granted.
+admin_js.admin.badges.display_name,***TO BE TRANSLATED***Display Name
+admin_js.admin.badges.name,***TO BE TRANSLATED***Name
+admin_js.admin.badges.title,***TO BE TRANSLATED***Badges
+admin_js.admin.badges.edit_badges,***TO BE TRANSLATED***Edit Badges
+admin_js.admin.badges.grant,***TO BE TRANSLATED***Grant
+admin_js.admin.badges.delete_confirm,***TO BE TRANSLATED***Are you sure you want to delete this badge?
+admin_js.admin.badges.badge_type,***TO BE TRANSLATED***Badge Type
+admin_js.admin.badges.new,***TO BE TRANSLATED***New
+admin_js.admin.badges.save,***TO BE TRANSLATED***Save
+admin_js.admin.badges.grant_badge,***TO BE TRANSLATED***Grant Badge
+admin_js.admin.badges.granted_badges,***TO BE TRANSLATED***Granted Badges
+admin_js.admin.badges.delete,***TO BE TRANSLATED***Delete
+admin_js.admin.site_content.edit,サイトのコンテンツを編集
+admin_js.admin.site_content.none,編集するコンテンツのタイプを選択してください。
+admin_js.admin.site_content.title,コンテンツ
+admin_js.admin.users.reject_selected.other,拒否ユーザ ({{count}})
+admin_js.admin.users.reject_selected.one,拒否ユーザ
+admin_js.admin.users.reject_failures.other,%{count}人のユーザの拒否に失敗しました。
+admin_js.admin.users.reject_failures.one,1人のユーザの拒否に失敗しました。
+admin_js.admin.users.title,ユーザ
+admin_js.admin.users.create,管理者を追加
+admin_js.admin.users.approved_selected.other,承認ユーザ ({{count}})
+admin_js.admin.users.approved_selected.one,承認ユーザ
+admin_js.admin.users.titles.admins,管理者ユーザ
+admin_js.admin.users.titles.elder,トラストレベル4のユーザ (マスター)
+admin_js.admin.users.titles.moderators,モデレータ
+admin_js.admin.users.titles.regular,トラストレベル2のユーザ (レギュラーユーザ)
+admin_js.admin.users.titles.suspended,サスペンド中のユーザ
+admin_js.admin.users.titles.basic,トラストレベル1のユーザ (ベーシックユーザ)
+admin_js.admin.users.titles.active,アクティブユーザ
+admin_js.admin.users.titles.new,新規ユーザ
+admin_js.admin.users.titles.newuser,トラストレベル0のユーザ (新規ユーザ)
+admin_js.admin.users.titles.leader,トラストレベル3のユーザ (リーダ)
+admin_js.admin.users.titles.pending,保留中のユーザ
+admin_js.admin.users.titles.blocked,ブロック中のユーザ
+admin_js.admin.users.nav.moderators,モデレータ
+admin_js.admin.users.nav.suspended,サスペンド中
+admin_js.admin.users.nav.active,アクティブ
+admin_js.admin.users.nav.new,新規
+admin_js.admin.users.nav.admins,管理者
+admin_js.admin.users.nav.pending,保留中
+admin_js.admin.users.nav.blocked,ブロック中
+admin_js.admin.users.last_emailed,最終メール
+admin_js.admin.users.reject_successful.other,%{count}人のユーザの拒否に成功しました。
+admin_js.admin.users.reject_successful.one,1人のユーザの拒否に成功しました。
+admin_js.admin.users.active,アクティブ
+admin_js.admin.users.not_found,このユーザネームはシステムに存在しません。
+admin_js.admin.users.approved,承認?
+admin_js.admin.title,Discourse 管理者
+admin_js.admin.flags.agree_hide_title,このポストを非表示にし、編集を促すプライベートメッセージを自動的に送信
+admin_js.admin.flags.defer,保留
+admin_js.admin.flags.old,古いフラグ
+admin_js.admin.flags.agree_hide,賛成 (ポストを非表示 + PM を送信)
+admin_js.admin.flags.delete_post_title,ポストを削除。最初のポストの場合はトピックも合わせて削除
+admin_js.admin.flags.disagree_title,フラグに反対。このポストのフラグをクリア
+admin_js.admin.flags.error,何かがうまくいきませんでした
+admin_js.admin.flags.disagree,反対
+admin_js.admin.flags.delete_spammer_title,ユーザを削除し、全てのポストとトピックを削除。
+admin_js.admin.flags.topic_flagged,***TO BE TRANSLATED***This <strong>topic</strong> has been flagged.
+admin_js.admin.flags.active,アクティブなフラグ
+admin_js.admin.flags.disagree_unhide_title,このポストのフラグをクリアし、再度表示
+admin_js.admin.flags.visit_topic,***TO BE TRANSLATED***Visit the topic to investigate and take action.
+admin_js.admin.flags.flagged_by,フラグをたてた人
+admin_js.admin.flags.disagree_unhide,反対 (ポストを再表示)
+admin_js.admin.flags.clear_topic_flags,***TO BE TRANSLATED***Done
+admin_js.admin.flags.title,フラグ
+admin_js.admin.flags.delete_post,ポストを削除
+admin_js.admin.flags.system,システム
+admin_js.admin.flags.summary.action_type_4.other,不適切 x{{count}}
+admin_js.admin.flags.summary.action_type_4.one,不適切
+admin_js.admin.flags.summary.action_type_7.other,カスタム x{{count}}
+admin_js.admin.flags.summary.action_type_7.one,カスタム
+admin_js.admin.flags.summary.action_type_6.other,カスタム x{{count}}
+admin_js.admin.flags.summary.action_type_6.one,カスタム
+admin_js.admin.flags.summary.action_type_8.other,スパム x{{count}}
+admin_js.admin.flags.summary.action_type_8.one,スパム
+admin_js.admin.flags.summary.action_type_3.other,オフトピック x{{count}}
+admin_js.admin.flags.summary.action_type_3.one,オフトピック
+admin_js.admin.flags.no_results,フラグはありません。
+admin_js.admin.flags.view_message,回答
+admin_js.admin.flags.defer_title,現時点ではアクション不要。保留状態にしておき後ほど再判断
+admin_js.admin.flags.clear_topic_flags_title,***TO BE TRANSLATED***The topic has been investigated and issues have been resolved. Click Done to remove the flags.
+admin_js.admin.dashboard.last_updated,ダッシュボード最終更新:
+admin_js.admin.dashboard.last_checked,最終チェック
+admin_js.admin.dashboard.please_upgrade,今すぐアップデートしてください!
+admin_js.admin.dashboard.critical_available,重要度の高いアップデートが存在します。
+admin_js.admin.dashboard.latest_version,Latest
+admin_js.admin.dashboard.suspended,停止中:
+admin_js.admin.dashboard.admins,管理者:
+admin_js.admin.dashboard.stale_data,最近アップデートの確認が正しく動作していません。sidekiq が起動していることを確認してください。
+admin_js.admin.dashboard.blocked,ブロック中:
+admin_js.admin.dashboard.private_messages_short,PMs
+admin_js.admin.dashboard.no_check_performed,アップデートの確認が正しく動作していません。sidekiq が起動していることを確認してください。
+admin_js.admin.dashboard.title,ダッシュボード
+admin_js.admin.dashboard.version_check_pending,アップデートした直後のようですね。素晴らしい!
+admin_js.admin.dashboard.moderators,モデレータ:
+admin_js.admin.dashboard.reports.last_30_days,過去30日
+admin_js.admin.dashboard.reports.view_table,テーブル表示
+admin_js.admin.dashboard.reports.all,全て
+admin_js.admin.dashboard.reports.yesterday,昨日
+admin_js.admin.dashboard.reports.all_time,All Time
+admin_js.admin.dashboard.reports.view_chart,棒グラフ表示
+admin_js.admin.dashboard.reports.7_days_ago,7日前
+admin_js.admin.dashboard.reports.last_7_days,過去7日
+admin_js.admin.dashboard.reports.30_days_ago,30日前
+admin_js.admin.dashboard.reports.today,今日
+admin_js.admin.dashboard.refresh_problems,更新
+admin_js.admin.dashboard.installed_version,Installed
+admin_js.admin.dashboard.version,Version
+admin_js.admin.dashboard.private_messages_title,プライベートメッセージ
+admin_js.admin.dashboard.updates_available,アップデートが存在します。
+admin_js.admin.dashboard.no_problems,問題は見つかりませんでした。
+admin_js.admin.dashboard.problems_found,Discourse のインストールにいくつか問題が発見されました:
+admin_js.admin.dashboard.up_to_date,最新のバージョンです!
+admin_js.admin.site_settings.reset,デフォルトに戻す
+admin_js.admin.site_settings.no_results,何も見つかりませんでした。.
+admin_js.admin.site_settings.none,なし
+admin_js.admin.site_settings.title,設定
+admin_js.admin.site_settings.show_overriden,上書き部分のみ表示
+admin_js.admin.site_settings.clear_filter,***TO BE TRANSLATED***Clear
+admin_js.admin.site_settings.categories.files,ファイル
+admin_js.admin.site_settings.categories.users,ユーザ
+admin_js.admin.site_settings.categories.rate_limits,投稿制限
+admin_js.admin.site_settings.categories.all_results,全て
+admin_js.admin.site_settings.categories.seo,SEO
+admin_js.admin.site_settings.categories.backups,***TO BE TRANSLATED***Backups
+admin_js.admin.site_settings.categories.trust,トラストレベル
+admin_js.admin.site_settings.categories.developer,開発者向け
+admin_js.admin.site_settings.categories.posting,ポスト
+admin_js.admin.site_settings.categories.spam,スパム
+admin_js.admin.site_settings.categories.required,必須設定
+admin_js.admin.site_settings.categories.legal,***TO BE TRANSLATED***Legal
+admin_js.admin.site_settings.categories.embedding,***TO BE TRANSLATED***Embedding
+admin_js.admin.site_settings.categories.basic,基本設定
+admin_js.admin.site_settings.categories.security,セキュリティ
+admin_js.admin.site_settings.categories.email,メール
+admin_js.admin.site_settings.categories.uncategorized,その他
+admin_js.admin.email.all,***TO BE TRANSLATED***All
+admin_js.admin.email.skipped,***TO BE TRANSLATED***Skipped
+admin_js.admin.email.to_address,送信先アドレス
+admin_js.admin.email.logs.none,***TO BE TRANSLATED***No logs found.
+admin_js.admin.email.logs.filters.reply_key_placeholder,***TO BE TRANSLATED***
+admin_js.admin.email.logs.filters.skipped_reason_placeholder,***TO BE TRANSLATED***reason
+admin_js.admin.email.logs.filters.address_placeholder,***TO BE TRANSLATED***em@il.com
+admin_js.admin.email.logs.filters.title,***TO BE TRANSLATED***Filter
+admin_js.admin.email.logs.filters.user_placeholder,***TO BE TRANSLATED***username
+admin_js.admin.email.logs.filters.type_placeholder,"***TO BE TRANSLATED***digest, signup..."
+admin_js.admin.email.format,フォーマット
+admin_js.admin.email.text,text
+admin_js.admin.email.preview_digest,ダイジェストのプレビュー
+admin_js.admin.email.last_seen_user,ユーザが最後にサイトを訪れた日:
+admin_js.admin.email.user,ユーザ
+admin_js.admin.email.send_test,テストメール送信
+admin_js.admin.email.email_type,メールタイプ
+admin_js.admin.email.reply_key,回答キー
+admin_js.admin.email.sent_at,送信時間
+admin_js.admin.email.title,メール
+admin_js.admin.email.settings,設定
+admin_js.admin.email.sending_test,***TO BE TRANSLATED***Sending test Email...
+admin_js.admin.email.refresh,更新
+admin_js.admin.email.delivery_method,送信方法
+admin_js.admin.email.preview_digest_desc,フォーラムより送信されるダイジェストメールのプレビューです。
+admin_js.admin.email.html,html
+admin_js.admin.email.sent_test,送信完了!
+admin_js.admin.email.sent,***TO BE TRANSLATED***Sent
+admin_js.admin.email.time,***TO BE TRANSLATED***Time
+admin_js.admin.email.skipped_reason,***TO BE TRANSLATED***Skip Reason
+admin_js.admin.email.test_error,***TO BE TRANSLATED***There was an issue sending email. Please check your settings and try again.
+admin_js.admin.email.test_email_address,テスト用メールアドレス
+admin_js.keyboard_shortcuts_help.application.notifications,***TO BE TRANSLATED***<b>n</b> Open notifications
+admin_js.keyboard_shortcuts_help.application.create,***TO BE TRANSLATED***<b>c</b> Create a new topic
+admin_js.keyboard_shortcuts_help.application.search,***TO BE TRANSLATED***<b>/</b> Search
+admin_js.keyboard_shortcuts_help.application.help,***TO BE TRANSLATED***<b>?</b> Open keyboard shortcuts help
+admin_js.keyboard_shortcuts_help.application.title,***TO BE TRANSLATED***Application
+admin_js.keyboard_shortcuts_help.title,***TO BE TRANSLATED***Keyboard Shortcuts (experimental)
+admin_js.keyboard_shortcuts_help.navigation.open,***TO BE TRANSLATED***<b>o</b> or <b>Enter</b> Open selected topic
+admin_js.keyboard_shortcuts_help.navigation.title,***TO BE TRANSLATED***Navigation
+admin_js.keyboard_shortcuts_help.navigation.next_prev,***TO BE TRANSLATED***<b>`</b>/<b>~</b> Next/previous section
+admin_js.keyboard_shortcuts_help.navigation.back,***TO BE TRANSLATED***<b>u</b> Back
+admin_js.keyboard_shortcuts_help.navigation.up_down,***TO BE TRANSLATED***<b>k</b>/<b>j</b> Move selection up/down
+admin_js.keyboard_shortcuts_help.actions.mark_tracking,***TO BE TRANSLATED***<b>m</b> then <b>t</b> Mark topic as tracking
+admin_js.keyboard_shortcuts_help.actions.star,***TO BE TRANSLATED***<b>f</b> Star topic
+admin_js.keyboard_shortcuts_help.actions.like,***TO BE TRANSLATED***<b>l</b> Like post
+admin_js.keyboard_shortcuts_help.actions.mark_regular,***TO BE TRANSLATED***<b>m</b> then <b>r</b> Mark topic as regular
+admin_js.keyboard_shortcuts_help.actions.title,***TO BE TRANSLATED***Actions
+admin_js.keyboard_shortcuts_help.actions.bookmark,***TO BE TRANSLATED***<b>b</b> Bookmark post
+admin_js.keyboard_shortcuts_help.actions.reply_post,***TO BE TRANSLATED***<b>shift r</b> Reply to post
+admin_js.keyboard_shortcuts_help.actions.edit,***TO BE TRANSLATED***<b>e</b> Edit post
+admin_js.keyboard_shortcuts_help.actions.flag,***TO BE TRANSLATED***<b>!</b> Flag post
+admin_js.keyboard_shortcuts_help.actions.reply_topic,***TO BE TRANSLATED***<b>r</b> Reply to topic
+admin_js.keyboard_shortcuts_help.actions.mark_muted,***TO BE TRANSLATED***<b>m</b> then <b>m</b> Mark topic as muted
+admin_js.keyboard_shortcuts_help.actions.mark_watching,***TO BE TRANSLATED***<b>m</b> then <b>w</b> Mark topic as watching
+admin_js.keyboard_shortcuts_help.actions.share_topic,***TO BE TRANSLATED***<b>s</b> Share topic
+admin_js.keyboard_shortcuts_help.actions.share_post,***TO BE TRANSLATED***<b>shift s</b> Share post
+admin_js.keyboard_shortcuts_help.actions.delete,***TO BE TRANSLATED***<b>d</b> Delete post
+admin_js.keyboard_shortcuts_help.jump_to.title,***TO BE TRANSLATED***Jump To
+admin_js.keyboard_shortcuts_help.jump_to.home,***TO BE TRANSLATED***<b>g</b> then <b>h</b> Home (Latest)
+admin_js.keyboard_shortcuts_help.jump_to.new,***TO BE TRANSLATED***<b>g</b> then <b>n</b> New
+admin_js.keyboard_shortcuts_help.jump_to.starred,***TO BE TRANSLATED***<b>g</b> then <b>f</b> Starred
+admin_js.keyboard_shortcuts_help.jump_to.unread,***TO BE TRANSLATED***<b>g</b> then <b>u</b> Unread
+admin_js.keyboard_shortcuts_help.jump_to.categories,***TO BE TRANSLATED***<b>g</b> then <b>c</b> Categories
+admin_js.keyboard_shortcuts_help.jump_to.latest,***TO BE TRANSLATED***<b>g</b> then <b>l</b> Latest
+admin_js.type_to_filter,設定項目の絞り込み...
+admin_js.badges.example_badge.name,***TO BE TRANSLATED***Example Badge
+admin_js.badges.example_badge.description,***TO BE TRANSLATED***This is a generic example badge.
+admin_js.lightbox.download,ダウンロード
+js.in_n_minutes.other,あと{{count}}分
+js.in_n_minutes.one,あと1分
+js.private_message_info.invite,友人を招待...
+js.private_message_info.remove_allowed_user,このプライベートメッセージより本当に {{name}} を削除しますか?
+js.private_message_info.title,プライベートメッセージ
+js.less,Less
+js.read_only_mode.enabled,***TO BE TRANSLATED***An administrator has enabled read-only mode. You can continue to browse the site but interactions won't work properly.
+js.read_only_mode.login_disabled,***TO BE TRANSLATED***Login is disabled while the site is in read only mode.
+js.number.human.storage_units.units.kb,KB
+js.number.human.storage_units.units.byte.other,Bytes
+js.number.human.storage_units.units.byte.one,Byte
+js.number.human.storage_units.units.tb,TB
+js.number.human.storage_units.units.gb,GB
+js.number.human.storage_units.units.mb,MB
+js.number.human.storage_units.format,%n %u
+js.month,月
+js.browser_update,"<a href=""http://www.discourse.org/faq/#browser"">ご使用中のブラウザが古すぎるため Discourse フォーラムが正しく動作しません</a>。<a href=""http://browsehappy.com"">ブラウザをアップグレードしてください</a>。"
+js.original_post,大元のポスト
+js.likes,いいね！
+js.filters.category.help,{{categoryName}} カテゴリの最新トピック
+js.filters.category.title.zero,{{categoryName}}
+js.filters.category.title.other,{{categoryName}} ({{count}})
+js.filters.category.title.one,{{categoryName}} (1)
+js.filters.read.help,既読のトピックを、最後に読んだ順に表示
+js.filters.read.title,既読
+js.filters.top.yearly.title,***TO BE TRANSLATED***Top Yearly
+js.filters.top.this_week,***TO BE TRANSLATED***This week
+js.filters.top.help,"***TO BE TRANSLATED***a selection of best topics in the last year, month, week or day"
+js.filters.top.title,***TO BE TRANSLATED***Top
+js.filters.top.monthly.title,***TO BE TRANSLATED***Top Monthly
+js.filters.top.daily.title,***TO BE TRANSLATED***Top Daily
+js.filters.top.this_year,***TO BE TRANSLATED***This year
+js.filters.top.other_periods,***TO BE TRANSLATED***see more top topics
+js.filters.top.this_month,***TO BE TRANSLATED***This month
+js.filters.top.today,***TO BE TRANSLATED***Today
+js.filters.top.weekly.title,***TO BE TRANSLATED***Top Weekly
+js.filters.hot.help,話題のトピック
+js.filters.hot.title,ホット
+js.filters.with_category,***TO BE TRANSLATED***%{filter} %{category} Topics
+js.filters.latest.help,最新のトピック
+js.filters.latest.title,最新
+js.filters.new.title.zero,新規
+js.filters.new.title.other,新規 ({{count}})
+js.filters.new.title.one,新規 (1)
+js.filters.new.lower_title,***TO BE TRANSLATED***new
+js.filters.new.help,前回ログイン時からの新規トピック
+js.filters.new.lower_title_with_count.zero,***TO BE TRANSLATED***
+js.filters.new.lower_title_with_count.other,***TO BE TRANSLATED***{{count}} new
+js.filters.new.lower_title_with_count.one,***TO BE TRANSLATED***1 new
+js.filters.starred.help,***TO BE TRANSLATED***topics you starred
+js.filters.starred.title,スター付き
+js.filters.unread.help,未読ポストのあるトピック
+js.filters.unread.title.zero,未読
+js.filters.unread.title.other,未読 ({{count}})
+js.filters.unread.title.one,未読 (1)
+js.filters.with_topics,***TO BE TRANSLATED***%{filter} Topics
+js.filters.categories.title_in,カテゴリ - {{categoryName}}
+js.filters.categories.help,カテゴリ毎に整理されたトピックを表示
+js.filters.categories.title,カテゴリ
+js.filters.posted.help,あなたが投稿したトピック
+js.filters.posted.title,あなたのポスト
+js.replies,回答
+js.cancel,キャンセル
+js.saving,保存中...
+js.bookmarks.not_logged_in,ポストをブックマークするには、ログインする必要があります
+js.bookmarks.created,このポストをブックマークしました
+js.bookmarks.last_read,このポストをブックマークする
+js.bookmarks.not_bookmarked,このポストをブックマークする
+js.flagging.yes_delete_spammer,はい、スパマーを削除する
+js.flagging.title,このポストにフラグをつける理由は何ですか?
+js.flagging.take_action,アクションを取る
+js.flagging.custom_placeholder_notify_moderators,ポストについて、モデレータの確認が必要な理由を書いてください。問題の詳細を書くとともに、可能であれば参照リンクなども加えてください。
+js.flagging.notify_action,通知する
+js.flagging.cant,申し訳ありませんが、現在このポストにフラグをたてることはできません。
+js.flagging.delete_spammer,スパマーの削除
+js.flagging.custom_message.more,あと{{n}}文字...
+js.flagging.custom_message.at_least,少なくとも{{n}}文字入力してください
+js.flagging.custom_message.left,残り{{n}}文字
+js.flagging.action,フラグをつける
+js.flagging.delete_confirm,このユーザによる<b>%{posts}</b>個のポストと<b>%{topics}</b>個のトピックを削除し、アカウントを削除し、このユーザのメールアドレス <b>%{email}</b> をブロックリストに追加しようとしています。本当にこのユーザをスマパー認定してもよいですか?
+js.flagging.custom_placeholder_notify_user,ポストについて、このユーザに個人的に直接確認する必要がある内容を書いてください。詳細かつ建設的に、そして何よりマナーを守った内容にしてください。
+js.saved,保存しました
+js.weekly,毎週
+js.admin_title,管理者
+js.loading,読み込み中...
+js.read_more,もっと読む
+js.mute,ミュート
+js.of_value,/
+js.first_post,最初のポスト
+js.age,経過
+js.likes_long,このトピックには{{number}}つ「いいね！」がついています
+js.trust_level,トラストレベル
+js.current_user,ユーザページに移動
+js.year_desc,過去365日間に投稿されたトピック
+js.upload_selector.remote_tip_with_attachments,画像/ファイルのアドレスを入力してください (例 http://example.com/file.ext) (使用可能な拡張子: {{authorized_extensions}}).
+js.upload_selector.title_with_attachments,画像/ファイルをアップロード
+js.upload_selector.remote_tip,画像のアドレスを入力してください (例 http://example.com/image.jpg)。
+js.upload_selector.local_tip_with_attachments,クリックしてアップロードする画像/ファイルを選択してください (使用可能な拡張子: {{authorized_extensions}})
+js.upload_selector.hint,(アップロードする画像をエディタにドラッグ&ドロップすることもできます)
+js.upload_selector.local_tip,クリックしてアップロードする画像を選択してください
+js.upload_selector.from_my_computer,このデバイスから
+js.upload_selector.uploading,アップロード中
+js.upload_selector.image_link,***TO BE TRANSLATED***enter the link you want your image to point to
+js.upload_selector.title,画像のアップロード
+js.upload_selector.from_the_web,Web から
+js.upload_selector.hint_for_chrome,(アップロードする画像をエディタにドラッグ&ドロップまたは貼り付けることもできます)
+js.save,変更を保存
+js.last_post,最終ポスト
+js.more,More
+js.uploaded,アップロードしました
+js.generic_error_with_reason,エラーが発生しました: %{error}
+js.privacy_policy,プライバシーポリシー
+js.week_desc,過去7日間に投稿されたトピック
+js.views,閲覧
+js.faq,FAQ
+js.dates.medium_with_ago.x_days.other,%{count}日前
+js.dates.medium_with_ago.x_days.one,1日前
+js.dates.medium_with_ago.x_minutes.other,%{count}分前
+js.dates.medium_with_ago.x_minutes.one,1分前
+js.dates.medium_with_ago.x_hours.other,%{count}時間前
+js.dates.medium_with_ago.x_hours.one,1時間前
+js.dates.medium.x_days.other,%{count}日
+js.dates.medium.x_days.one,1日
+js.dates.medium.date_year,***TO BE TRANSLATED***D MMM YYYY
+js.dates.medium.x_hours.other,%{count}時間
+js.dates.medium.x_hours.one,1時間
+js.dates.medium.x_minutes.other,%{count}分
+js.dates.medium.x_minutes.one,1分
+js.dates.tiny.x_minutes.other,%{count}m
+js.dates.tiny.x_minutes.one,1m
+js.dates.tiny.about_x_hours.other,%{count}h
+js.dates.tiny.about_x_hours.one,1h
+js.dates.tiny.x_seconds.other,%{count}s
+js.dates.tiny.x_seconds.one,1s
+js.dates.tiny.x_days.other,%{count}d
+js.dates.tiny.x_days.one,1d
+js.dates.tiny.date_month,***TO BE TRANSLATED***D MMM
+js.dates.tiny.less_than_x_seconds.other,< %{count}s
+js.dates.tiny.less_than_x_seconds.one,< 1s
+js.dates.tiny.about_x_years.other,%{count}d
+js.dates.tiny.about_x_years.one,1d
+js.dates.tiny.date_year,***TO BE TRANSLATED***MMM 'YY
+js.dates.tiny.half_a_minute,< 1s
+js.dates.tiny.over_x_years.other,> %{count}y
+js.dates.tiny.over_x_years.one,> 1y
+js.dates.tiny.almost_x_years.other,%{count}y
+js.dates.tiny.almost_x_years.one,1y
+js.dates.tiny.less_than_x_minutes.other,< %{count}m
+js.dates.tiny.less_than_x_minutes.one,< 1m
+js.suggested_topics.title,関連トピック
+js.notifications.replied,<i title='replied' class='fa fa-reply'></i> {{username}} {{link}}
+js.notifications.edited,<i title='edited' class='fa fa-pencil'></i> {{username}} {{link}}
+js.notifications.none,現在通知はありません。
+js.notifications.invitee_accepted,<i title='accepted your invitation' class='fa fa-sign-in'></i> {{username}} が招待を受理しました
+js.notifications.quoted,<i title='quoted' class='fa fa-quote-right'></i> {{username}} {{link}}
+js.notifications.title,@ユーザ名 メンションやあなたのポストやトピックへの回答、プライベートメッセージなどの通知
+js.notifications.invited_to_private_message,<i class='fa fa-envelope-o' title='private message'></i> {{username}} {{link}}
+js.notifications.total_flagged,フラグがたったポストの総数
+js.notifications.liked,<i title='liked' class='fa fa-heart'></i> {{username}} {{link}}
+js.notifications.mentioned,<span title='mentioned' class='icon'>@</span> {{username}} {{link}}
+js.notifications.private_message,<i class='fa fa-envelope-o' title='private message'></i> {{username}} {{link}}
+js.notifications.moved_post,<i title='moved post' class='fa fa-arrow-right'></i> {{username}} が {{link}} を移動しました
+js.notifications.more,古い通知を確認する
+js.notifications.linked,***TO BE TRANSLATED***<i title='linked post' class='fa fa-arrow-left'></i> {{username}} {{link}}
+js.notifications.posted,<i title='replied' class='fa fa-reply'></i> {{username}} {{link}}
+js.go_back,戻る
+js.now,たった今
+js.day,日
+js.categories.category,カテゴリ
+js.categories.toggle_ordering,カテゴリ並び替えモードをトグル
+js.categories.all,全てのカテゴリ
+js.categories.all_subcategories,全てのサブカテゴリ
+js.categories.topic_stat_sentence.other,***TO BE TRANSLATED***%{count} new topics in the past %{unit}.
+js.categories.topic_stat_sentence.one,***TO BE TRANSLATED***%{count} new topic in the past %{unit}.
+js.categories.topic_stats,***TO BE TRANSLATED***The number of new topics.
+js.categories.post_stat_sentence.other,***TO BE TRANSLATED***%{count} new posts in the past %{unit}.
+js.categories.post_stat_sentence.one,***TO BE TRANSLATED***%{count} new post in the past %{unit}.
+js.categories.posts,ポスト
+js.categories.no_subcategory,サブカテゴリなし
+js.categories.subcategories,サブカテゴリ:
+js.categories.latest_by,latest by
+js.categories.post_stats,***TO BE TRANSLATED***The number of new posts.
+js.categories.topics,トピック
+js.categories.latest,最新ポスト
+js.log_in,ログイン
+js.preview,プレビュー
+js.mobile_view,モバイル表示
+js.edit,このトピックのタイトルとカテゴリを編集
+js.topic_map.links_shown,全{{totalLinks}}リンクを表示...
+js.topic_map.clicks.other,***TO BE TRANSLATED***%{count} clicks
+js.topic_map.clicks.one,***TO BE TRANSLATED***1 click
+js.topic_map.title,トピックのサマリー
+js.posts,投稿
+js.upload,アップロード
+js.summary.description_time,全てを確認するのに <b>{{readingTime}} 分</b> 前後を要する <b>{{count}}</b> 個の回答があります。関連性の高い回答のみを表示します?
+js.summary.enable,このトピックを要訳する
+js.summary.description,<b>{{count}}</b> 個の回答があります。関連性の高い回答のみ表示しますか?
+js.summary.disable,全てのポストを表示する
+js.summary.enabled_description,このトピックのサマリーを表示しています。全てのポストを見るには、下をクリックしてください。
+js.unmute,ミュート解除
+js.activity,アクティビティ
+js.categories_list,カテゴリ一覧
+js.starred.help.unstar,***TO BE TRANSLATED***remove this topic from your starred list
+js.starred.help.star,***TO BE TRANSLATED***add this topic to your starred list
+js.starred.title,***TO BE TRANSLATED***Star
+js.choose_topic.none_found,トピックが見つかりませんでした
+js.choose_topic.title.search,トピック名、URL、または ID でトピックを検索:
+js.choose_topic.title.placeholder,ここにトピックのタイトルを入力
+js.category_title,カテゴリ
+js.site_map,別のトピックリストやカテゴリに移動
+js.last_seen,最終アクティビティ
+js.username,ユーザ名
+js.posts_long,このトピックには{{number}}個のポストがあります
+js.composer.saved_draft_tip,保存しました
+js.composer.list_item,リストアイテム
+js.composer.saving,保存中...
+js.composer.help,Markdown 編集のヘルプ
+js.composer.redo_title,やり直しのやり直し
+js.composer.reply_placeholder,本文をここに入力してください。Markdown や BBCode を利用することもできます。画像をアップロードするにはドラッグまたはペーストしてください。
+js.composer.bold_title,強調
+js.composer.show_edit_reason,(編集理由を追加)
+js.composer.cancel,キャンセル
+js.composer.code_title,コードサンプル
+js.composer.quote_title,ブロック引用
+js.composer.edit_reason_placeholder,編集理由は何ですか?
+js.composer.reply_here,ここに回答
+js.composer.upload_title,アップロード
+js.composer.saved,保存完了!
+js.composer.create_pm,プライベートメッセージの作成
+js.composer.saved_local_draft_tip,ローカルに保存しました
+js.composer.quote_post_title,ポスト全体を引用
+js.composer.title,***TO BE TRANSLATED***Or press Ctrl+Enter
+js.composer.italic_text,斜体のテキスト
+js.composer.heading_title,見出し
+js.composer.link_description,リンクの説明文をここに入力
+js.composer.auto_close_examples,"例: 24, 17:00, 2013-11-22 14:00"
+js.composer.similar_topics,このトピックに似ているトピック...
+js.composer.ulist_title,箇条書き
+js.composer.show_preview,プレビューを表示する &raquo;
+js.composer.hide_preview,&laquo; プレビューを隠す
+js.composer.reply,回答
+js.composer.undo_title,やり直し
+js.composer.drafts_offline,オフラインで下書き
+js.composer.link_title,ハイパーリンク
+js.composer.create_topic,トピックを作成
+js.composer.code_text,コードサンプルをここに入力
+js.composer.users_placeholder,ユーザの追加
+js.composer.toggler,編集パネルの表示/非表示
+js.composer.admin_options_title,このトピックの詳細設定
+js.composer.save_edit,編集内容を保存
+js.composer.posting_not_on_topic,回答したいトピックはどれですか?
+js.composer.auto_close_error,正しい値を入力してください。
+js.composer.link_optional_text,タイトル(オプション)
+js.composer.bold_text,強調されたテキスト
+js.composer.hr_title,水平線
+js.composer.uploading,アップロード中...
+js.composer.saved_draft,編集中のポストがあります。このボックス内をクリックすると編集を再開できます。
+js.composer.heading_text,見出し
+js.composer.min_length.need_more_for_reply,ポストにあと{{n}}文字必要
+js.composer.min_length.need_more_for_title,タイトルにあと{{n}}文字必要
+js.composer.auto_close_label,このトピックを自動的に終了する時間:
+js.composer.reply_original,元のトピックに回答
+js.composer.upload_description,アップロード内容の説明文をここに入力
+js.composer.italic_title,斜体
+js.composer.saving_draft_tip,保存中
+js.composer.olist_title,番号付きリスト
+js.composer.quote_text,ブロック引用
+js.composer.auto_close_units,(何時間後か、自動終了する具体的な時間、またはタイムスタンプ)
+js.composer.link_dialog_title,ハイパーリンクの挿入
+js.composer.error.title_too_long,タイトルは最長で{{max}}未満です。
+js.composer.error.post_missing,ポスト内容が空です。
+js.composer.error.post_length,ポストは{{min}}文字以上必要です。
+js.composer.error.title_too_short,タイトルは{{min}}文字以上必要です。
+js.composer.error.title_missing,タイトルを入力してください。
+js.composer.error.category_missing,カテゴリを選択してください。
+js.composer.title_placeholder,トピックのタイトルをここに入力してください。
+js.composer.view_new_post,新規ポストを見る。
+js.links,リンク
+js.user_action.posted_by_you,<a href='{{userUrl}}'>あなた</a> がポストを投稿
+js.user_action.user_mentioned_you,<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>あなた</a> をメンション
+js.user_action.user_posted_topic,<a href='{{userUrl}}'>{{user}}</a> が <a href='{{topicUrl}}'>トピック</a> を作成
+js.user_action.you_replied_to_topic,<a href='{{userUrl}}'>あなた</a> が <a href='{{topicUrl}}'>トピック</a> に回答
+js.user_action.you_posted_topic,<a href='{{userUrl}}'>あなた</a> が <a href='{{topicUrl}}'>トピック</a> を作成
+js.user_action.user_replied_to_topic,<a href='{{userUrl}}'>{{user}}</a> が <a href='{{topicUrl}}'>トピック</a> に回答
+js.user_action.user_mentioned_user,<a href='{{user1Url}}'>{{user}}</a> が <a href='{{user2Url}}'>{{another_user}}</a> をメンション
+js.user_action.you_replied_to_post,<a href='{{userUrl}}'>あなた</a> が <a href='{{postUrl}}'>{{post_number}}</a> に回答
+js.user_action.posted_by_user,<a href='{{userUrl}}'>{{user}}</a> がポストを投稿
+js.user_action.user_replied_to_post,<a href='{{userUrl}}'>{{user}}</a> が <a href='{{postUrl}}'>{{post_number}}</a> に回答
+js.user_action.you_mentioned_user,<a href='{{user1Url}}'>あなた</a> が <a href='{{user2Url}}'>{{another_user}}</a> をメンション
+js.user_action.sent_by_user,<a href='{{userUrl}}'>{{user}}</a> が送信
+js.user_action.sent_by_you,<a href='{{userUrl}}'>あなた</a> が送信
+js.topics.bulk.notification_level,***TO BE TRANSLATED***Change Notification Level
+js.topics.bulk.dismiss_read,***TO BE TRANSLATED***Dismiss Unread
+js.topics.bulk.selected.other,***TO BE TRANSLATED***You have selected <b>{{count}}</b> topics.
+js.topics.bulk.selected.one,***TO BE TRANSLATED***You have selected <b>1</b> topic.
+js.topics.bulk.actions,***TO BE TRANSLATED***Bulk Actions
+js.topics.bulk.toggle,***TO BE TRANSLATED***toggle bulk selection of topics
+js.topics.bulk.change_category,***TO BE TRANSLATED***Change Category
+js.topics.bulk.reset_read,***TO BE TRANSLATED***Reset Read
+js.topics.bulk.close_topics,***TO BE TRANSLATED***Close Topics
+js.topics.bulk.dismiss_new,***TO BE TRANSLATED***Dismiss New
+js.topics.none.category,{{category}} トピックはありません。
+js.topics.none.read,またトピックを一つも読んでいません。
+js.topics.none.top,***TO BE TRANSLATED***There are no top topics.
+js.topics.none.hot,ホットなトピックはありません。
+js.topics.none.latest,最新のトピックはありません。
+js.topics.none.new,新着トピックはありません。
+js.topics.none.starred,"***TO BE TRANSLATED***You haven't starred any topics yet. To star a topic, click or tap the star next to the title."
+js.topics.none.unread,未読トピックはありません。
+js.topics.none.posted,まだトピックを一つも投稿していません。
+js.topics.bottom.category,{{category}} トピックは以上です。
+js.topics.bottom.posted,ポストのあるトピックは以上です。
+js.topics.bottom.read,未読トピックは以上です。
+js.topics.bottom.top,***TO BE TRANSLATED***There are no more top topics.
+js.topics.bottom.hot,ホットなトピックは以上です。
+js.topics.bottom.new,新規トピックは以上です。
+js.topics.bottom.starred,***TO BE TRANSLATED***There are no more starred topics.
+js.topics.bottom.unread,未読のトピックは以上です。
+js.topics.bottom.latest,最新のトピックは以上です。
+js.share.topic,このトピックのリンクをシェアする
+js.share.google+,Google+ でこのリンクを共有する
+js.share.facebook,Facebook でこのリンクを共有する
+js.share.close,閉じる
+js.share.twitter,Twitter でこのリンクを共有する
+js.share.post,ポスト #%{postNumber} のリンクをシェアする
+js.share.email,メールでこのリンクを送る
+js.views_long,このトピックは{{number}}回閲覧されました
+js.joined,参加者
+js.topic.flag_topic.help,***TO BE TRANSLATED***privately flag this topic for attention or send a private notification about it
+js.topic.flag_topic.success_message,***TO BE TRANSLATED***You successfully flagged this topic.
+js.topic.flag_topic.title,***TO BE TRANSLATED***Flag
+js.topic.filters.cancel,Show all posts in this topic again.
+js.topic.filters.n_posts.other,{{count}} posts
+js.topic.filters.n_posts.one,1 post
+js.topic.share.help,このトピックへのリンクをシェアする
+js.topic.share.title,シェア
+js.topic.actions.unarchive,トピックのアーカイブ解除
+js.topic.actions.pin_globally,***TO BE TRANSLATED***Pin Topic Globally
+js.topic.actions.pin,トピックのピン留め
+js.topic.actions.unpin,トピックのピン留め解除
+js.topic.actions.auto_close,自動終了
+js.topic.actions.visible,非表示を解除
+js.topic.actions.multi_select,移動するポストを選択
+js.topic.actions.reset_read,読み込みデータをリセット
+js.topic.actions.convert_to_topic,通常トピックに変換
+js.topic.actions.invisible,非表示にする
+js.topic.actions.close,トピックを終了する
+js.topic.actions.recover,トピック削除の取り消し
+js.topic.actions.open,トピックを開く
+js.topic.actions.archive,トピックのアーカイブ
+js.topic.actions.delete,トピック削除
+js.topic.toggle_information,トピック詳細をトグル
+js.topic.likes.other,このトピックには{{count}}個「いいね！」がついています
+js.topic.likes.one,このトピックには1個「いいね！」がついています
+js.topic.private_message,プライベートメッセージを作成
+js.topic.read_more_MF,"{ UNREAD, plural, =0 {} one { <a href='/unread'>未読ポスト1つ</a> } other { <a href='/unread'>未読ポスト#つ</a> } } { NEW, plural, =0 {} one { {BOTH, select, true{and } false {} other{}} <a href='/new'>新規トピック1つ</a>c} other { {BOTH, select, true{and } false {} other{}} <a href='/new'>新規トピック#つ</a>} }を読む or {CATEGORY, select, true {{catLink} の他のトピックを読む} false {{latestLink}} other {}} "
+js.topic.not_found.description,申し訳有りませんがトピックが見つかりませんでした。モデレータによって削除された可能性があります。
+js.topic.not_found.title,トピックが見つかりませんでした
+js.topic.invalid_access.login_required,***TO BE TRANSLATED***You need to log in to see that topic.
+js.topic.invalid_access.description,申し訳ありませんが、このトピックへのアクセスは許可されていません!
+js.topic.invalid_access.title,トピックはプライベートです
+js.topic.jump_reply_up,以前の回答へジャンプ
+js.topic.split_topic.action,新規トピックに移動
+js.topic.split_topic.title,新規トピックに移動
+js.topic.split_topic.topic_name,新規トピック名:
+js.topic.split_topic.error,新規トピックへのポスト移動中にエラーが発生しました。
+js.topic.split_topic.instructions.other,新たにトピックを作成し、選択した<b>{{count}}</b>個のポストをこのトピックに移動しようとしています。
+js.topic.split_topic.instructions.one,新たにトピックを作成し、選択したポストをこのトピックに移動しようとしています。
+js.topic.server_error.description,申し訳ありませんが、トピックの読み込みに失敗しました。もう一度試してください。もし問題が継続する場合はお知らせください。
+js.topic.server_error.title,トピックの読み込みに失敗しました
+js.topic.loading,トピックを読み込み中...
+js.topic.read_more,{{catLink}} or {{latestLink}}。
+js.topic.title,トピック
+js.topic.suggest_create_topic,新しいトピックを作成しますか？
+js.topic.create,トピックを作成する
+js.topic.auto_close_save,保存
+js.topic.filter_to,トピック内の{{post_count}}個のポストを表示
+js.topic.create_long,新しいトピックの作成
+js.topic.progress.current,現在のポスト
+js.topic.progress.jump_top,最初のポストにジャンプ
+js.topic.progress.position,ポスト%{current}/%{total}
+js.topic.progress.title,トピック進捗
+js.topic.progress.jump_bottom,最後のポストにジャンプ
+js.topic.progress.total,ポスト総数
+js.topic.progress.jump_bottom_with_number,ポスト%{post_number}にジャンプ
+js.topic.clear_pin.help,このトピックのピンを解除し、トピックリストの先頭に表示されないようにする
+js.topic.clear_pin.title,ピンを解除する
+js.topic.show_links,このトピック内のリンクを表示
+js.topic.auto_close_notice,このトピックは%{timeLeft}で自動的に終了します。
+js.topic.deleted,トピックは削除されました
+js.topic.new_topics.other,{{count}}個の新規トピック
+js.topic.new_topics.one,1個の新規トピック
+js.topic.new,新規トピック
+js.topic.notifications.tracking.description,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。これに加えて、未読および新規ポストの数を確認します。
+js.topic.notifications.tracking.title,トラック中
+js.topic.notifications.watching.description,トラック中と同様です。加えて、新規ポストが投稿されるたびに通知されます。
+js.topic.notifications.watching.title,監視中
+js.topic.notifications.reasons.3_1,このトピックを作成したため通知されます。
+js.topic.notifications.reasons.3_2,このトピックを監視中のため通知されます。
+js.topic.notifications.reasons.3_5,***TO BE TRANSLATED***You will receive notifications because you started watching this topic automatically.
+js.topic.notifications.reasons.3_6,***TO BE TRANSLATED***You will receive notifications because you are watching this category.
+js.topic.notifications.reasons.2_2,このトピックをトラック中のため通知されます。
+js.topic.notifications.reasons.2_4,このトピックに回答したため通知されます。
+js.topic.notifications.reasons.1,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。
+js.topic.notifications.reasons.0,このトピックに関して一切通知を受けません。
+js.topic.notifications.reasons.3,このトピックを監視中のため通知されます。
+js.topic.notifications.reasons.2,"<a href=""/users/{{username}}/preferences"">このトピックを閲覧した</a>ため通知されます。"
+js.topic.notifications.reasons.1_2,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。
+js.topic.notifications.reasons.0_2,このトピックに関して一切通知を受けません。
+js.topic.notifications.title,
+js.topic.notifications.muted_pm.description,***TO BE TRANSLATED***You will never be notified of anything about this private message.
+js.topic.notifications.muted_pm.title,***TO BE TRANSLATED***Muted
+js.topic.notifications.muted.description,このトピックについて何の通知も受けません。また未読タブにも表示されません。
+js.topic.notifications.muted.title,ミュート
+js.topic.notifications.regular.description,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。
+js.topic.notifications.regular.title,通常
+js.topic.notifications.watching_pm.description,***TO BE TRANSLATED***You will be notified of every new post in this private message. The count of unread and new posts will also appear next to the topic's listing.
+js.topic.notifications.watching_pm.title,***TO BE TRANSLATED***Watching
+js.topic.notifications.tracking_pm.description,***TO BE TRANSLATED***You will be notified only if someone mentions your @name or replies to your post. The count of unread and new posts will also appear next to the topic's listing.
+js.topic.notifications.tracking_pm.title,***TO BE TRANSLATED***Tracking
+js.topic.back_to_list,トピックリストに戻る
+js.topic.browse_all_categories,全てのカテゴリをブラウズする
+js.topic.invite_private.success,このプライベートメッセージにユーザを招待しました。
+js.topic.invite_private.title,プライベートメッセージへの招待
+js.topic.invite_private.action,招待
+js.topic.invite_private.error,申し訳ありませんが、ユーザ招待中にエラーが発生しました。
+js.topic.invite_private.email_or_username_placeholder,メールアドレスまたはユーザ名
+js.topic.invite_private.email_or_username,招待するユーザのメールアドレスまたはユーザ名
+js.topic.invite_reply.help,このトピックにワンクリックで回答ができるように友人を招待メールを送る
+js.topic.invite_reply.success,ありがとうございます! <b>{{email}}</b> 宛に招待メールを送信しました。友人により招待が受理されたらお知らせします。招待した友人の一覧は、ユーザページの招待タブにて確認できます。
+js.topic.invite_reply.title,友人を招待して回答してもらう
+js.topic.invite_reply.email_placeholder,メールアドレス
+js.topic.invite_reply.error,申し訳ありませんが招待に失敗しました。既にユーザ登録済かもしれません。
+js.topic.invite_reply.action,メールで招待
+js.topic.invite_reply.to_forum,このフォーラムにワンクリックで参加できるようにあなたの友人にメールを送ります。
+js.topic.invite_reply.to_topic,このトピックに（ログインすることなく）ワンクリックで回答ができるようにあなたの友人にメールを送ります。
+js.topic.unread_topics.other,{{count}}個の未読トピック
+js.topic.unread_topics.one,1個の未読トピック
+js.topic.view_latest_topics,最新のトピックを見る
+js.topic.unread_posts.other,このトピックに未読のポストが{{count}}つあります
+js.topic.unread_posts.one,このトピックに未読のポストが1つあります
+js.topic.login_reply,ログインして回答
+js.topic.auto_close_remove,このトピックを自動終了しない
+js.topic.inviting,招待中...
+js.topic.loading_more,さらにトピックを読み込み中...
+js.topic.merge_topic.action,既存トピックに移動
+js.topic.merge_topic.title,既存トピックに移動
+js.topic.merge_topic.error,指定トピックへのポスト移動中にエラーが発生しました。
+js.topic.merge_topic.instructions.other,これら<b>{{count}}</b>個のポストをどのトピックに移動するか選択してください。
+js.topic.merge_topic.instructions.one,このポストをどのトピックに移動するか選択してください。
+js.topic.list,トピック
+js.topic.read_position_reset,しおりがリセットされました。
+js.topic.multi_select.deselect_all,***TO BE TRANSLATED***deselect all
+js.topic.multi_select.select_replies,全ての回答と共に選択
+js.topic.multi_select.description.other,現在<b>{{count}}</b>個のポストを選択中。
+js.topic.multi_select.description.one,現在<b>1</b>個のポストを選択中。
+js.topic.multi_select.select_all,***TO BE TRANSLATED***select all
+js.topic.multi_select.selected,選択中 ({{count}})
+js.topic.multi_select.cancel,deselect all
+js.topic.multi_select.select,選択
+js.topic.multi_select.delete,選択中のものを削除
+js.topic.auto_close_title,自動終了設定
+js.topic.reply.help,このトピックに回答する
+js.topic.reply.title,回答
+js.topic.new_posts.other,前回閲覧時より、このトピックに新しいポストが{{count}}個投稿されています
+js.topic.new_posts.one,前回閲覧時より、このトピックに新しいポストが1つ投稿されています
+js.topic.read_more_in_category,{{catLink}} の他のトピックを見る or {{latestLink}}。
+js.topic.options,トピックオプション
+js.topic.jump_reply_down,以後の回答へジャンプ
+js.year,年
+js.close,閉じる
+js.flags_title,フラグ
+js.create_account.action,今すぐアカウントを作成しましょう!
+js.create_account.failed,エラーが発生しました。既にこのメールアドレスは使用中かもしれません。「パスワードを忘れました」リンクを試してみてください
+js.create_account.invite,まだアカウントをもっていない?
+js.create_account.title,アカウントの作成
+js.category.email_in,***TO BE TRANSLATED***Custom incoming email address:
+js.category.add_permission,パーミッションを追加
+js.category.save_error,カテゴリの保存に失敗しました。
+js.category.general,一般
+js.category.topic,カテゴリトピック
+js.category.background_color,背景色
+js.category.change_in_category_topic,カテゴリ内容を編集
+js.category.create,カテゴリを作成する
+js.category.creation_error,カテゴリの作成に失敗しました。
+js.category.foreground_color,文字表示色
+js.category.delete_confirm,本当にこのカテゴリを削除してもよいですか?
+js.category.choose,カテゴリを選択&hellip;
+js.category.save,カテゴリを保存する
+js.category.description,カテゴリ内容
+js.category.parent,親カテゴリ
+js.category.already_used,この色は他のカテゴリで利用しています
+js.category.name_placeholder,簡潔な名前にしてください。
+js.category.badge_colors,バッジの色
+js.category.more_posts,{{posts}}個のポストをすべて見る...
+js.category.email_in_allow_strangers,***TO BE TRANSLATED***Accept emails from non-users (aka strangers)
+js.category.this_year,今年
+js.category.edit_long,カテゴリを編集
+js.category.edit_permissions,パーミッションを編集
+js.category.no_description,このカテゴリの説明はありません。トピック定義を編集してください。
+js.category.none,(カテゴリなし)
+js.category.auto_close_label,トピックを自動的に閉じるまでの時間:
+js.category.name,カテゴリ名
+js.category.delete_error,カテゴリ削除に失敗しました。
+js.category.settings,設定
+js.category.edit,編集
+js.category.default_position,デフォルトポジション
+js.category.list,カテゴリをリストする
+js.category.color_placeholder,任意の Web カラー
+js.category.auto_close_units,時間
+js.category.can,can&hellip; 
+js.category.position,ポジション
+js.category.security,セキュリティ
+js.category.delete,カテゴリを削除する
+js.category.view,カテゴリ内のトピックを見る
+js.assets_changed_confirm,"***TO BE TRANSLATED***Discourse has been updated, would you like to refresh to get the latest version?"
+js.every_two_weeks,隔週
+js.forgot_password.action,パスワードを忘れました
+js.forgot_password.reset,パスワードをリセット
+js.forgot_password.title,パスワードを忘れました
+js.forgot_password.invite,ユーザ名かメールアドレスを入力してください。パスワードリセット用のメールを送信します。
+js.forgot_password.complete,パスワードリセット用のメールを送信しました。
+js.user_action_groups.11,編集
+js.user_action_groups.10,お気に入り
+js.user_action_groups.13,インボックス
+js.user_action_groups.12,アイテム送信
+js.user_action_groups.1,「いいね！」 した
+js.user_action_groups.3,ブックマーク
+js.user_action_groups.2,「いいね！」 された
+js.user_action_groups.5,投稿
+js.user_action_groups.4,トピック
+js.user_action_groups.7,メンション
+js.user_action_groups.6,リプライ
+js.user_action_groups.9,引用
+js.topic_statuses.pinned.help,このトピックはピン留めされています。常にカテゴリのトップに表示されます
+js.topic_statuses.invisible.help,このトピックは非表示状態です。トピックリストには表示されません。直接リンクでのみアクセス可能です
+js.topic_statuses.archived.help,このトピックはアーカイブされています。凍結状態のため一切の変更ができません
+js.topic_statuses.locked.help,"このトピックは終了しています。新たに回答を投稿することはできません"""
+js.in_n_hours.other,あと{{count}}時間
+js.in_n_hours.one,あと1時間
+js.you,あなた
+js.show_new_topics,クリックして表示。
+js.email,メール
+js.yes_value,はい
+js.week,週
+js.new_topics_inserted,新しいトピックが {{count}}個あります
+js.users,ユーザ
+js.in_n_days.other,あと{{count}}日
+js.in_n_days.one,あと1日
+js.flagging_topic.action,***TO BE TRANSLATED***Flag Topic
+js.flagging_topic.notify_action,***TO BE TRANSLATED***Private message
+js.flagging_topic.title,***TO BE TRANSLATED***Why are you privately flagging this topic?
+js.max,***TO BE TRANSLATED***max
+js.never,never
+js.learn_more,より詳しく...
+js.character_count.other,{{count}}文字
+js.character_count.one,{{count}}文字
+js.groups.posts,***TO BE TRANSLATED***Posts
+js.groups.members,***TO BE TRANSLATED***Members
+js.groups.alias_levels.mods_and_admins,***TO BE TRANSLATED***Only moderators and Admins
+js.groups.alias_levels.everyone,***TO BE TRANSLATED***Everyone
+js.groups.alias_levels.members_mods_and_admins,"***TO BE TRANSLATED***Only group members, moderators and admins"
+js.groups.alias_levels.title,***TO BE TRANSLATED***Who can use this group as an alias?
+js.groups.alias_levels.nobody,***TO BE TRANSLATED***Nobody
+js.groups.alias_levels.only_admins,***TO BE TRANSLATED***Only admins
+js.groups.title.other,***TO BE TRANSLATED***groups
+js.groups.title.one,***TO BE TRANSLATED***group
+js.in_n_seconds.other,あと{{count}}秒
+js.in_n_seconds.one,あと1秒
+js.post.post_number,ポスト{{number}}
+js.post.last_edited_on,ポストの最終編集日
+js.post.archetypes.save,保存オプション
+js.post.quote_reply,引用して回答
+js.post.has_replies.other,回答
+js.post.has_replies.one,回答
+js.post.gap.other,{{count}}個のポストを除外
+js.post.gap.one,1個のポストを除外
+js.post.show_full,***TO BE TRANSLATED***Show Full Post
+js.post.follow_quote,引用ポストに移動
+js.post.actions.by_you.notify_moderators,あなたがモデレータ確認を要するとフラグをたてました
+js.post.actions.by_you.like,あなたが「いいね！」しました
+js.post.actions.by_you.inappropriate,あなたが不適切であるとフラグをたてました
+js.post.actions.by_you.bookmark,あなたがこのポストをブックマークしました
+js.post.actions.by_you.off_topic,あなたがオフトピックであるとフラグをたてました
+js.post.actions.by_you.spam,あなたがスパムであるとフラグを立てています
+js.post.actions.by_you.vote,あなたがこのポストに投票しました
+js.post.actions.by_you.notify_user,あなたがこのユーザにプライベートメッセージを送信しました
+js.post.actions.people.notify_moderators,{{icons}} がモデレータに通報しました
+js.post.actions.people.like,{{icons}} が「いいね！」しています
+js.post.actions.people.inappropriate,{{icons}} が不適切であるとマークしました
+js.post.actions.people.bookmark,{{icons}} がブックマークしました
+js.post.actions.people.off_topic,{{icons}} がオフトピックであるとマークしました
+js.post.actions.people.spam,{{icons}} がスパムであるとマークしました
+js.post.actions.people.notify_user_with_url,{{icons}} が<a href='{{postUrl}}'>プライベートメッセージe</a>を送信しました
+js.post.actions.people.notify_moderators_with_url,{{icons}} <a href='{{postUrl}}'>通知されたモデレータ</a>
+js.post.actions.people.vote,{{icons}} が投票しました
+js.post.actions.people.notify_user,{{icons}} がプライベートメッセージを送信しました
+js.post.actions.flag,フラグ
+js.post.actions.undo.vote,投票を取り消す
+js.post.actions.undo.like,「いいね！」を取り消す
+js.post.actions.undo.inappropriate,フラグを取り消す
+js.post.actions.undo.bookmark,ブックマークを取り消す
+js.post.actions.undo.off_topic,フラグを取り消す
+js.post.actions.undo.spam,フラグを取り消す
+js.post.actions.clear_flags.other,フラグをクリア
+js.post.actions.clear_flags.one,フラグをクリア
+js.post.actions.it_too.vote,投票する
+js.post.actions.it_too.like,あなたも「いいね！」する
+js.post.actions.it_too.inappropriate,フラグをたてる
+js.post.actions.it_too.bookmark,ブックマークする
+js.post.actions.it_too.custom_flag,フラグをたてる
+js.post.actions.it_too.off_topic,フラグをたてる
+js.post.actions.it_too.spam,フラグをたてる
+js.post.actions.by_you_and_others.notify_moderators.other,あなたと他{{count}}人がモデレータ確認を要するとフラグをたてました
+js.post.actions.by_you_and_others.notify_moderators.one,あなたともう1人がモデレータ確認を要するとフラグをたてました
+js.post.actions.by_you_and_others.like.other,あなたと他{{count}}人が「いいね！」しました
+js.post.actions.by_you_and_others.like.one,あなたと他1人が「いいね！」しました
+js.post.actions.by_you_and_others.inappropriate.other,あなたと他{{count}}人が不適切であるとフラグをたてました
+js.post.actions.by_you_and_others.inappropriate.one,あなたともう1人が不適切であるとフラグをたてました
+js.post.actions.by_you_and_others.bookmark.other,あなたと他{{count}}人がこのポストをブックマークしました
+js.post.actions.by_you_and_others.bookmark.one,あなたともう1人がこのポストをブックマークしました
+js.post.actions.by_you_and_others.off_topic.other,あなたと他{{count}}人がオフトピックであるとフラグをたてました
+js.post.actions.by_you_and_others.off_topic.one,あなたともう1人がオフトピックであるとフラグをたてました
+js.post.actions.by_you_and_others.spam.other,あなたと他{{count}}人がスパムであるとフラグをたてました
+js.post.actions.by_you_and_others.spam.one,あなたともう1人がスパムであるとフラグをたてました
+js.post.actions.by_you_and_others.vote.other,あなたと他{{count}}人がこのポストに投票しました
+js.post.actions.by_you_and_others.vote.one,あなたともう1人がこのポストに投票しました
+js.post.actions.by_you_and_others.notify_user.other,あなたと他{{count}}人がこのユーザにプライベートメッセージを送信しました
+js.post.actions.by_you_and_others.notify_user.one,あなたともう1人がこのユーザにプライベートメッセージを送信しました
+js.post.actions.by_others.notify_moderators.other,{{count}}人のユーザがモデレータ確認を要するとフラグをたてました
+js.post.actions.by_others.notify_moderators.one,1人のユーザがモデレータ確認を要するとフラグをたてました
+js.post.actions.by_others.like.other,{{count}}人のユーザが「いいね！」しました
+js.post.actions.by_others.like.one,1人のユーザが「いいね！」しました
+js.post.actions.by_others.inappropriate.other,{{count}}人のユーザが不適切であるとフラグをたてました
+js.post.actions.by_others.inappropriate.one,1人のユーザが不適切であるとフラグをたてました
+js.post.actions.by_others.bookmark.other,{{count}}人のユーザがこのポストをブックマークしました
+js.post.actions.by_others.bookmark.one,1人のユーザがこのポストをブックマークしました
+js.post.actions.by_others.off_topic.other,{{count}}人のユーザがオフトピックであるとフラグをたてました
+js.post.actions.by_others.off_topic.one,1人のユーザがオフトピックであるとフラグをたてました
+js.post.actions.by_others.spam.other,{{count}}人のユーザがスパムであるとフラグをたてました
+js.post.actions.by_others.spam.one,1人のユーザがスパムであるとフラグをたてました
+js.post.actions.by_others.vote.other,{{count}}人のユーザがこのポストに投票しました
+js.post.actions.by_others.vote.one,1人のユーザがこのポストに投票しました
+js.post.actions.by_others.notify_user.other,{{count}}人のユーザがこのユーザにプライベートメッセージを送信しました
+js.post.actions.by_others.notify_user.one,1人のユーザがこのユーザにプライベートメッセージを送信しました
+js.post.in_reply_to,こちらへの回答
+js.post.revisions.displays.side_by_side_markdown.button,"<i class=""fa fa-columns""></i> Markdown"
+js.post.revisions.displays.side_by_side_markdown.title,Markdown ソースの差分を横に並べて表示
+js.post.revisions.displays.inline.button,"<i class=""fa fa-square-o""></i> HTML"
+js.post.revisions.displays.inline.title,追加・削除箇所をインラインで表示
+js.post.revisions.displays.side_by_side.button,"<i class=""fa fa-columns""></i> HTML"
+js.post.revisions.displays.side_by_side.title,差分を横に並べて表示
+js.post.revisions.controls.comparing_previous_to_current_out_of_total,<strong>{{previous}}</strong> vs <strong>{{current}}</strong> ({{total}}のうち)
+js.post.revisions.controls.previous,一つ前のリビジョン
+js.post.revisions.controls.last,最後のリビジョン
+js.post.revisions.controls.first,最初のリビジョン
+js.post.revisions.controls.next,次のリビジョン
+js.post.revisions.details.edited_by,編集者
+js.post.deleted_by_author.other,(ポストは執筆者により取り下げられました。フラグがつかない場合%{count}時間後に自動的に削除されます)
+js.post.deleted_by_author.one,(ポストは執筆者により取り下げられました。フラグがつかない場合%{count}時間後に自動的に削除されます)
+js.post.reply_as_new_topic,新規トピックとして回答
+js.post.errors.upload_not_authorized,申し訳ありませんが、対象ファイルをアップロードする権限がありません (利用可能な拡張子: {{authorized_extensions}}).
+js.post.errors.image_too_large,申し訳ありませんが、アップロード対象ファイルが大きすぎます (最大サイズは {{max_size_kb}}kb)。
+js.post.errors.edit,申し訳ありませんが、ポスト編集中にエラーが発生しました。もう一度やり直してください。
+js.post.errors.create,申し訳ありませんが、ポスト作成中にエラーが発生しました。もう一度やり直してください。
+js.post.errors.attachment_upload_not_allowed_for_new_user,申し訳ありませんが、新規ユーザはファイルの添付ができません。
+js.post.errors.attachment_too_large,申し訳ありませんが、アップロード対象ファイルが大きすぎます (最大サイズは {{max_size_kb}}kb)。
+js.post.errors.upload,申し訳ありませんが、ファイルアップロード中にエラーが発生しました。もう一度やり直してください。
+js.post.errors.image_upload_not_allowed_for_new_user,申し訳ありませんが、新規ユーザは画像のアップロードができません。
+js.post.errors.too_many_uploads,申し訳ありませんが、複数のファイルは同時にアップロードできません。
+js.post.expand_collapse,展開/折りたたみ
+js.post.edit,{{replyAvatar}} {{username}} による {{link}} を編集
+js.post.controls.like,このポストを「いいね！」する
+js.post.controls.edit,このポストを編集
+js.post.controls.share,このポストのリンクをシェアする
+js.post.controls.undelete,このポストを復帰する
+js.post.controls.flag,このポストにフラグをつける、または通知を送る
+js.post.controls.reply,このポストに対する回答の編集を開始
+js.post.controls.delete_replies.no_value,いいえ、ポストのみ削除する
+js.post.controls.delete_replies.yes_value,はい、回答も一緒に削除する
+js.post.controls.delete_replies.confirm.other,このポストに対する{{count}}個の回答を削除しますか?
+js.post.controls.delete_replies.confirm.one,このポストに対する回答も削除しますか?
+js.post.controls.delete,このポストを削除する
+js.post.controls.more,もっと読む
+js.post.deleted_by,削除者
+js.post.edits.zero,編集なし
+js.post.edits.other,{{count}}回編集
+js.post.edits.one,1回編集
+js.post.reply_topic,{{link}} に回答
+js.post.edit_reason,理由: 
+js.post.continue_discussion,{{postLink}} からの議論を継続:
+js.post.abandon.no_value,いいえ
+js.post.abandon.yes_value,はい
+js.post.abandon.confirm,編集中のポストを破棄してもよろしいですか?
+js.post.reply,{{replyAvatar}} {{username}} による {{link}} に回答
+js.post.delete.confirm.other,本当にこれらのポストを削除しますか?
+js.post.delete.confirm.one,本当にこのポストを削除しますか?
+js.month_desc,過去30日間に投稿されたトピック
+js.show_more,もっと見る
+js.search.no_results,何も見つかりませんでした。
+js.search.placeholder,検索ワードを入力してください
+js.search.prefer.category,検索結果は {{category}} を優先します
+js.search.prefer.user,検索結果は @{{username}} を優先します
+js.search.searching,検索中...
+js.search.title,トピック、ポスト、ユーザ、カテゴリを探す
+js.permission_types.create_post,回答できる / 閲覧できる
+js.permission_types.full,作成できる / 回答できる / 閲覧できる
+js.permission_types.readonly,閲覧できる
+js.created,作成
+js.changed_by,by {{author}}
+js.uploading,アップロード中...
+js.daily,毎日
+js.generic_error,申し訳ありませんが、エラーが発生しました
+js.not_implemented,申し訳ありませんが、この機能はまだ実装されていません
+js.no_value,いいえ
+js.desktop_view,デスクトップ表示
+js.not_logged_in_user,***TO BE TRANSLATED***user page with summary of current activity and preferences
+js.login.username,ログイン名
+js.login.not_activated,まだログインできません。<b>{{sentTo}}</b> にアクティベーションメールを送信しております。メールの指示に従ってアカウントのアクティベーションを行ってください。
+js.login.google.message,Google による認証 (ポップアップがブロックされていないことを確認してください)
+js.login.google.title,with Google
+js.login.logging_in,ログイン中...
+js.login.resend_activation_email,再度アクティベーションメールを送信するにはここをクリックシてください。
+js.login.twitter.message,Twitter による認証 (ポップアップがブロックされていないことを確認してください)
+js.login.twitter.title,with Twitter
+js.login.error,不明なエラー
+js.login.yahoo.message,Yahoo による認証 (ポップアップがブロックされていないことを確認してください)
+js.login.yahoo.title,with Yahoo
+js.login.email_placeholder,メールアドレスかユーザ名
+js.login.github.message,Github による認証 (ポップアップがブロックされていないことを確認してください)
+js.login.github.title,with GitHub
+js.login.facebook.message,Facebook による認証 (ポップアップがブロックされていないことを確認してください)
+js.login.facebook.title,with Facebook
+js.login.password,パスワード
+js.login.requires_invite,申し訳ありませんが、このフォーラムは招待制です。
+js.login.title,ログイン
+js.login.reset_password,パスワードをリセット
+js.login.awaiting_approval,アカウントはまだスタッフメンバーに承認されていません。承認され次第メールにてお知らせいたします。
+js.login.awaiting_confirmation,アカウントはアクティベーション待ち状態です。もう一度アクティベーションメールを送信するには「パスワードを忘れました」リンクをクリックしてください。
+js.login.sent_activation_email_again,<b>{{currentEmail}}</b> にアクティベーションメールを再送しました。メール到着まで数分かかることがあります (いつまで立ってもメールが届かない場合は、念のためスパムフォルダの中も確認してみてください)。
+js.login.authenticating,認証中...
+js.login.or,または
+js.history,History
+js.or,or
+js.user.mute,ミュート
+js.user.tracked_categories,***TO BE TRANSLATED***Tracked
+js.user.moderator,{{user}} はモデレータです
+js.user.dynamic_favicon,favicon に受信したメッセージ通知を表示する
+js.user.suspended_notice,このユーザは {{date}} までサスペンド状態です。
+js.user.log_out,ログアウト
+js.user.change_about.title,自己紹介の変更
+js.user.email_direct,ポストが引用されたり、回答を受けたり、 @ユーザ名 でメンションを受けた際にメール通知を受け取る
+js.user.mailing_list_mode,***TO BE TRANSLATED***Receive an email every time a post is made on the forum (unless you have muted the topic or category)
+js.user.password.too_short,パスワードが短すぎます。
+js.user.password.title,パスワード
+js.user.password.ok,パスワード OK。
+js.user.password.common,***TO BE TRANSLATED***That password is too common.
+js.user.password.instructions,%{count} 文字以上の長さにしてください。
+js.user.stream.the_topic,トピック
+js.user.stream.posted_by,投稿者
+js.user.stream.sent_by,送信者
+js.user.stream.private_message,プライベートメッセージ
+js.user.title.title,タイトル
+js.user.show_profile,プロフィールを見る
+js.user.filters.all,すべて
+js.user.change_username.taken,このユーザ名は既に使われています。
+js.user.change_username.title,ユーザ名の変更
+js.user.change_username.error,ユーザ名変更中にエラーが発生しました。
+js.user.change_username.invalid,このユーザ名は無効です。英数字のみ利用可能です。
+js.user.change_username.confirm,ユーザ名を変更すると、あなたのポストの引用と @ユーザ名 メンションのリンクが解除されます。本当にユーザ名を変更しますか？
+js.user.enable_quoting,ハイライトしたテキストを引用して回答する
+js.user.auto_track_options.after_n_minutes.other,{{count}}分後
+js.user.auto_track_options.after_n_minutes.one,1分後
+js.user.auto_track_options.always,常にトラックする
+js.user.auto_track_options.never,トラックしない
+js.user.auto_track_options.after_n_seconds.other,{{count}}秒後
+js.user.auto_track_options.after_n_seconds.one,1秒後
+js.user.muted_categories,***TO BE TRANSLATED***Muted
+js.user.username.available,ユーザ名は利用可能です。
+js.user.username.title,ユーザ名
+js.user.username.checking,ユーザ名が利用可能か確認しています...
+js.user.username.too_short,ユーザ名が短すぎます。
+js.user.username.not_available,利用できません。{{suggestion}} などはいかがでしょう？
+js.user.username.global_match,メールアドレスが登録済のユーザ名と一致しました。
+js.user.username.enter_email,ユーザ名が見つかりました。メールアドレスを入力してください。
+js.user.username.too_long,ユーザ名が長すぎます。
+js.user.username.short_instructions,他のユーザはあなたを @ユーザ名 でメンションできます。
+js.user.username.prefilled,この登録ユーザにマッチするメールアドレスが見つかりました。
+js.user.username.global_mismatch,既に利用されています。{{suggestion}} などはいかがでしょう？
+js.user.username.instructions,空白を含まないユニークな名前を入力してください。他のユーザはあなたを @ユーザ名 でメンションできます。
+js.user.bio,自己紹介
+js.user.email_private_messages,プライベートメッセージを受けた際にメール通知を受け取る
+js.user.deleted_yourself,***TO BE TRANSLATED***Your account has been deleted successfully.
+js.user.change_profile_background.title,***TO BE TRANSLATED***Change Profile Background
+js.user.notifications,通知
+js.user.categories_settings,***TO BE TRANSLATED***Categories
+js.user.ip_address.title,最終 IP アドレス
+js.user.trust_level,トラストレベル
+js.user.watched_categories_instructions,"***TO BE TRANSLATED***You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic's listing."
+js.user.name.too_short,名前が短すぎます。
+js.user.name.title,名前
+js.user.name.ok,名前 OK。
+js.user.name.instructions,フルネーム。ユニークである必要はありません。@ユーザ名 によるマッチングの代わりに利用可能であり、あなたのページのみに表示されます。
+js.user.edit,プロフィールを編集
+js.user.new_topic_duration.last_here,前回ログアウト後に投稿されたもの
+js.user.new_topic_duration.after_n_days.other,過去{{count}}日に投稿されたもの
+js.user.new_topic_duration.after_n_days.one,1日前に投稿されたもの
+js.user.new_topic_duration.not_viewed,未読のもの
+js.user.new_topic_duration.after_n_weeks.other,過去{{count}}週に投稿されたもの
+js.user.new_topic_duration.after_n_weeks.one,先週投稿されたもの
+js.user.new_topic_duration.label,以下の条件でトピックを新規と見なす
+js.user.admin,{{user}} は管理者です
+js.user.avatar.title,アバター
+js.user.last_emailed,最終メール
+js.user.password_confirmation.title,もう一度パスワードを入力してください。
+js.user.email.frequency,メールは、あなたがしばらくの間サイトにログインせず未読トピックが溜まった時のみ送信されます。
+js.user.email.authenticated,あたなのメールは {{provider}} により認証されました。
+js.user.email.title,メールアドレス
+js.user.email.ok,メールアドレス OK。確認用のメールを送ります。
+js.user.email.invalid,正しいメールアドレスを入力してください。
+js.user.email.instructions,メールアドレスが外部に公開されることは一切ありません。
+js.user.last_seen,最終アクティビティ
+js.user.website,ウェブサイト
+js.user.private_message,プライベートメッセージ
+js.user.suspended_reason,理由: 
+js.user.unread_message_count.zero,***TO BE TRANSLATED***Messages
+js.user.unread_message_count.other,***TO BE TRANSLATED***Messages ({{count}})
+js.user.unread_message_count.one,***TO BE TRANSLATED***Messages (1)
+js.user.locale.default,***TO BE TRANSLATED***(default)
+js.user.locale.title,***TO BE TRANSLATED***Interface language
+js.user.locale.instructions,***TO BE TRANSLATED***The language used by the forum interface. It will change when you refresh the page.
+js.user.auto_track_topics,以下のタイミングで、自分が投稿したトピックを自動的にトラックする
+js.user.email_settings,メール
+js.user.delete_yourself_not_allowed,***TO BE TRANSLATED***You cannot delete your account right now. Contact an admin to do delete your account for you.
+js.user.download_archive,ポストのアーカイブをダウンロード
+js.user.delete_account_confirm,***TO BE TRANSLATED***Are you sure you want to permanently delete your account? This action cannot be undone!
+js.user.said,{{username}} のコメント:
+js.user.preferences,プロフィール
+js.user.delete_account,***TO BE TRANSLATED***Delete My Account
+js.user.external_links_in_new_tab,外部リンクを全て新しいタブで開く
+js.user.profile,プロフィール
+js.user.last_posted,最終投稿
+js.user.deleted,(削除済)
+js.user.invited_by,招待者
+js.user.muted_categories_instructions,"***TO BE TRANSLATED***You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
+js.user.change_email.taken,このメールアドレスは既に使われています。
+js.user.change_email.title,メールドレスの変更
+js.user.change_email.success,このアドレスにメールを送信しました。メールの指示に従って確認処理を行ってください。
+js.user.change_email.error,メールアドレス変更中にエラーが発生しました。既にこのアドレスが使われているのかもしれません。
+js.user.watched_categories,***TO BE TRANSLATED***Watched
+js.user.other_settings,その他
+js.user.email_digests.bi_weekly,隔週
+js.user.email_digests.title,新規トピックのダイジェストをメールで受信する
+js.user.email_digests.daily,毎日
+js.user.email_digests.weekly,毎週
+js.user.change,変更
+js.user.change_avatar.gravatar_title,ウェブサイトのアバターを変更
+js.user.change_avatar.uploaded_avatar,カスタム画像
+js.user.change_avatar.image_is_not_a_square,警告: 画像が正方形ではなかったためクロップしました。
+js.user.change_avatar.gravatar,"<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
+js.user.change_avatar.title,アバターの変更
+js.user.change_avatar.upload_title,画像をアップロード
+js.user.change_avatar.uploaded_avatar_empty,カスタム画像を追加
+js.user.created,作成
+js.user.private_messages,メッセージ
+js.user.invited.account_age_days,アカウント有効日数
+js.user.invited.truncated,最初の {{count}} 個の招待履歴を表示しています。
+js.user.invited.none,誰も招待していません。
+js.user.invited.user,招待したユーザ
+js.user.invited.days_visited,訪問日数
+js.user.invited.expired,***TO BE TRANSLATED***This invite has expired.
+js.user.invited.rescind,招待の取り消し
+js.user.invited.search,招待履歴を検索するためにキーワードを入力してください...
+js.user.invited.posts_read_count,読んだポスト
+js.user.invited.redeemed,受理された招待
+js.user.invited.rescinded,取り消された招待
+js.user.invited.time_read,リード時間
+js.user.invited.topics_entered,参加したトピック
+js.user.invited.title,招待
+js.user.invited.redeemed_at,受理日
+js.user.invited.create,友人をこのフォーラムに招待
+js.user.invited.pending,保留中の招待
+js.user.messages.all,すべて
+js.user.messages.unread,未読
+js.user.messages.mine,私の
+js.user.activity_stream,アクティビティ
+js.user.tracked_categories_instructions,***TO BE TRANSLATED***You will automatically track all new topics in these categories. The count of unread and new posts will appear next to the topic's listing.
+js.user.change_password.action,パスワードリセット用メールを送信する
+js.user.change_password.in_progress,(メールを送信中)
+js.user.change_password.set_password,***TO BE TRANSLATED***Set Password
+js.user.change_password.success,(メールを送信しました)
+js.user.change_password.error,(エラー)
+js.user.email_always,フォーラムにアクティブに参加している状態でも常にメール通知やダイジェストを受け取る
