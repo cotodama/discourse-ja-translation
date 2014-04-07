@@ -1,6 +1,5 @@
 #!/usr/bin/python2.7
 import sys
-import collections
 import csv
 import yaml
 
@@ -18,13 +17,13 @@ def flatten(namespace=None):
     en_src = yaml.load(open("%sen.yml" % namespace))
     ja_src = yaml.load(open("%sja.yml" % namespace))
 
-    en = collections.OrderedDict()
+    en = {}
     collect(en, en_src["en"])
-    ja = collections.OrderedDict()
+    ja = {}
     collect(ja, ja_src["ja"])
 
     writer = csv.writer(sys.stdout)
-    for key,value in en.items():
+    for key,value in sorted(en.items()):
         writer.writerow([key, (ja[key] if key in ja else "***TO BE TRANSLATED***" + value).encode("UTF-8")])
 
 if __name__ == '__main__':
