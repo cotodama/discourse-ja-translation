@@ -458,7 +458,7 @@ js.filters.read.title,既読
 js.filters.top.yearly.title,***TO BE TRANSLATED***Top Yearly
 js.filters.top.this_week,***TO BE TRANSLATED***This week
 js.filters.top.help,"***TO BE TRANSLATED***a selection of best topics in the last year, month, week or day"
-js.filters.top.title,***TO BE TRANSLATED***Top
+js.filters.top.title,トップ
 js.filters.top.monthly.title,***TO BE TRANSLATED***Top Monthly
 js.filters.top.daily.title,***TO BE TRANSLATED***Top Daily
 js.filters.top.this_year,***TO BE TRANSLATED***This year
@@ -633,8 +633,8 @@ js.unmute,ミュート解除
 js.activity,アクティビティ
 js.categories_list,カテゴリ一覧
 js.starred.help.unstar,***TO BE TRANSLATED***remove this topic from your starred list
-js.starred.help.star,***TO BE TRANSLATED***add this topic to your starred list
-js.starred.title,***TO BE TRANSLATED***Star
+js.starred.help.star,このトピックをスターリストに追加する
+js.starred.title,スター
 js.choose_topic.none_found,トピックが見つかりませんでした
 js.choose_topic.title.search,トピック名、URL、または ID でトピックを検索:
 js.choose_topic.title.placeholder,ここにトピックのタイトルを入力
@@ -758,9 +758,9 @@ js.share.post,ポスト #%{postNumber} のリンクをシェアする
 js.share.email,メールでこのリンクを送る
 js.views_long,このトピックは{{number}}回閲覧されました
 js.joined,参加者
-js.topic.flag_topic.help,***TO BE TRANSLATED***privately flag this topic for attention or send a private notification about it
+js.topic.flag_topic.help,密かに注目したいトピックにフラグを立てることで、それについての通知をプライベートに受け取ることが出来ます
 js.topic.flag_topic.success_message,***TO BE TRANSLATED***You successfully flagged this topic.
-js.topic.flag_topic.title,***TO BE TRANSLATED***Flag
+js.topic.flag_topic.title,フラグ
 js.topic.filters.cancel,Show all posts in this topic again.
 js.topic.filters.n_posts.other,{{count}} posts
 js.topic.filters.n_posts.one,1 post
@@ -979,9 +979,9 @@ js.new_topics_inserted,新しいトピックが {{count}}個あります
 js.users,ユーザ
 js.in_n_days.other,あと{{count}}日
 js.in_n_days.one,あと1日
-js.flagging_topic.action,***TO BE TRANSLATED***Flag Topic
+js.flagging_topic.action,トピックにフラグを立てる
 js.flagging_topic.notify_action,***TO BE TRANSLATED***Private message
-js.flagging_topic.title,***TO BE TRANSLATED***Why are you privately flagging this topic?
+js.flagging_topic.title,このトピックに密かにフラグを立てる理由は何ですか？
 js.max,***TO BE TRANSLATED***max
 js.never,never
 js.learn_more,より詳しく...
@@ -1255,9 +1255,9 @@ js.user.last_seen,最終アクティビティ
 js.user.website,ウェブサイト
 js.user.private_message,プライベートメッセージ
 js.user.suspended_reason,理由: 
-js.user.unread_message_count.zero,***TO BE TRANSLATED***Messages
-js.user.unread_message_count.other,***TO BE TRANSLATED***Messages ({{count}})
-js.user.unread_message_count.one,***TO BE TRANSLATED***Messages (1)
+js.user.unread_message_count.zero,メッセージ
+js.user.unread_message_count.other,メッセージ ({{count}})
+js.user.unread_message_count.one,メッセージ (1)
 js.user.locale.default,***TO BE TRANSLATED***(default)
 js.user.locale.title,***TO BE TRANSLATED***Interface language
 js.user.locale.instructions,***TO BE TRANSLATED***The language used by the forum interface. It will change when you refresh the page.

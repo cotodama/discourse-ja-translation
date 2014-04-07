@@ -958,18 +958,18 @@ activerecord.errors.messages.has_already_been_used,は既に使用中です
 flag_reason.sockpuppet,新規ユーザがトピックを作成し、同じ IP アドレスより別の新規ユーザが回答を投稿しました。サイトの flag_sockpuppets 設定を確認してください。
 flag_reason.spam_hosts,このユーザは同一ドメインへのリンクを含むポストを複数作成しようとしました。サイトの newuser_spam_host_threshold 設定を確認してください。
 topic_flag_types.spam.long_form,***TO BE TRANSLATED***flagged this as spam
-topic_flag_types.spam.description,"***TO BE TRANSLATED***This topic is an advertisement. It is not useful or relevant to this site, but promotional in nature."
-topic_flag_types.spam.title,***TO BE TRANSLATED***Spam
-topic_flag_types.notify_moderators.email_title,"***TO BE TRANSLATED***The topic ""%{title}"" requires moderator attention"
+topic_flag_types.spam.description,"このトピックは広告です。このサイトに関連がなく有益でもない、ただの宣伝です。"
+topic_flag_types.spam.title,スパム
+topic_flag_types.notify_moderators.email_title,"このトピック ""%{title}"" はモデレータの注目を必要とします。"
 topic_flag_types.notify_moderators.long_form,***TO BE TRANSLATED***notified moderators
-topic_flag_types.notify_moderators.title,***TO BE TRANSLATED***Notify moderators
+topic_flag_types.notify_moderators.title,モデレータに知らせる
 topic_flag_types.notify_moderators.email_body,"***TO BE TRANSLATED***%{link}
 
 %{message}"
-topic_flag_types.notify_moderators.description,"***TO BE TRANSLATED***This topic requires general moderator attention based on the <a href=""/faq"">FAQ</a>, <a href=""%{tos_url}"">TOS</a>, or for another reason not listed above."
+topic_flag_types.notify_moderators.description,"このトピックは<a href=""/faq"">FAQ</a>, <a href=""%{tos_url}"">TOS</a>又はその他の理由に基づきモデレータの全般的な注目を必要とします。"
 topic_flag_types.inappropriate.long_form,***TO BE TRANSLATED***flagged this as inappropriate
-topic_flag_types.inappropriate.description,"***TO BE TRANSLATED***This topic contains content that a reasonable person would consider offensive, abusive, or a violation of <a href=""/faq"">our community guidelines</a>."
-topic_flag_types.inappropriate.title,***TO BE TRANSLATED***Inappropriate
+topic_flag_types.inappropriate.description,"このトピックは道義的に見て攻撃的・誹謗中傷又は<a href=""/faq"">コミュニティガイドライン</a>違反と考えられる内容を含んでいます。"
+topic_flag_types.inappropriate.title,不適切
 reports.top_referrers.title,トップリファラ
 reports.top_referrers.num_topics,トピック
 reports.top_referrers.num_clicks,クリック
