@@ -1,161 +1,752 @@
-meta_category_name,***TO BE TRANSLATED***Meta
+activation.already_done,申し訳ありませんが、このアカウント認証リンクは無効です。既にアカウントがアクティブになっていませんか?
+activation.approval_required,このフォーラムにアクセスするにはモデレータによる承認が必要です。承認されるとメールにて通知されます!
+activation.please_continue,新たなアカウントが認証され、ログインに成功しました。%{link} に進む
+activation.welcome_to,%{site_name} へようこそ!
+activerecord.attributes.category.name,カテゴリ名
+activerecord.attributes.post.raw,本文
+activerecord.attributes.user.ip_address,
+activerecord.errors.messages.has_already_been_used,は既に使用中です
+activerecord.errors.messages.is_invalid,は不正です。もう少し説明を追加してください
+activerecord.errors.models.topic.attributes.archetype.cant_send_pm,申し訳ありませんが、このユーザにはプライベートメッセージを送信できません。
+activerecord.errors.models.user.attributes.ip_address.signup_not_allowed,このアカウントからのサインアップできません。
+activerecord.errors.models.user.attributes.password.common,***TO BE TRANSLATED***is one of the 5000 most common passwords. Please use a more secure password.
+archetypes.regular.title,通常のトピック
+assets_topic_body,***TO BE TRANSLATED***This is a topic to store forum assets used in the forum design. Don't delete it!
+author_wrote,%{author} の投稿:
+backup.backup_file_should_be_tar_gz,***TO BE TRANSLATED***The backup file should be a .tar.gz archive.
+backup.not_enough_space_on_disk,***TO BE TRANSLATED***There is not enough space on disk to upload this backup.
+backup.operation_already_running,***TO BE TRANSLATED***An operation is currently running. Can't start a new job right now.
+badges.types.bronze,***TO BE TRANSLATED***Bronze
+badges.types.gold,***TO BE TRANSLATED***Gold
+badges.types.silver,***TO BE TRANSLATED***Silver
+by,By
+category.errors.depth,他のサブカテゴリの下にサブカテゴリを作成することはできません。
+category.errors.self_parent,自分自身がサブカテゴリの親になることはできません。
+category.post_template,"%{replace_paragraph}
+
+これ以降のパラグラフに、カテゴリのガイドライン等を書いてください。
+
+いくつかのヒント:
+
+- このカテゴリは何か? どのようなトピックをこのカテゴリに入れるべきか?
+
+- 既に存在するカテゴリとの違いは何か?
+
+- このカテゴリはなぜ必要か?
+
+- 他のカテゴリとの統合や、複数カテゴリへの分割をするべきか?
+"
+category.replace_paragraph,[この最初のパラグラフを、本カテゴリの簡単な紹介文に置き換えてください。このガイダンスはカテゴリ選択エリアに表示されるため、パラグラフは200文字以内にしてください。]
+category.topic_prefix,%{category} カテゴリの定義
+change_email.confirmed,メールアドレスが更新されました。
+change_email.error,メールアドレスの更新に失敗しました。アドレスが既に使用されているかもしれません。
+change_email.please_continue,%{link} に進んでください
+content_types.bottom.description,全ページのボトムに追加される HTML
+content_types.bottom.title,ページボトム
+content_types.education_new_reply.description,新規ユーザが回答の入力を開始した際に自動的にポップアップするガイダンスの内容 (最初の2回のみ表示)。
+content_types.education_new_reply.title,新規ユーザ支援: 初めての回答
+content_types.education_new_topic.description,新規ユーザが新規トピックの作成を行った際に自動的にポップアップするガイダンスに内容 (最初の2回のみ表示)。
+content_types.education_new_topic.title,新規ユーザ支援: 初めてのポスト
+content_types.faq.description,サイトの FAQ。空欄でデフォルト FAQ を表示。
+content_types.faq.title,FAQ
+content_types.head.description,***TO BE TRANSLATED***HTML that will be inserted inside the <head></head> tags.
+content_types.head.title,***TO BE TRANSLATED***HTML head
+content_types.login_required.description,要ログイン設定の際に、未ログインユーザに対して表示されるメッセージの内容。
+content_types.login_required.title,ホームページ: 要ログイン
+content_types.login_required_welcome_message.description,'login required' 設定有効時に、ユーザに対してログインを促すメッセージの内容。
+content_types.login_required_welcome_message.title,ウェルカムメッセージ: 要ログイン
+content_types.privacy_policy.description,サイトのプライバシーポリシー。空欄でデフォルトポリシーを表示。
+content_types.privacy_policy.title,プライバシーポリシー
+content_types.top.description,全ページのトップに追加される HTML (ヘッダとナビゲーション/トピックタイトルの間に表示されます)
+content_types.top.title,ページトップ
+content_types.tos_miscellaneous.description,利用規約の「その他」セクションの内容。
+content_types.tos_miscellaneous.title,利用規約: その他
+content_types.tos_signup_form_message.description,***TO BE TRANSLATED***The message that will appear beside a checkbox on the signup form if the tos_accept_required site setting is enabled.
+content_types.tos_signup_form_message.title,***TO BE TRANSLATED***Signup Form: Terms of Service Message
+content_types.tos_user_content_license.description,利用規約の「コンテンツ使用許諾」セクションの内容。
+content_types.tos_user_content_license.title,利用規約: コンテンツ使用許諾
+content_types.usage_tips.description,新規ユーザ向けのヒントや、ガイド、フォーラムに関する情報など。
+content_types.usage_tips.title,新規ユーザ向けヒント
+content_types.welcome_invite.description,ユーザより招待された全ての外部ユーザに自動送信されるプライベートメッセージの内容。
+content_types.welcome_invite.title,ウェルカムメッセージ: 招待ユーザ
+content_types.welcome_user.description,サインアップした全ての新規ユーザに自動送信されるプライベートメッセージの内容。
+content_types.welcome_user.title,ウェルカムメッセージ: 新規ユーザ
+dashboard.access_password_removal,現在サイトは access_password 設定を利用していますが、この設定は廃止されたため代わりに login_required と must_approve_users 設定を利用してください。<a href='/admin/site_settings'>サイトの設定</a>にて変更ができます。この際、<a href='/admin/users/list/pending'>保留中リストのユーザを承認</a>してください。(このメッセージは2日後に削除されます)
+dashboard.consumer_email_warning,サイトはメール送信に Gmail (または他のカスタムメールサービス) を利用するように設定されています。<a href='http://support.google.com/a/bin/answer.py?hl=en&answer=166852' target='_blank'>Gmail で送信可能なメール数には制限があります</a>。メールを確実に送信するために mandrill.com などのメールサービスプロバイダーのり用を検討してください。
+dashboard.contact_email_invalid,サイトの連絡先メールアドレスが正しくありません。<a href='/admin/site_settings'>サイトの設定</a>において contact_email を更新してください。
+dashboard.contact_email_missing,サイトの連絡先メールアドレスが設定されていません。<a href='/admin/site_settings'>サイトの設定</a>において contact_email を更新してください。
+dashboard.default_logo_warning,"サイトのロゴ画像をカスタマイズしていません。<a href='/admin/site_settings'>サイトの設定</a>において logo_url, logo_small_url, favicon_url を更新してください。"
+dashboard.enforce_global_nicknames_warning,enforce_global_nicknames setting 設定が有効になっていますが、discourse_org_access_key 設定が空欄です。enforce_global_nicknames 設定を有効にするには Discourse.org へのアクセスキーが必要です。<a href='/admin/site_settings'>サイトの設定</a> にて正しい値を設定してください。
+dashboard.facebook_config_warning,"サーバが Facebook アカウントによるサインアップ・ログイン可能な設定 (enable_facebook_logins) になっていますが、app id と app secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-facebook-logins"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
+dashboard.failing_emails_warning,"%{num_failed_jobs}個のメールジョブが失敗しています。config/environments/production.rb ファイルを確認して config.action_mailer の設定が正しいか確認してください。<a href=""/sidekiq/retries"" target=""_blank"">Sidekiq で失敗したジョブを確認</a>。"
+dashboard.gc_warning,"現在サーバはデフォルトの ruby ガベージコレクションパラメータを使用しており、パフォーマンスが最適化されていません。パフォーマンス・チューニングの方法についてはこちらのトピックを参考にしてください: <a href=""http://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126"" target=""_blank"">Tuning Ruby and Rails for Discourse</a>."
+dashboard.github_config_warning,"サーバが Github アカウントによるサインアップ・ログイン可能な設定 (enable_github_logins) になっていますが、client id と secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
+dashboard.host_names_warning,現在 config/database.yml ファイルは、デフォルトの localhost をホスト名として使用しています。あなたのサイトのホスト名に更新してください。
+dashboard.image_magick_warning,"サーバが大きな画像のサムネイルを作成する設定になっていますが、ImageMagick がインストールされていません。お好きなパッケージマネージャを使って ImageMagick をインストールするか、<a href=""http://www.imagemagick.org/script/binary-releases.php"" target=""_blank"">最新のリリースをダウンロードしてください</a>。"
+dashboard.memory_warning,現在サーバが 1GB 未満の総メモリで起動しています。推奨メモリサイズは 1GB 以上です。
+dashboard.notification_email_warning,notification_email 設定が空欄です。<a href='/admin/site_settings'>サイトの設定</a>にて正しい値を設定してください。
+dashboard.queue_size_warning,キューに入っているジョブの数が多すぎます (%{queue_size})。Sidekiq プロセスに問題があるか、Sidekiq ワーカを追加する必要がある可能性があります。
+dashboard.rails_env_warning,サーバは %{env} モードで起動中です。
+dashboard.ruby_version_warning,現在起動中の Ruby 2.0.0 にはいくつか問題があります。パッチレベル p247 以降にアップグレードしてください。
+dashboard.s3_backup_config_warning,"***TO BE TRANSLATED***The server is configured to upload backups to s3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key or s3_backup_bucket. Go to <a href=""/admin/site_settings"">the Site Settings</a> and update the settings. <a href=""http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229"" target=""_blank"">See ""How to set up image uploads to S3?"" to learn more</a>."
+dashboard.s3_config_warning,"サーバが S3 にファイルをアップロードするように設定されていますが、次のうち少なくとも1つが設定されていません: s3_access_key_id, s3_secret_access_key or s3_upload_bucket。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229"" target=""_blank"">詳しくは ""How to set up image uploads to S3?"" を参考にしてください</a>。"
+dashboard.sidekiq_warning,"Sidekiq が起動していません。メール送信等、多くのタスクが sidekiq により非同期に実行されます。少なくとも sidekiq のプロセスを1つは起動してください。<a href=""https://github.com/mperham/sidekiq"" target=""_blank"">Sidekiq についてはこちらを参考にしてください</a>。"
+dashboard.site_contact_username_warning,site_contact_username 設定が空欄です。<a href='/admin/site_settings'>サイトの設定</a>にてシステムメッセージの送信者となる管理者のユーザ名を設定してください。
+dashboard.site_description_missing,サイトの site_description 設定が空欄になっています。<a href='/admin/site_settings'>サイトの設定</a>においてこのフォーラムに関する簡単な説明文を追加してください。
+dashboard.title_nag,サイトのタイトルがデフォルトのままになっています。<a href='/admin/site_settings'>サイトの設定</a>において正しいサイトのタイトルを設定してください。
+dashboard.twitter_config_warning,"サーバが Twitter アカウントによるサインアップ・ログイン可能な設定 (enable_twitter_logins) になっていますが、key と secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-twitter-logins"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
+dates.long_date,"MMMM D, YYYY h:mma"
+dates.short_date,"MMM D, YYYY"
+dates.short_date_no_year,MMM D
+datetime.distance_in_words.about_x_hours.one,1h
+datetime.distance_in_words.about_x_hours.other,%{count}h
+datetime.distance_in_words.about_x_months.one,1mon
+datetime.distance_in_words.about_x_months.other,%{count}mon
+datetime.distance_in_words.about_x_years.one,1y
+datetime.distance_in_words.about_x_years.other,%{count}y
+datetime.distance_in_words.almost_x_years.one,1y
+datetime.distance_in_words.almost_x_years.other,%{count}y
+datetime.distance_in_words.half_a_minute,< 1m
+datetime.distance_in_words.less_than_x_minutes.one,< 1m
+datetime.distance_in_words.less_than_x_minutes.other,< %{count}m
+datetime.distance_in_words.less_than_x_seconds.one,< 1s
+datetime.distance_in_words.less_than_x_seconds.other,< %{count}s
+datetime.distance_in_words.over_x_years.one,> 1y
+datetime.distance_in_words.over_x_years.other,> %{count}y
+datetime.distance_in_words.x_days.one,1d
+datetime.distance_in_words.x_days.other,%{count}d
+datetime.distance_in_words.x_minutes.one,1m
+datetime.distance_in_words.x_minutes.other,%{count}m
+datetime.distance_in_words.x_months.one,1mon
+datetime.distance_in_words.x_months.other,%{count}mon
+datetime.distance_in_words.x_seconds.one,1s
+datetime.distance_in_words.x_seconds.other,%{count}s
+datetime.distance_in_words_verbose.about_x_hours.one,1時間前
+datetime.distance_in_words_verbose.about_x_hours.other,%{count}時間前
+datetime.distance_in_words_verbose.about_x_months.one,約1ヶ月前
+datetime.distance_in_words_verbose.about_x_months.other,約%{count}ヶ月前
+datetime.distance_in_words_verbose.about_x_years.one,約1年前
+datetime.distance_in_words_verbose.about_x_years.other,約%{count}年前
+datetime.distance_in_words_verbose.almost_x_years.one,ほぼ1年前
+datetime.distance_in_words_verbose.almost_x_years.other,ほぼ%{count}年前
+datetime.distance_in_words_verbose.half_a_minute,たった今
+datetime.distance_in_words_verbose.less_than_x_minutes.one,1分未満前
+datetime.distance_in_words_verbose.less_than_x_minutes.other,%{count}分未満前
+datetime.distance_in_words_verbose.less_than_x_seconds.one,たった今
+datetime.distance_in_words_verbose.less_than_x_seconds.other,たった今
+datetime.distance_in_words_verbose.over_x_years.one,1年以上前
+datetime.distance_in_words_verbose.over_x_years.other,%{count}年以上前
+datetime.distance_in_words_verbose.x_days.one,1日前
+datetime.distance_in_words_verbose.x_days.other,%{count}日前
+datetime.distance_in_words_verbose.x_minutes.one,1分前
+datetime.distance_in_words_verbose.x_minutes.other,%{count}分前
+datetime.distance_in_words_verbose.x_months.one,1ヶ月前
+datetime.distance_in_words_verbose.x_months.other,%{count}ヶ月前
+datetime.distance_in_words_verbose.x_seconds.one,1秒前
+datetime.distance_in_words_verbose.x_seconds.other,%{count}秒毎
+deleted,deleted
+discourse_hub.access_token_problem,管理者に通知: サイト設定を更新して正しい discourse_org_access_key を設定してください。
+education.avatar,"### アカウント用の画像を用意してみては?
+
+コミュニティへの貢献ありがとうございます。アバターがデフォルトのままのようですが、**[ユーザプロファイル](%{profile_path})** にてアバター画像をアップロードしてみてはいかがでしょう?
+
+ユニークなアバターは、コミュニティにおける議論の活性化にもつながりますので、ぜひご検討ください!
+"
+education.dominating_topic,"### 他のユーザも議論に参加させてあげましょう
+
+このトピックはあなたにとても重要なもののようですね &ndash; ここの回答のうち %{percent}% 以上があなたによってなされています。
+
+他のユーザが回答するために十分な時間的猶予を与えているか、ちょっと振り返ってみませんか?
+"
+education.new-reply,"%{site_name} へようこそ &mdash; **コミュニティへの貢献ありがとうございます!**
+
+- あなたの回答は議論に何らかの形で貢献していますか?
+
+- コミュニティメンバー同士のやりとりは礼儀正しく、マナーを保ちましょう。
+
+- 建設的な批判は歓迎します。ただし批判は「人」に対してではなく「アイデア」に対して行いましょう。
+
+このパネルは最初の %{education_posts_text} のみに表示されます。
+"
+education.new-topic,"%{site_name} へようこそ &mdash; **新たなトピックの作成ありがとうございます!**
+
+- タイトルはトピックの内容を正しく説明していますか? 他の人にとって興味深いタイトルになっていますか?
+
+- このトピックは何をカバーするものですか? このトピックに興味を示しそうなのは誰でしょう? なぜこのトピックは重要なのでしょうか? コミュニティよりどのような回答を期待していますか?
+
+- トピックに適切な検索用ワードを含めると、他の人がトピックを *発見* しやすくなります。適切なカテゴリを選択すると、他の関連トピックとのグルーピングができます。
+
+このパネルは最初の %{education_posts_text} のみに表示されます。
+"
+education.reviving_old_topic,"***TO BE TRANSLATED***### Revive this topic?
+
+The last reply to this topic is now over %{days} days old. Your reply will bump the topic to the top of its list and notify anyone previously involved in the conversation.
+
+Are you sure you want to continue this old conversation?
+"
+education.sequential_replies,"### 一度に複数のポストに回答する
+
+トピックに数多くの回答を投稿する代わりに、以前のポストへの @name 参照や引用などを活用して回答を一つのポストにまとめられないか検討してください。
+
+細かい回答を数多く投稿するより、掘り下げた内容をカバーした数少ない回答を投稿した方がトピックの議論を追いやすくなります。
+"
+education.too_many_replies,"***TO BE TRANSLATED***### You have reached the reply limit for this topic
+
+We're sorry, but new users are temporarily limited to %{newuser_max_replies_per_topic} replies in the same topic.
+
+Instead of adding another reply, please consider editing your previous replies, or visiting other topics.
+"
+education.until_posts.one,post
+education.until_posts.other,%{count} posts
+email_log.already_read,***TO BE TRANSLATED***user has already read this post
+email_log.body_blank,***TO BE TRANSLATED***body is blank
+email_log.message_blank,***TO BE TRANSLATED***message is blank
+email_log.message_to_blank,***TO BE TRANSLATED***message.to is blank
+email_log.no_user,***TO BE TRANSLATED***Can't find user with id %{user_id}
+email_log.notification_already_read,***TO BE TRANSLATED***The notification this email is about has already been read
+email_log.post_deleted,***TO BE TRANSLATED***post was deleted by the author
+email_log.post_not_found,***TO BE TRANSLATED***Can't find a post with id %{post_id}
+email_log.seen_recently,***TO BE TRANSLATED***User was seen recently
+email_log.suspended_not_pm,***TO BE TRANSLATED***User is supsended and email is not a private message
+email_log.text_part_body_blank,***TO BE TRANSLATED***text_part.body is blank
+email_log.topic_nil,***TO BE TRANSLATED***post.topic is nil
+email_log.user_suspended,***TO BE TRANSLATED***user was suspended
+embed.continue,***TO BE TRANSLATED***Continue the Discussion
+embed.imported_from,***TO BE TRANSLATED***This is a companion discussion topic for the original blog entry at: %{link}
+embed.in_reply_to,***TO BE TRANSLATED***in reply to %{username}
+embed.loading,***TO BE TRANSLATED***Loading Discussion...
+embed.more_replies.one,***TO BE TRANSLATED***1 more reply
+embed.more_replies.other,***TO BE TRANSLATED***%{count} more replies
+embed.permalink,***TO BE TRANSLATED***Permalink
+embed.replies.one,***TO BE TRANSLATED***1 reply
+embed.replies.other,***TO BE TRANSLATED***%{count} replies
+embed.start_discussion,***TO BE TRANSLATED***Begin the Discussion
+flag_reason.sockpuppet,新規ユーザがトピックを作成し、同じ IP アドレスより別の新規ユーザが回答を投稿しました。サイトの flag_sockpuppets 設定を確認してください。
+flag_reason.spam_hosts,このユーザは同一ドメインへのリンクを含むポストを複数作成しようとしました。サイトの newuser_spam_host_threshold 設定を確認してください。
+flagging.user_must_edit,<p>フラグのたった内容は一時的に非表示になります。</p>
+flagging.you_must_edit,<p>あなたのポストにフラグがたちました。プライベートメッセージを確認してください。</p>
+frequent_poster,Frequent Poster
+groups.default_names.admins,管理者
+groups.default_names.moderators,モデレータ
+groups.default_names.staff,スタッフ
+groups.default_names.trust_level_1,trust_level_1
+groups.default_names.trust_level_2,trust_level_2
+groups.default_names.trust_level_3,trust_level_3
+groups.default_names.trust_level_4,trust_level_4
+groups.default_names.trust_level_5,trust_level_5
+groups.errors.can_not_modify_automatic,自動作成グループの変更はできません
+has_already_been_used,は既に使用中です
+invalid_characters,は不正なキャラクターを含んでいます
+invite_forum_mailer.subject_template,[%{site_name}] %{invitee_name} が %{site_name} にあたなを招待しています
+invite_forum_mailer.text_body_template,"%{invitee_name} が %{site_name} にあなたを招待しています。
+
+もしよろしければ、以下のリンクをクリックして参加してください:
+
+[Visit %{site_name}][1]
+
+もしトラステッドユーザより招待された場合は、ログインすることなくすぐに参加することができます。
+
+[1]: %{invite_link}
+"
+invite_mailer.subject_template,[%{site_name}] %{invitee_name} が %{site_name} のディスカッションにあなたを招待しています
+invite_mailer.text_body_template,"%{invitee_name} が %{site_name} の ""%{topic_title}"" トピックにあなたを招待しています。
+
+もしよろしければ、以下のリンクよりディスカッションをご確認ください:
+
+[Visit %{site_name}][1]
+
+もしトラステッドユーザより招待された場合は、ログインすることなくすぐに回答を投稿することができます。
+
+[1]: %{invite_link}
+"
+is_invalid,は不正です。もう少し説明を追加してください
+is_reserved,is reserved
+just_posted_that,はあなたが最近投稿したポストと内容がほぼ一緒です
+loading,読み込み中
+log_in,***TO BE TRANSLATED***Log In
+login.activate_email,<b>%{email}</b> にメールを送りました。メールの指示に従ってあなたのアカウントを有効にしてください。
+login.active,アカウントが利用可能になりました。
+login.errors,%{errors}
+login.incorrect_username_email_or_password,ユーザネーム、メールアドレス、またはパスワードが違います
+login.not_activated,まだログインできません。メールを送信済ですので、メールの指示に従ってあなたのアカウントを有効にしてください。
+login.not_approved,あなたのアカウントはまだ承認されていません。ログイン可能になった際にメールで通知いたします。
+login.not_available,利用できません。%{suggestion} を試してみては?
+login.omniauth_error,あなたの %{strategy} アカウントの認可に失敗しました。アカウントの認可を許可したか確認してください。
+login.omniauth_error_unknown,ログインに失敗しました。もう一度試してください。
+login.something_already_taken,エラーが発生しました。ユーザ名またはメールアドレスが既に使用中の可能性があります。パスワードリセットを行ってください。
+login.suspended,%{date} までログインできません。
+login.suspended_with_reason,%{date} までログインできません。アカウントがサスペンドされた理由は次の通りです: %{reason}
+login.wait_approval,サインアップありがとうござました。アカウントが承認され次第メールにて通知いたします。
 login_required.welcome_message,"#[%{title}へようこそ](#welcome)
 このフォーラムの%{title}を見るにはアカウントが必要です。アカウントを作成するかログインしてください。
 "
-discourse_hub.access_token_problem,管理者に通知: サイト設定を更新して正しい discourse_org_access_key を設定してください。
-prev_page,***TO BE TRANSLATED***← previous page
-too_many_attachments.zero,申し訳ありませんが、新規ユーザはこのポストにファイルを添付できません。
-too_many_attachments.other,申し訳ありませんが、新規ユーザはこのポストにファイルを%{count}個しか添付できません。
-too_many_attachments.one,申し訳ありませんが、新規ユーザはこのポストにファイルを1つしか添付できません。
-most_recent_poster,Most Recent Poster
-has_already_been_used,は既に使用中です
-page_num,***TO BE TRANSLATED***Page %{num}
+meta_category_description,"***TO BE TRANSLATED***Discussion about this forum, its organization, how it works, and how we can improve it."
+meta_category_name,***TO BE TRANSLATED***Meta
 most_posts,Most Posts
-datetime.distance_in_words_verbose.x_minutes.other,%{count}分前
-datetime.distance_in_words_verbose.x_minutes.one,1分前
-datetime.distance_in_words_verbose.about_x_hours.other,%{count}時間前
-datetime.distance_in_words_verbose.about_x_hours.one,1時間前
-datetime.distance_in_words_verbose.x_seconds.other,%{count}秒毎
-datetime.distance_in_words_verbose.x_seconds.one,1秒前
-datetime.distance_in_words_verbose.x_days.other,%{count}日前
-datetime.distance_in_words_verbose.x_days.one,1日前
-datetime.distance_in_words_verbose.less_than_x_seconds.other,たった今
-datetime.distance_in_words_verbose.less_than_x_seconds.one,たった今
-datetime.distance_in_words_verbose.about_x_years.other,約%{count}年前
-datetime.distance_in_words_verbose.about_x_years.one,約1年前
-datetime.distance_in_words_verbose.about_x_months.other,約%{count}ヶ月前
-datetime.distance_in_words_verbose.about_x_months.one,約1ヶ月前
-datetime.distance_in_words_verbose.x_months.other,%{count}ヶ月前
-datetime.distance_in_words_verbose.x_months.one,1ヶ月前
-datetime.distance_in_words_verbose.half_a_minute,たった今
-datetime.distance_in_words_verbose.over_x_years.other,%{count}年以上前
-datetime.distance_in_words_verbose.over_x_years.one,1年以上前
-datetime.distance_in_words_verbose.almost_x_years.other,ほぼ%{count}年前
-datetime.distance_in_words_verbose.almost_x_years.one,ほぼ1年前
-datetime.distance_in_words_verbose.less_than_x_minutes.other,%{count}分未満前
-datetime.distance_in_words_verbose.less_than_x_minutes.one,1分未満前
-datetime.distance_in_words.x_minutes.other,%{count}m
-datetime.distance_in_words.x_minutes.one,1m
-datetime.distance_in_words.about_x_hours.other,%{count}h
-datetime.distance_in_words.about_x_hours.one,1h
-datetime.distance_in_words.x_seconds.other,%{count}s
-datetime.distance_in_words.x_seconds.one,1s
-datetime.distance_in_words.x_days.other,%{count}d
-datetime.distance_in_words.x_days.one,1d
-datetime.distance_in_words.less_than_x_seconds.other,< %{count}s
-datetime.distance_in_words.less_than_x_seconds.one,< 1s
-datetime.distance_in_words.about_x_years.other,%{count}y
-datetime.distance_in_words.about_x_years.one,1y
-datetime.distance_in_words.about_x_months.other,%{count}mon
-datetime.distance_in_words.about_x_months.one,1mon
-datetime.distance_in_words.x_months.other,%{count}mon
-datetime.distance_in_words.x_months.one,1mon
-datetime.distance_in_words.half_a_minute,< 1m
-datetime.distance_in_words.over_x_years.other,> %{count}y
-datetime.distance_in_words.over_x_years.one,> 1y
-datetime.distance_in_words.almost_x_years.other,%{count}y
-datetime.distance_in_words.almost_x_years.one,1y
-datetime.distance_in_words.less_than_x_minutes.other,< %{count}m
-datetime.distance_in_words.less_than_x_minutes.one,< 1m
-not_logged_in,***TO BE TRANSLATED***You need to be logged in to do that.
-terms_of_service.signup_form_message,"***TO BE TRANSLATED***I have read and accept the <a href=""/tos"" target=""_blank"">Terms of Service</a>."
-terms_of_service.user_content_license,"User contributions are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US). Without limiting any of those representations or warranties, %{company_short_name} has the right (though not the obligation) to, in %{company_short_name}’s sole discretion (i) refuse or remove any content that, in %{company_short_name}’s reasonable opinion, violates any %{company_short_name} policy or is in any way harmful or objectionable, or (ii) terminate or deny access to and use of the Website to any individual or entity for any reason, in %{company_short_name}’s sole discretion. %{company_short_name} will have no obligation to provide a refund of any amounts previously paid.
-"
-terms_of_service.miscellaneous,"This Agreement constitutes the entire agreement between %{company_short_name} and you concerning the subject matter hereof, and they may only be modified by a written amendment signed by an authorized executive of %{company_short_name}, or by the posting by %{company_short_name} of a revised version. Except to the extent applicable law, if any, provides otherwise, this Agreement, any access to or use of the Website will be governed by the laws of the state of California, U.S.A., excluding its conflict of law provisions, and the proper venue for any disputes arising out of or relating to any of the same will be the state and federal courts located in San Francisco County, California. Except for claims for injunctive or equitable relief or claims regarding intellectual property rights (which may be brought in any competent court without the posting of a bond), any dispute arising under this Agreement shall be finally settled in accordance with the Comprehensive Arbitration Rules of the Judicial Arbitration and Mediation Service, Inc. (“JAMS”) by three arbitrators appointed in accordance with such Rules. The arbitration shall take place in San Francisco, California, in the English language and the arbitral decision may be enforced in any court. The prevailing party in any action or proceeding to enforce this Agreement shall be entitled to costs and attorneys’ fees. If any part of this Agreement is held invalid or unenforceable, that part will be construed to reflect the parties’ original intent, and the remaining portions will remain in full force and effect. A waiver by either party of any term or condition of this Agreement or any breach thereof, in any one instance, will not waive such term or condition or any subsequent breach thereof. You may assign your rights under this Agreement to any party that consents to, and agrees to be bound by, its terms and conditions; %{company_short_name} may assign its rights under this Agreement without condition. This Agreement will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns."
-flagging.user_must_edit,<p>フラグのたった内容は一時的に非表示になります。</p>
-flagging.you_must_edit,<p>あなたのポストにフラグがたちました。プライベートメッセージを確認してください。</p>
-badges.types.gold,***TO BE TRANSLATED***Gold
-badges.types.silver,***TO BE TRANSLATED***Silver
-badges.types.bronze,***TO BE TRANSLATED***Bronze
-loading,読み込み中
-rss_topics_in_category,'%{category}' カテゴリ内のトピックの RSS フィード
-title,Discourse
-just_posted_that,はあなたが最近投稿したポストと内容がほぼ一緒です
-powered_by_html,"Powered by <a href=""http://www.discourse.org"">Discourse</a>, best viewed with JavaScript enabled"
-spamming_host,申し訳ありませんが、このホストへのリンクを貼ることはできません。
-move_posts.existing_topic_moderator_post.other,ポスト%{count}個を既存のトピックに移動しました: %{topic_link}
+most_recent_poster,Most Recent Poster
 move_posts.existing_topic_moderator_post.one,ポストを既存のトピックに移動しました: %{topic_link}
-move_posts.new_topic_moderator_post.other,ポスト%{count}個を新しいトピックに移動しました: %{topic_link}
+move_posts.existing_topic_moderator_post.other,ポスト%{count}個を既存のトピックに移動しました: %{topic_link}
 move_posts.new_topic_moderator_post.one,ポストを新しいトピックに移動しました: %{topic_link}
-email_log.message_to_blank,***TO BE TRANSLATED***message.to is blank
-email_log.suspended_not_pm,***TO BE TRANSLATED***User is supsended and email is not a private message
-email_log.text_part_body_blank,***TO BE TRANSLATED***text_part.body is blank
-email_log.no_user,***TO BE TRANSLATED***Can't find user with id %{user_id}
-email_log.seen_recently,***TO BE TRANSLATED***User was seen recently
-email_log.notification_already_read,***TO BE TRANSLATED***The notification this email is about has already been read
-email_log.topic_nil,***TO BE TRANSLATED***post.topic is nil
-email_log.already_read,***TO BE TRANSLATED***user has already read this post
-email_log.post_not_found,***TO BE TRANSLATED***Can't find a post with id %{post_id}
-email_log.post_deleted,***TO BE TRANSLATED***post was deleted by the author
-email_log.message_blank,***TO BE TRANSLATED***message is blank
-email_log.user_suspended,***TO BE TRANSLATED***user was suspended
-email_log.body_blank,***TO BE TRANSLATED***body is blank
-staff_category_name,***TO BE TRANSLATED***Staff
-rate_limiter.too_many_requests,このアクションを一日の間に実施可能な回数が決まっています。%{time_left}待ってから再度試してください。
-rate_limiter.hours.other,%{count}時間
-rate_limiter.hours.one,1時間
-rate_limiter.minutes.other,%{count}分
-rate_limiter.minutes.one,1分
-rate_limiter.seconds.other,%{count}秒
-rate_limiter.seconds.one,1秒
-post_action_types.notify_moderators.email_title,"""%{title}"" のポストに関するモデレータ確認依頼"
-post_action_types.notify_moderators.long_form,モデレータに通知
-post_action_types.notify_moderators.title,モデレータに通知
+move_posts.new_topic_moderator_post.other,ポスト%{count}個を新しいトピックに移動しました: %{topic_link}
+new_version_mailer.subject_template,[%{site_name}] アップデートがあります
+new_version_mailer.text_body_template,"新しいバージョンの Discourse が利用可能です。
+
+**新しいバージョン: %{new_version}**
+
+現在のバージョン: %{installed_version}
+
+最新のバグフィックスや新機能を適用するために、早めのアップグレードを検討してください。
+"
+new_version_mailer_with_notes.subject_template,***TO BE TRANSLATED***[%{site_name}] update available
+new_version_mailer_with_notes.text_body_template,"***TO BE TRANSLATED***A new version of Discourse is available:
+
+Your version: %{installed_version}
+New version: **%{new_version}**
+
+- See what's new in the [GitHub changelog](https://github.com/discourse/discourse/commits/master).
+
+- Upgrade by visiting `/admin/docker`, refreshing the page a few times, and pressing the ""Upgrade Discourse"" button.
+
+- Visit http://meta.discourse.org for news, discussion, and support for Discourse.
+
+### Release notes
+
+%{notes}
+"
+next_page,次のページ →
+not_logged_in,***TO BE TRANSLATED***You need to be logged in to do that.
+notification_types.edited,%{link} で %{display_username} があなたのポストを編集しました
+notification_types.invited_to_private_message,%{display_username} がプライベートメッセージにあなたを招待しました: %{link}
+notification_types.invitee_accepted,%{display_username} があなたの招待を受けました
+notification_types.liked,%{link} で %{display_username} があなたのポストを「いいね！」しました
+notification_types.linked,***TO BE TRANSLATED***%{display_username} linked you in %{link}
+notification_types.mentioned,%{link} で %{display_username} があなたをメンションしました
+notification_types.moved_post,%{display_username} があなたのポストを %{link} に移動しました
+notification_types.posted,%{link} に %{display_username} がポストを投稿しました
+notification_types.private_message,%{display_username} があなたにプラベートメッセージを送信しました: %{link}
+notification_types.quoted,%{link} で %{display_username} があなたのポストを引用しました
+notification_types.replied,%{link} で %{display_username} があなたのポストに回答しました
+num_participants,参加者:
+num_posts,ポスト:
+original_poster,Original Poster
+page_not_found.popular_topics,人気のトピック
+page_not_found.recent_topics,最近のトピック
+page_not_found.search_google,Google で検索
+page_not_found.search_title,このトピックを検索
+page_not_found.see_more,もっと読む
+page_not_found.title,リクエストしたページは存在しないかモデレータによって削除されました。
+page_num,***TO BE TRANSLATED***Page %{num}
+password_reset.choose,***TO BE TRANSLATED***Please choose a password
+password_reset.choose_new,新しいパスワードを選択してください
+password_reset.continue,%{site_name} に進む
+password_reset.no_token,申し訳ありませんがトークンの有効期限が切れました。パスワードをリセットを再度試みてください。
+password_reset.save,***TO BE TRANSLATED***Set Password
+password_reset.success,パスワードは無事更新され、ログインに成功しました。
+password_reset.success_unapproved,パスワードは無事更新されました。
+password_reset.title,パスワードリセット
+password_reset.update,パスワード更新
+post_action_types.bookmark.description,このポストをブックマークする
+post_action_types.bookmark.long_form,このポストをブックマーク
+post_action_types.bookmark.title,ブックマーク
+post_action_types.inappropriate.description,このポストは、一般的に見て攻撃的、罵倒的、ヘイトスピーチ的な内容を含んでいる。
+post_action_types.inappropriate.long_form,不適切フラグをたてる
+post_action_types.inappropriate.title,不適切
+post_action_types.like.description,このポストを「いいね！」する
+post_action_types.like.long_form,「いいね！」する
+post_action_types.like.title,いいね！
+post_action_types.notify_moderators.description,"このポストは、<a href=""%{tos_url}"">TOS の規定</a>もしくはその他の理由によりモデレータによる確認を要する。"
 post_action_types.notify_moderators.email_body,"%{link}
 
 %{message}"
-post_action_types.notify_moderators.description,"このポストは、<a href=""%{tos_url}"">TOS の規定</a>もしくはその他の理由によりモデレータによる確認を要する。"
-post_action_types.like.long_form,「いいね！」する
-post_action_types.like.description,このポストを「いいね！」する
-post_action_types.like.title,いいね！
-post_action_types.inappropriate.long_form,不適切フラグをたてる
-post_action_types.inappropriate.description,このポストは、一般的に見て攻撃的、罵倒的、ヘイトスピーチ的な内容を含んでいる。
-post_action_types.inappropriate.title,不適切
-post_action_types.bookmark.long_form,このポストをブックマーク
-post_action_types.bookmark.description,このポストをブックマークする
-post_action_types.bookmark.title,ブックマーク
-post_action_types.off_topic.long_form,オフトピックフラグをたてる
-post_action_types.off_topic.description,このポストは現在の議論から著しく外れており、別トピックに移動すべきである。
-post_action_types.off_topic.title,オフトピック
-post_action_types.spam.long_form,スパムフラグをたてる
-post_action_types.spam.description,このポストは宣伝であり、現在の議論に一切貢献していない。
-post_action_types.spam.title,スパム
-post_action_types.vote.long_form,このポストに投票
-post_action_types.vote.description,このポストに投票する
-post_action_types.vote.title,投票
-post_action_types.notify_user.email_title,"""%{title}"" のあなたのポストについて"
-post_action_types.notify_user.long_form,ユーザに通知
-post_action_types.notify_user.title,{{username}} に通知
+post_action_types.notify_moderators.email_title,"""%{title}"" のポストに関するモデレータ確認依頼"
+post_action_types.notify_moderators.long_form,モデレータに通知
+post_action_types.notify_moderators.title,モデレータに通知
+post_action_types.notify_user.description,このポストは、このユーザに個人的に直接確認したい内容を含んでいる。
 post_action_types.notify_user.email_body,"%{link}
 
 %{message}"
-post_action_types.notify_user.description,このポストは、このユーザに個人的に直接確認したい内容を含んでいる。
-topics,トピック
-trust_levels.elder.title,マスター
-trust_levels.regular.title,レギュラーユーザ
-trust_levels.change_failed_explanation,%{user_name} を '%{new_trust_level}' に格下げしようとしましたが、既にトラストレベルが '%{current_trust_level}' です。%{user_name} は '%{current_trust_level}' のままになります。
-trust_levels.basic.title,ベーシックユーザ
-trust_levels.newuser.title,新規ユーザ
-trust_levels.leader.title,リーダー
-via,%{username} via %{site_name}
-vip_category_name,***TO BE TRANSLATED***Lounge
-too_many_links.zero,申し訳ありませんが、新規ユーザはこのポストにリンクを貼れません。
-too_many_links.other,申し訳ありませんが、新規ユーザはこのポストにリンクを%{count}個しか貼れません。
-too_many_links.one,申し訳ありませんが、新規ユーザはこのポストにリンクを1つしか貼れません。
-activation.please_continue,新たなアカウントが認証され、ログインに成功しました。%{link} に進む
-activation.welcome_to,%{site_name} へようこそ!
-activation.already_done,申し訳ありませんが、このアカウント認証リンクは無効です。既にアカウントがアクティブになっていませんか?
-activation.approval_required,このフォーラムにアクセスするにはモデレータによる承認が必要です。承認されるとメールにて通知されます!
-dates.short_date,"MMM D, YYYY"
-dates.long_date,"MMMM D, YYYY h:mma"
-dates.short_date_no_year,MMM D
-num_participants,参加者:
-page_not_found.search_google,Google で検索
-page_not_found.see_more,もっと読む
-page_not_found.title,リクエストしたページは存在しないかモデレータによって削除されました。
-page_not_found.search_title,このトピックを検索
-page_not_found.popular_topics,人気のトピック
-page_not_found.recent_topics,最近のトピック
+post_action_types.notify_user.email_title,"""%{title}"" のあなたのポストについて"
+post_action_types.notify_user.long_form,ユーザに通知
+post_action_types.notify_user.title,{{username}} に通知
+post_action_types.off_topic.description,このポストは現在の議論から著しく外れており、別トピックに移動すべきである。
+post_action_types.off_topic.long_form,オフトピックフラグをたてる
+post_action_types.off_topic.title,オフトピック
+post_action_types.spam.description,このポストは宣伝であり、現在の議論に一切貢献していない。
+post_action_types.spam.long_form,スパムフラグをたてる
+post_action_types.spam.title,スパム
+post_action_types.vote.description,このポストに投票する
+post_action_types.vote.long_form,このポストに投票
+post_action_types.vote.title,投票
+posts,ポスト
+powered_by_html,"Powered by <a href=""http://www.discourse.org"">Discourse</a>, best viewed with JavaScript enabled"
+prev_page,***TO BE TRANSLATED***← previous page
+private_message_abbrev,PM
+rate_limiter.hours.one,1時間
+rate_limiter.hours.other,%{count}時間
+rate_limiter.minutes.one,1分
+rate_limiter.minutes.other,%{count}分
+rate_limiter.seconds.one,1秒
+rate_limiter.seconds.other,%{count}秒
+rate_limiter.too_many_requests,このアクションを一日の間に実施可能な回数が決まっています。%{time_left}待ってから再度試してください。
+read_full_topic,Read full topic
+read_only_mode_enabled,***TO BE TRANSLATED***The site is in read only mode. Interactions are disabled.
+redirected_to_top_reasons.new_user,"***TO BE TRANSLATED***Welcome! As a new visitor, this will be your homepage until you've had time to look around. Here's some of the most popular topics from the past."
+redirected_to_top_reasons.not_seen_in_a_month,***TO BE TRANSLATED***Welcome back! We haven't seen you in a while. These are the top discussion topics since you've been away.
+reports.bookmarks.title,ブックマーク
+reports.bookmarks.xaxis,日
+reports.bookmarks.yaxis,新規ブックマーク数
+reports.emails.title,送信メール
+reports.emails.xaxis,日
+reports.emails.yaxis,メールの数
+reports.flags.title,フラグ
+reports.flags.xaxis,日
+reports.flags.yaxis,フラグの数
+reports.likes.title,いいね
+reports.likes.xaxis,日
+reports.likes.yaxis,新規「いいね!」数
+reports.moderator_warning_private_messages.title,モデレータ警告
+reports.moderator_warning_private_messages.xaxis,日
+reports.moderator_warning_private_messages.yaxis,プライベートメッセージの数
+reports.notify_moderators_private_messages.title,モデレータ通知
+reports.notify_moderators_private_messages.xaxis,日
+reports.notify_moderators_private_messages.yaxis,プライベートメッセージの数
+reports.notify_user_private_messages.title,ユーザ通知
+reports.notify_user_private_messages.xaxis,日
+reports.notify_user_private_messages.yaxis,プライベートメッセージの数
+reports.posts.title,ポスト
+reports.posts.xaxis,日
+reports.posts.yaxis,新規ポスト数
+reports.signups.title,ユーザ
+reports.signups.xaxis,日
+reports.signups.yaxis,新規ユーザ数
+reports.starred.title,***TO BE TRANSLATED***Starred
+reports.starred.xaxis,***TO BE TRANSLATED***Day
+reports.starred.yaxis,***TO BE TRANSLATED***Number of new starred topics
+reports.system_private_messages.title,システム
+reports.system_private_messages.xaxis,日
+reports.system_private_messages.yaxis,プライベートメッセージの数
+reports.top_referred_topics.num_clicks,クリック
+reports.top_referred_topics.title,トップ被参照トピック
+reports.top_referred_topics.xaxis,トピック
+reports.top_referrers.num_clicks,クリック
+reports.top_referrers.num_topics,トピック
+reports.top_referrers.title,トップリファラ
+reports.top_referrers.xaxis,ユーザ
+reports.top_traffic_sources.num_clicks,クリック
+reports.top_traffic_sources.num_topics,トピック
+reports.top_traffic_sources.num_users,ユーザ
+reports.top_traffic_sources.title,トップトラフィックソース
+reports.top_traffic_sources.xaxis,ドメイン
+reports.topics.title,トピック
+reports.topics.xaxis,日
+reports.topics.yaxis,新規トピック数
+reports.user_to_user_private_messages.title,ユーザ to ユーザ
+reports.user_to_user_private_messages.xaxis,日
+reports.user_to_user_private_messages.yaxis,プライベートメッセージの数
+reports.users_by_trust_level.title,トラストレベル毎のユーザ
+reports.users_by_trust_level.xaxis,トラストレベル
+reports.users_by_trust_level.yaxis,ユーザ数
+reports.visits.title,訪問ユーザ
+reports.visits.xaxis,日
+reports.visits.yaxis,訪問者数
+resubscribe.action,再購読
+resubscribe.description,再購読が完了しました。
+resubscribe.title,再購読!
+rss_description.hot,ホットトピック
+rss_description.latest,最新トピック
+rss_posts_in_topic,'%{topic}' の RSS フィード
+rss_topics_in_category,'%{category}' カテゴリ内のトピックの RSS フィード
+search.types.category,カテゴリ
+search.types.topic,トピック
+search.types.user,ユーザ
+search.within_post,***TO BE TRANSLATED***#%{post_number} by %{username}: %{excerpt}
+site_settings.active_user_rate_limit_secs,'last_seen_at' フィールドを更新する頻度 (秒)
+site_settings.add_rel_nofollow_to_user_content,"(親ドメインを含む) 内部リンクを除き、投稿されたすべてのユーザコンテンツに rel nofollow を追加する。この設定変更を反映するには ""rake posts:rebake"" を実行して baked markdown をすべて更新する必要があります"
+site_settings.allow_animated_avatars,ユーザがアニメ gif をアバターとしてアップロードするのを許可する。注意: この設定を変更した場合 avatars:regenerate rake タスクを走らせることを強く推奨します。
+site_settings.allow_duplicate_topic_titles,トピックタイトルの重複を許可するか
+site_settings.allow_index_in_robots_txt,サーチエンジンによるサイトのインデックス構築を許可する (robots.txt を更新)
+site_settings.allow_profile_backgrounds,***TO BE TRANSLATED***Allows users to upload profile backgrounds
+site_settings.allow_restore,"***TO BE TRANSLATED***Allow restore, which can replace ALL site data! Leave false unless you plan to do restore a backup"
+site_settings.allow_uncategorized_topics,カテゴリなしのトピック作成を許可するか。
+site_settings.allow_uploaded_avatars,ユーザがカスタムアバターをアップロードするのを許可する
+site_settings.allow_user_locale,***TO BE TRANSLATED***Allow users to choose their own language interface preference
+site_settings.anon_polling_interval,匿名ユーザのクライアントのポーリング間隔 (ミリ秒)
+site_settings.apple_touch_icon_url,Apple のタッチデバイス用のアイコン。推奨サイズは 144px x 144px
+site_settings.authorized_extensions,アップロード可能なファイルの拡張子のリスト。パイプ (|) 区切りで指定
+site_settings.auto_track_topics_after,トピックが自動的にトラックされるまでのデフォルト時間 (ミリ秒)。なお、ユーザはこの設定をカスタマイズできます。(0で常にトラック、-1で常にトラックしない)
+site_settings.autohighlight_all_code,***TO BE TRANSLATED***Apply code highlighting to all preformatted code blocks even when they didn't specify the language
+site_settings.backup_daily,***TO BE TRANSLATED***Automatically create a site backup once a day
+site_settings.basic_requires_read_posts,新規ユーザがベーシック (1) トラストレベルに昇格するために投稿しなければならないポストの数
+site_settings.basic_requires_time_spent_mins,新規ユーザがベーシック (1) トラストレベルに昇格するためにポストを読まなければならない時間 (分)
+site_settings.basic_requires_topics_entered,新規ユーザがベーシック (1) トラストレベルに昇格するために作成しなければならないトピックの数
+site_settings.block_common_passwords,***TO BE TRANSLATED***Don't allow passwords that are in the 5000 most common passwords.
+site_settings.body_min_entropy,ポスト本文の最小許容エントロピー (ユニークキャラクターや英語以外の単語を含むとより大きな値になります)
+site_settings.category_colors,カテゴリに利用可能な色 (16進数指定) のリスト。パイプ (|) 区切りで指定
+site_settings.category_featured_topics,/categories ページに表示されるカテゴリ毎のトピック数
+site_settings.category_post_template,新規カテゴリ作成時におけるカテゴリ定義ポストのテンプレート
+site_settings.clean_orphan_uploads_grace_period_hours,どこからもリンクされていないアップロードファイルを削除するまでの猶予期間 (単位：時間)。
+site_settings.clean_up_uploads,不正アップロードを防ぐためにどこからもリンクされていないアップロードファイルを削除する。警告: この設定を有効にする前に /uploads ディレクトリのバックアップを取ることをおすすめします。
+site_settings.company_domain,このサイトを運営する会社が保持するドメイン名。/tos などの法的ドキュメントに利用されます
+site_settings.company_full_name,このサイトを運営する会社の名前。/tos などの法的ドキュメントに利用されます
+site_settings.company_short_name,このサイトを運営する会社の略称。/tos などの法的ドキュメントに利用されます
+site_settings.contact_email,サイトの連絡先メールアドレス。重要なアップデートのお知らせ等、Discourse.org からの連絡がこちらのアドレスに送信されます。
+site_settings.cooldown_minutes_after_hiding_posts,フラグにより非表示状態になったポストをユーザが編集可能になるまでの時間 (分)
+site_settings.crawl_images,第三者ソースからの画像読み込み (width および height 読み込み）を有効にする
+site_settings.create_thumbnails,ライトボックスのイメージ用サムネイルを作成する
+site_settings.default_code_lang,"Github コードブロックにデフォルトで適用されるプログラム言語シンタックスハイライト (lang-auto, ruby, python 等)"
+site_settings.default_digest_email_frequency,ユーザがダイジェストメールを受け取る頻度のデフォルト値。ユーザは設定画面でこの値をカスタマイズできます。
+site_settings.default_external_links_in_new_tab,***TO BE TRANSLATED***Open external links in a new tab. Users can change this in their preferences.
+site_settings.default_invitee_trust_level,招待ユーザのデフォルトトラストレベル (0-4)
+site_settings.default_locale,この Discourse インスタンスのデフォルト言語 (ISO 639-1 Code)
+site_settings.default_trust_level,ユーザのデフォルトトラストレベル (0-4)
+site_settings.delete_all_posts_max,すべてのポストを削除ボタンで一度に削除可能な最大ポスト数。ユーザがここで指定した以上のポストを投稿していた場合は、一度に全ポストを削除することができません。またユーザも削除されません。
+site_settings.delete_removed_posts_after,執筆者により削除されたポストを実際に削除するまでの時間。
+site_settings.delete_user_max_post_age,"***TO BE TRANSLATED***The maximum age of a user's first post, in days, which allows a user to be deleted."
+site_settings.detect_custom_avatars,ユーザがカスタムアバターをアップロードしたか確認する
+site_settings.digest_logo_url,***TO BE TRANSLATED***The logo used in your site's email digest. If left blank `logo_url` will be used. eg: http://example.com/logo.png
+site_settings.digest_min_excerpt_length,***TO BE TRANSLATED***How many characters we're aiming for for each post in the email digest
+site_settings.discourse_org_access_key,discourse.org の Discourse Hub ニックネームレジストリにアクセスするためのキー
+site_settings.display_name_on_posts,ポストにおいてもユーザのフルネームを表示する
+site_settings.dominating_topic_minimum_percent,ユーザがトピックを占拠していると判断するポスト投稿支配率 (パーセント)。
+site_settings.download_remote_images_threshold,リモート画像をダウンロードするために必要なディスクスペースの最低残容量 (パーセント)
+site_settings.download_remote_images_to_local,ポストにホットリンクされたリモート画像をダウンロードする
+site_settings.edit_history_visible_to_public,すべてのユーザに対してポストの編集履歴を許可する。無効の場合はスタッフメンバーのみが編集履歴を確認できます。
+site_settings.educate_until_posts,ポスト編集時におけるヒントパネルのポップアップを止めるまでのポスト投稿数
+site_settings.email_custom_headers,カスタムメールヘッダのリスト (パイプ(バーティカルバー) 区切り)
+site_settings.email_domains_blacklist,ユーザ登録を拒否するメールドメインのリスト (パイプ区切りで指定)。例: mailinator.com|trashmail.net
+site_settings.email_domains_whitelist,ユーザ登録を許可するメールドメインのリスト (パイプ区切りで指定)。注意: ここで指定したメールドメインからの登録が拒否されます。
+site_settings.email_editable,登録後、ユーザによるメールアドレスの変更を許可する。
+site_settings.email_in,***TO BE TRANSLATED***Allow users to post new topics via email
+site_settings.email_in_address,***TO BE TRANSLATED***The email address the users can post new topics to. None means users can't post globally.
+site_settings.email_in_category,***TO BE TRANSLATED***The category new emails are posted into
+site_settings.email_in_min_trust,***TO BE TRANSLATED***The minimum trust level an users needs to have to be allowed to post new topics via email
+site_settings.email_posts_context,通知メールのコンテンツに含める先行回答の数
+site_settings.email_prefix,***TO BE TRANSLATED***The [label] used in the subject of emails. It will default to 'title' if not set
+site_settings.email_time_window_mins,ユーザによるポストの最終編集チャンスを与えるために、回答通知メール送信までに待つ時間 (分)
+site_settings.embed_by_username,***TO BE TRANSLATED***Discourse username of the user who creates the topics
+site_settings.embed_category,***TO BE TRANSLATED***Category of created topics
+site_settings.embed_post_limit,***TO BE TRANSLATED***Maximum number of posts to embed
+site_settings.embed_truncate,***TO BE TRANSLATED***Truncate the imported posts
+site_settings.embeddable_host,***TO BE TRANSLATED***Host that can embed the comments from this Discourse forum
+site_settings.enable_badges,***TO BE TRANSLATED***Enable the badge system (experimental)
+site_settings.enable_escaped_fragments,古いサーチエンジンクローラがあなたのサイトのインデックスを構築するのをサポートするワークアラウンドを有効にする。注意: 必要な場合のみ有効にすることを推奨。
+site_settings.enable_facebook_logins,Facebook 認証を有効にする (facebook_app_id と facebook_app_secret の設定が必要)
+site_settings.enable_flash_video_onebox,onebox において swf のエンベッドや flv リンクを許可する。注意: セキュリティリスクになる可能性があります
+site_settings.enable_github_logins,Github 認証を有効にする (github_client_id と github_client_secret の設定が必要)
+site_settings.enable_google_logins,Google 認証を有効にする
+site_settings.enable_local_logins,従来型のローカルユーザ名とパスワードによる認証を有効にする
+site_settings.enable_long_polling,通知用のメッセージバスによるロングポーリングの利用を許可する
+site_settings.enable_mobile_theme,モバイル端末にモバイル向けテーマ (通常サイト用テーマにスイッチ可能) を利用する。レスポンシブなスタイルシートを使用する場合はこの設定を無効にしてください。
+site_settings.enable_names,ユーザのフルネームを表示する
+site_settings.enable_noscript_support,noscript タグ経由でアクセスしてきた標準サーチエンジンクローラのサポートを有効にする
+site_settings.enable_private_messages,トラストレベルがベーシック (1) なユーザにプライベートメッセージの作成およびプライベートメッセージへの返信を許可
+site_settings.enable_s3_backups,***TO BE TRANSLATED***Upload backups to S3 when complete. Make sure you have filled in your s3 credentials.
+site_settings.enable_s3_uploads,Amazon S3 にファイルをアップロードする
+site_settings.enable_sso,***TO BE TRANSLATED***Enable single sign on via an external site
+site_settings.enable_twitter_logins,Twitter 認証を有効にする (twitter_consumer_key と twitter_consumer_secret の設定が必要)
+site_settings.enable_yahoo_logins,Yahoo 認証を有効にする
+site_settings.enforce_global_nicknames,ニックネームのグローバルユニーク性を強制する (警告: この設定は初回セットアップ時にのみ変更してください)
+site_settings.exclude_rel_nofollow_domains,nofollow を設定しないドメイン一覧 (カンマ区切り) (tld.com を設定すると、自動的に sub.tld.com も対象になります)
+site_settings.facebook_app_id,Facebook 認証用の app id。https://developers.facebook.com/apps で入手可能
+site_settings.facebook_app_secret,Facebook 認証用の app secret。https://developers.facebook.com/apps で入手可能
+site_settings.faq_url,他サイトに FAQ をホストしている場合は、フル URL をここに指定。
+site_settings.favicon_url,サイトの favicon。参照: http://en.wikipedia.org/wiki/Favicon
+site_settings.feed_polling_enabled,***TO BE TRANSLATED***Whether to import a RSS/ATOM feed as posts
+site_settings.feed_polling_url,***TO BE TRANSLATED***URL of RSS/ATOM feed to import
+site_settings.flag_sockpuppets,"トピックを作成した新規ユーザ (i.e., 過去24時間以内に登録を行ったユーザ) と、このトピックに対して回答したユーザが同一 IPアドレスよりアクセスしている場合、自動的にこれらのポストにスパムフラグを立てる。"
+site_settings.flags_required_to_hide_post,ポストが自動的に非表示状態になりユーザにプライベートメッセージが送信されるフラグ数 (0で無効)
+site_settings.flush_timings_secs,サーバにタイミングデータを送信する頻度 (秒)
+site_settings.force_hostname,開発者用! 警告! URL 内のホスト名を指定。空欄でデフォルト値を利用。
+site_settings.ga_domain_name,Google analytics のドメイン名。例: mysite.com; 参考 http://google.com/analytics
+site_settings.ga_tracking_code,Google analytics のトラッキングコード。例: UA-12345678-9; 参考 http://google.com/analytics
+site_settings.ga_universal_domain_name,"***TO BE TRANSLATED***Google Universal Analytics (analytics.js) domain name, eg: mysite.com; see http://google.com/analytics"
+site_settings.ga_universal_tracking_code,"***TO BE TRANSLATED***Google Universal Analytics (analytics.js) tracking code code, eg: UA-12345678-9; see http://google.com/analytics"
+site_settings.github_client_id,Github 認証用の client id。https://github.com/settings/applications で入手可能
+site_settings.github_client_secret,Github 認証用の client secret。https://github.com/settings/applications で入手可能
+site_settings.global_notice,"***TO BE TRANSLATED***Display a global banner to all users of the site, change to blank to hide it (HTML is allowed)"
+site_settings.invite_expiry_days,招待キーの有効期間 (日)
+site_settings.invite_only,一般登録を無効化し、招待されたユーザのみ登録可能にする
+site_settings.invites_shown,ユーザページに表示する招待履歴の最大数
+site_settings.login_required,ポストを読むのにログインを必須にする
+site_settings.logo_small_url,トピックスクロール時に表示するサイトの小さなロゴ。例: http://example.com/logo-small.png
+site_settings.logo_url,サイトのロゴ。例: http://example.com/logo.png
+site_settings.long_polling_interval,新たなロングポーリングを開始するまでの間隔 (ミリ秒)
+site_settings.max_attachment_size_kb,アップロード可能な添付ファイルの最大サイズ (kB) - nginx 側での設定 (client_max_body_size) / apache または proxy における設定も同時に行ってください
+site_settings.max_bookmarks_per_day,一日のうちにユーザがブックマークできる最大数
+site_settings.max_daily_gravatar_crawls,一日に、Discourse がカスタムアバターの確認を gravatar に行う最大回数
+site_settings.max_edits_per_day,一日のうちにユーザが編集できる最大数
+site_settings.max_flags_per_day,一日のうちにユーザがフラグを立てられる最大数
+site_settings.max_image_height,ポストに添付する画像の最大縦幅
+site_settings.max_image_size_kb,アップロード可能な画像の最大サイズ (kB) - nginx 側での設定 (client_max_body_size) / apache または proxy における設定も同時に行ってください
+site_settings.max_image_width,ポストに添付する画像の最大横幅
+site_settings.max_likes_per_day,一日のうちにユーザが「いいね!」をつけられる最大数
+site_settings.max_mentions_per_post,ポストに書くことができる @name 通知の最大値
+site_settings.max_post_length,ポストの最大文字数
+site_settings.max_private_messages_per_day,一日のうちにユーザが送信可能なプライベートメッセージの最大数
+site_settings.max_replies_in_first_day,サイト利用日にユーザが作成することのできる回答の最大数
+site_settings.max_similar_results,新規トピック編集中に類似トピックをいくつ表示するか
+site_settings.max_stars_per_day,***TO BE TRANSLATED***Maximum number of topics that can be starred per user per day
+site_settings.max_topic_title_length,トピックタイトルの最大文字数
+site_settings.max_topics_in_first_day,サイト利用初日にユーザが作成することのできるトピックの最大数
+site_settings.max_topics_per_day,一日のうちにユーザが作成できるトピックの最大数
+site_settings.max_word_length,トピックタイトルにおける最大単語長 (文字数)
+site_settings.maximum_backups,***TO BE TRANSLATED***The maximum amount of backups to keep on disk. Older backups are automatically deleted
+site_settings.min_body_similar_length,類似トピックのチェックに必要なポスト本文の最小長
+site_settings.min_password_length,***TO BE TRANSLATED***Minimum password length.
+site_settings.min_post_length,ポストの最小文字数
+site_settings.min_posts_for_search_in_topic,***TO BE TRANSLATED***Disable search within topic if topics have less than minimum number posts
+site_settings.min_private_message_post_length,プライベートメッセージ本文の最小文字数
+site_settings.min_private_message_title_length,プライベートメッセージタイトルの最小文字数
+site_settings.min_search_term_length,検索語の最小文字数
+site_settings.min_title_similar_length,類似トピックのチェックに必要な最小タイトル長
+site_settings.min_topic_title_length,トピックタイトルの最小文字数
+site_settings.min_trust_to_create_topic,新規にトピックを作成するために必要な最低トラストレベル。
+site_settings.min_username_length,***TO BE TRANSLATED***Minimum username length. (Does not apply if global nickname uniqueness is forced)
+site_settings.minimum_topics_similar,類似トピック表示のためにデータベースに存在しなければならないトピック数。
+site_settings.must_approve_users,管理者が全てのユーザの承認を行う
+site_settings.new_topic_duration_minutes,トピックが新規と見なされるデフォルト時間 (分)。なお、ユーザはこの設定をカスタマイズできます。(-1で常に新規とみなす、-2で最終訪問したものを新規とみなす)
+site_settings.new_version_emails,新しいバージョンが利用可能になった際に contact_email アドレスにメールで通知する。
+site_settings.newuser_max_attachments,新規ユーザがポストに追加可能な添付ファイルの最大数
+site_settings.newuser_max_images,新規ユーザがポストに追加可能な画像の最大数
+site_settings.newuser_max_links,新規ユーザがポストに貼ることができるリンクの最大数
+site_settings.newuser_max_mentions_per_post,新規ユーザがポストに書くことができる @name 通知の最大数
+site_settings.newuser_max_replies_per_topic,***TO BE TRANSLATED***Maximum number of replies a new user can make in a single topic
+site_settings.newuser_spam_host_threshold,新規ユーザが、スパム認定されることなく `newuser_spam_host_posts` ポスト内にに同一ホストへのリンクを貼ることができる数。
+site_settings.ninja_edit_window,ポスト投稿後、実際に新しいバージョンが作られるまでの秒数 (ninja-edit)
+site_settings.notification_email,パスワードリセットや新規アカウント作成等をユーザに通知するシステムメールを送信するメールアドレス
+site_settings.notify_mods_when_user_blocked,ユーザが自動的にブロックされた際に、すべてのモデレータにメッセージを送信する。
+site_settings.num_flags_to_block_new_user,新規ユーザのポストに対して、(n) 人ののユーザによりここで指定した数のスパムフラグが立てられたら、全てのポストを非表示状態にした上でこのユーザからのポストを拒否する。0 でこの機能を無効化。
+site_settings.num_users_to_block_new_user,新規ユーザのポストに対して、ここで指定した数のユーザより (x) 個のスパムフラグが立てられたら、全てのポストを非表示状態にした上でこのユーザからのポストを拒否する。0 でこの機能を無効化。
+site_settings.onebox_max_chars,onebox が外部 Web サイトよりポストにインポートする最大文字数
+site_settings.polling_interval,ログイン済ユーザのクライアントのポーリング間隔 (ミリ秒)
+site_settings.pop3s_polling_enabled,メール回答取得のために POP3S をポーリングする
+site_settings.pop3s_polling_host,POP3S でメール取得のポーリングを行うホスト
+site_settings.pop3s_polling_password,POP3S でメール取得のポーリングを行うためのパスワード
+site_settings.pop3s_polling_port,POP3S アカウントのポーリングを行うポート番号
+site_settings.pop3s_polling_username,POP3S でメール取得のポーリングを行うためのユーザ名
+site_settings.port,開発者用! 警告! デフォルトの80番ポートではなく、ここで指定した HTTP ポートを利用する。空欄でデフォルトの80番ポートを利用。
+site_settings.post_edit_time_limit,***TO BE TRANSLATED***Amount of time in minutes in which posts can be edited and deleted by the author. Set to 0 to allow editing and deleting posts at any time.
+site_settings.post_excerpt_maxlength,ポスト引用の最大文字数
+site_settings.post_menu,ポストメニューに表示する項目を指定。例 like|edit|flag|delete|share|bookmark|reply
+site_settings.post_onebox_maxlength,oneboxed Discourse ポストの最大長
+site_settings.post_undo_action_window_mins,ポストに対するアクション (「いいね!」、フラグ等) 取り消しを許可する時間 (秒)
+site_settings.posts_per_page,トピックページに表示されるポスト数のデフォルト (さらにポストを読み込んだ際にもこの数を適用)
+site_settings.previous_visit_timeout_hours,'previous' visit とみなす時間 (時間)
+site_settings.privacy_policy_url,他サイトにプライバシーポリシーをホストしている場合は、フル URL を個々に指定。
+site_settings.purge_deleted_uploads_grace_period_days,削除されたアップロードファイルが完全削除されるまでの猶予期間 (単位：日)。
+site_settings.queue_jobs,開発者ONLY! 警告! デフォルトでキューは sidekiq により処理されます。これを無効にするとサイトが動作不能になります。
+site_settings.rate_limit_create_post,ポスト投稿後、次のポストを投稿するまでにユーザが待たなければならない時間 (秒)
+site_settings.rate_limit_create_topic,トピック作成後、次のトピックを作成するまでにユーザが待たなければならない時間 (秒)
+site_settings.redirect_new_users_to_top_page_duration,***TO BE TRANSLATED***Number of days during which new users are automatically redirect to the top page
+site_settings.redirect_users_to_top_page,***TO BE TRANSLATED***Automatically redirect new & long-time-no-see users to top page
+site_settings.regular_requires_days_visited,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにサイトを訪問しなければならない日数
+site_settings.regular_requires_likes_given,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにしなければならない「いいね!」の数
+site_settings.regular_requires_likes_received,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために貰わなければならない「いいね!」の数
+site_settings.regular_requires_read_posts,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために投稿しなければならないポストの数
+site_settings.regular_requires_time_spent_mins,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにポストを読まなければならない時間 (分)
+site_settings.regular_requires_topic_reply_count,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために回答しなければならないトピックの数
+site_settings.regular_requires_topics_entered,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために作成しなければならないトピックの数
+site_settings.relative_date_duration,ポスト投稿後、ポスト日が相対的表記 (例: 7d) から絶対的表記 (例: Feb 20) に変わるまでの時間 (日)
+site_settings.reply_by_email_address,メールアドレスによる回答のテンプレート。例: %{reply_key}@reply.myforum.com
+site_settings.reply_by_email_enabled,めーるによるトピックへの回答を有効にする
+site_settings.s3_access_key_id,画像をアップロードする Amazon S3 の access key id
+site_settings.s3_backup_bucket,***TO BE TRANSLATED***The remote bucket to hold backups. WARNING: Make sure it is a private bucket.
+site_settings.s3_region,画像をアップロードする Amazon S3 のリージョン名
+site_settings.s3_secret_access_key,画像をアップロードする Amazon S3 の secret access key
+site_settings.s3_upload_bucket,ファイルをアップロードする Amazon S3 のバケツ名。注意: 小文字指定のみ (cf. http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
+site_settings.send_welcome_message,ユーザに「ようこそ」プライベートメッセージを送信するか?
+site_settings.sequential_replies_threshold,ユーザに警告通知を行う、連続ポスト投稿のしきい値
+site_settings.share_links,シェアダイアログに表示する項目を指定。例 twitter|facebook|google+|email
+site_settings.short_progress_text_threshold,プログレスバーが現在のポスト番号のみを表示するようになるポスト数のしきい値。プログレスバーの幅を変更した際には、この値を変更することをおすすめします。
+site_settings.site_contact_username,フォーラムより自動送信したプライベートメッセージ作成者のユーザ名
+site_settings.site_description,このフォーラムの説明 (1行)。meta タグの description に利用されます。
+site_settings.sso_overrides_email,***TO BE TRANSLATED***Overrides local email with external site email from SSO payload (WARNING: discrepancies can occur due to normalization of local emails)
+site_settings.sso_overrides_name,***TO BE TRANSLATED***Overrides local name with external site name from SSO payload (WARNING: discrepancies can occur due to normalization of local names)
+site_settings.sso_overrides_username,***TO BE TRANSLATED***Overrides local username with external site username from SSO payload (WARNING: discrepancies can occur due to differences in username length/requirements)
+site_settings.sso_secret,"***TO BE TRANSLATED***Secret string used to encrypt/decrypt SSO information, be sure it is 10 chars or longer"
+site_settings.sso_url,***TO BE TRANSLATED***URL of single sign on endpoint
+site_settings.staff_like_weight,スタッフにより「いいね!」された場合、より高めの評価をする。
+site_settings.suggested_topics,トピック下部に表示されるおすすめトピックの数
+site_settings.summary_likes_required,トピックの 'サマリー' モードが有効になるために必要な最小「いいね!」数
+site_settings.summary_percent_filter,ユーザがサマリーをクリックした際に表示するトップ何パーセントのポストを表示するか
+site_settings.summary_posts_required,トピックの 'サマリー' モードが有効になるために必要な最小ポスト数
+site_settings.summary_score_threshold,'サマリー' にポストが含まれるために必要な最低スコア
+site_settings.suppress_reply_directly_above,すぐ上に1つしか回答がない場合、ポスト内の in-reply-to を表示しない
+site_settings.suppress_reply_directly_below,すぐ下に1つしか回答がない場合、ポスト内の回答数を表示しない
+site_settings.suppress_uncategorized_badge,***TO BE TRANSLATED***Don't show the badge for uncategorized topics in topic lists
+site_settings.title,サイトのタイトル。タイトルタグを含め、様々な場所で利用されます
+site_settings.title_fancy_entities,トピックタイトルの一般的な ASCII 文字をファンシーな HTML エンティティに変換する; SmartyPants http://daringfireball.net/projects/smartypants/
+site_settings.title_min_entropy,トピックタイトルの最小許容エントロピー (ユニークキャラクターや英語以外の単語を含むとより大きな値になります)
+site_settings.title_prettify,よくあるタイトルのミススペルや文法エラー (例: 最初の文字が小文字、文の最後で ! や ? や . などが重複) を防止する
+site_settings.top_menu,ホームページナビゲーションに表示する項目を指定。例 latest|hot|read|favorited|unread|new|posted|categories
+site_settings.topic_views_heat_high,トピックのヒートレベルを高に設定する閲覧数。
+site_settings.topic_views_heat_low,トピックのヒートレベルを低に設定する閲覧数。
+site_settings.topic_views_heat_medium,トピックのヒートレベルを中に設定する閲覧数。
+site_settings.topics_per_page,トピックリストページに表示されるトピック数のデフォルト
+site_settings.topics_per_period_in_top_page,***TO BE TRANSLATED***How many topics loaded on the top topics page
+site_settings.topics_per_period_in_top_summary,***TO BE TRANSLATED***How many topics loaded on the top topics summary
+site_settings.tos_accept_required,"***TO BE TRANSLATED***If enabled, users will need to check a box on the signup form to confirm that they accept the terms of service. Edit 'Signup Form: Terms of Service Message' in the Content tab to change the message."
+site_settings.tos_url,他サイトに利用規約をホストしている場合は、フル URL をここに指定。
+site_settings.track_external_right_clicks,右クリックされた外部リンクをトラックする (例: 新しいタブで開く)。URL のリライトを要するためデフォルトでは無効化されています
+site_settings.traditional_markdown_linebreaks,Markdown の従来形式のラインブレーク (行の終わりにダブルスペース) を使う
+site_settings.twitter_consumer_key,Twitter 認証用の consumer key。http://dev.twitter.com で入手可能
+site_settings.twitter_consumer_secret,Twitter 認証用の consumer secret。http://dev.twitter.com で入手可能
+site_settings.unique_posts_mins,同じ内容のポストを再投稿可能にする時間 (分)
+site_settings.use_https,***TO BE TRANSLATED***Should the full url for the site (Discourse.base_url) be http or https? DO NOT ENABLE THIS UNLESS HTTPS IS ALREADY SET UP AND WORKING!
+site_settings.username_change_period,ユーザ名の変更が可能になるまでの登録日からの日数 (0を指定でユーザ名の変更自体を無効化)。
+site_settings.version_checks,Discourse Hub にバージョン更新の有無を問い合わせ /admin ダッシュボードにバージョンメッセージを表示する
+site_settings.warn_reviving_old_topic_age,"***TO BE TRANSLATED***When someone starts replying to a topic older than this many days, a warning will be displayed to discourage the user from reviving an old discussion. Disable by setting to 0."
+site_settings.white_listed_spam_host_domains,"***TO BE TRANSLATED***A comma delimited list of domains excluded from spam host testing, new users will be able to create an unrestricted count of posts with links to this domain"
+spamming_host,申し訳ありませんが、このホストへのリンクを貼ることはできません。
+staff_category_description,***TO BE TRANSLATED***Private category for staff discussions. Topics are only visible to admins and moderators.
+staff_category_name,***TO BE TRANSLATED***Staff
+system_messages.blocked_by_staff.subject_template,アカウントのブロック
+system_messages.blocked_by_staff.text_body_template,"Hello,
+
+このメールは、スタッフメンバーによりあなたのアカウントがブロックされたことをお知らせする %{site_name} からの自動メッセージです。
+"
+system_messages.email_error_notification.subject_template,***TO BE TRANSLATED***Error parsing email
+system_messages.email_error_notification.text_body_template,"***TO BE TRANSLATED***This is an automated message to inform you that parsing the following incoming email failed.
+
+Please review the following message.
+
+Error - %{error}
+
+%{source}
+"
+system_messages.email_reject_trust_level.subject_template,***TO BE TRANSLATED***Message rejected
+system_messages.email_reject_trust_level.text_body_template,"***TO BE TRANSLATED***The message you've send to %{to} was rejected by the system.
+
+You do not have the required trust to post new topics to this email address.
+"
+system_messages.export_failed.subject_template,***TO BE TRANSLATED***Export failed
+system_messages.export_failed.text_body_template,"***TO BE TRANSLATED***The export has failed.
+
+Here's the log:
+
+```
+%{logs}
+```
+"
+system_messages.export_succeeded.subject_template,エクスポートが正しく完了しました
+system_messages.export_succeeded.text_body_template,エクスポートに成功しました。
+system_messages.import_failed.subject_template,***TO BE TRANSLATED***Import failed
+system_messages.import_failed.text_body_template,"***TO BE TRANSLATED***The import has failed.
+
+Here's the log:
+
+```
+%{logs}
+```
+"
+system_messages.import_succeeded.subject_template,インポートが正しく完了しました
+system_messages.import_succeeded.text_body_template,インポートに成功しました。
+system_messages.pending_users_reminder.subject_template.one,1人のユーザが承認を待っています
+system_messages.pending_users_reminder.subject_template.other,%{count}人のユーザが承認を待っています
+system_messages.pending_users_reminder.text_body_template,"新たなユーザが、フォーラム参加のための承認（もしくは拒否）待ち状態になっています。
+
+[管理者セクションで確認する](/admin/users/list/pending).
+"
 system_messages.post_hidden.subject_template,コミュニティによるフラグによりポストが非表示になりました
 system_messages.post_hidden.text_body_template,"Hello,
 
@@ -168,21 +759,6 @@ system_messages.post_hidden.text_body_template,"Hello,
 複数のコミュニティメンバーによりこのポストにフラグが立てられた結果としてポストが非表示になったことをご理解ください。**このフィードバックを元に、ポスト内容を修正することを検討してください**。ポスト内容の編集は %{edit_delay}後より行うことができます。編集後、非表示状態は解除されます。
 
 ただし、再度あなたのポストがコミュニティによってフラグ立てされた場合、モデレータに通知が行われます。この結果アカウントの凍結などの処置が行われる可能性もあります。
-"
-system_messages.pending_users_reminder.subject_template.other,%{count}人のユーザが承認を待っています
-system_messages.pending_users_reminder.subject_template.one,1人のユーザが承認を待っています
-system_messages.pending_users_reminder.text_body_template,"新たなユーザが、フォーラム参加のための承認（もしくは拒否）待ち状態になっています。
-
-[管理者セクションで確認する](/admin/users/list/pending).
-"
-system_messages.email_error_notification.subject_template,***TO BE TRANSLATED***Error parsing email
-system_messages.email_error_notification.text_body_template,"***TO BE TRANSLATED***This is an automated message to inform you that parsing the following incoming email failed.
-
-Please review the following message.
-
-Error - %{error}
-
-%{source}
 "
 system_messages.spam_post_blocked.subject_template,同一リンクの連続投稿による新規ユーザ %{username} のブロック
 system_messages.spam_post_blocked.text_body_template,"このメールは、%{domains} へのリンクを含む複数のポストを新規ユーザ [%{username}](%{user_url}) が作成しようとしたため SPAM 防止策としてブロックしたことをお知らせする自動メッセージです。
@@ -198,8 +774,6 @@ system_messages.too_many_spam_flags.text_body_template,"Hello,
 
 予防措置として、あなたの新規アカウントはブロックされました。スタッフメンバーによる確認が完了するまで、新規トピックやポストの投稿を行うことはできません。
 "
-system_messages.export_succeeded.subject_template,エクスポートが正しく完了しました
-system_messages.export_succeeded.text_body_template,エクスポートに成功しました。
 system_messages.unblocked.subject_template,アカウントのブロック解除
 system_messages.unblocked.text_body_template,"Hello,
 
@@ -245,40 +819,13 @@ system_messages.usage_tips.text_body_template,"このプライベートメッセ
 
 - トピック閲覧中にページ最上部に移動するにはトピックタイトルをクリックしてください。ページの最下部に移動するにはトピック進捗インジケーターの下矢印をクリックするか、最初のポストの下に表示されているトピックサマリーより「最終ポスト」をクリックしてください。
 "
-system_messages.email_reject_trust_level.subject_template,***TO BE TRANSLATED***Message rejected
-system_messages.email_reject_trust_level.text_body_template,"***TO BE TRANSLATED***The message you've send to %{to} was rejected by the system.
+system_messages.user_automatically_blocked.subject_template,フラグによる新規ユーザr %{username} のブロック
+system_messages.user_automatically_blocked.text_body_template,"このメールは、複数のユーザにより %{username} のポストにフラグが立てられた結果、新規ユーザ [%{username}](%{user_url}) が自動的にブロックされたことをお知らせする自動メッセージです。
 
-You do not have the required trust to post new topics to this email address.
+[立てられたフラグの確認をしてください](/admin/flags)。もし %{username} が不正にブロックされている場合は、[このユーザの管理ページ](%{user_url}) にてブロック解除ボタンをクリックしてください。
+
+なお、しきい値はサイト設定の `block_new_user` で変更可能です。
 "
-system_messages.export_failed.subject_template,***TO BE TRANSLATED***Export failed
-system_messages.export_failed.text_body_template,"***TO BE TRANSLATED***The export has failed.
-
-Here's the log:
-
-```
-%{logs}
-```
-"
-system_messages.import_failed.subject_template,***TO BE TRANSLATED***Import failed
-system_messages.import_failed.text_body_template,"***TO BE TRANSLATED***The import has failed.
-
-Here's the log:
-
-```
-%{logs}
-```
-"
-system_messages.welcome_user.subject_template,%{site_name} へようこそ!
-system_messages.welcome_user.text_body_template,"%{site_name}への参加ありがとうございます!
-
-%{new_user_tips}
-
-マナーをお守りいただき、健全なコミュニティとなるよう皆様のご協力をお願いいたします。
-
-それではお楽しみください!
-"
-system_messages.import_succeeded.subject_template,インポートが正しく完了しました
-system_messages.import_succeeded.text_body_template,インポートに成功しました。
 system_messages.welcome_invite.subject_template,%{site_name}へようこそ!
 system_messages.welcome_invite.text_body_template,"T%{site_name}への招待の受理、ありがとうございます!
 
@@ -300,214 +847,8 @@ system_messages.welcome_invite.text_body_template,"T%{site_name}への招待の�
 
 [prefs]: %{user_preferences_url}
 "
-system_messages.user_automatically_blocked.subject_template,フラグによる新規ユーザr %{username} のブロック
-system_messages.user_automatically_blocked.text_body_template,"このメールは、複数のユーザにより %{username} のポストにフラグが立てられた結果、新規ユーザ [%{username}](%{user_url}) が自動的にブロックされたことをお知らせする自動メッセージです。
-
-[立てられたフラグの確認をしてください](/admin/flags)。もし %{username} が不正にブロックされている場合は、[このユーザの管理ページ](%{user_url}) にてブロック解除ボタンをクリックしてください。
-
-なお、しきい値はサイト設定の `block_new_user` で変更可能です。
-"
-system_messages.blocked_by_staff.subject_template,アカウントのブロック
-system_messages.blocked_by_staff.text_body_template,"Hello,
-
-このメールは、スタッフメンバーによりあなたのアカウントがブロックされたことをお知らせする %{site_name} からの自動メッセージです。
-"
-private_message_abbrev,PM
-log_in,***TO BE TRANSLATED***Log In
-author_wrote,%{author} の投稿:
-is_reserved,is reserved
-unsubscribe_link,メール解除は [ユーザ設定画面](%{user_preferences_url}) で行ってください。
-posts,ポスト
-upload.images.unknown_image_type,申し訳ありませんが、アップロードしようとしたファイルは画像ではないようです。
-upload.images.size_not_found,申し訳ありませんが、画像のサイズを判定できませんでした。画像が壊れているかもしれません。
-upload.images.fetch_failure,申し訳ありませんが、画像取得中にエラーが発生しました。
-upload.images.too_large,申し訳ありませんが、画像が大きすぎてアップロードできません (最大サイズは %{max_size_kb}%kb です)。リサイズして再アップロードしてください。
-upload.edit_reason,リモート画像のコピーをダウンロードしました
-upload.unauthorized,申し訳ありません、ファイルのアップロードが拒否されました (サポートするファイルの拡張子: %{authorized_extensions}).
-upload.pasted_image_filename,貼り付けた画像
-upload.attachments.too_large,申し訳ありませんが、ファイルが大きすぎてアップロードできません (最大サイズは %{max_size_kb}%kb です)
-new_version_mailer_with_notes.subject_template,***TO BE TRANSLATED***[%{site_name}] update available
-new_version_mailer_with_notes.text_body_template,"***TO BE TRANSLATED***A new version of Discourse is available:
-
-Your version: %{installed_version}
-New version: **%{new_version}**
-
-- See what's new in the [GitHub changelog](https://github.com/discourse/discourse/commits/master).
-
-- Upgrade by visiting `/admin/docker`, refreshing the page a few times, and pressing the ""Upgrade Discourse"" button.
-
-- Visit http://meta.discourse.org for news, discussion, and support for Discourse.
-
-### Release notes
-
-%{notes}
-"
-num_posts,ポスト:
-assets_topic_body,***TO BE TRANSLATED***This is a topic to store forum assets used in the forum design. Don't delete it!
-flags_reminder.post_number,***TO BE TRANSLATED***post
-flags_reminder.how_to_disable,***TO BE TRANSLATED***Disable this email by changing the notify_about_flags_after setting to 0.
-flags_reminder.please_review,***TO BE TRANSLATED***Please review them.
-flags_reminder.subject_template.other,***TO BE TRANSLATED***%{count} flags are waiting to be handled
-flags_reminder.subject_template.one,***TO BE TRANSLATED***1 flag is waiting to be handled
-flags_reminder.flags_were_submitted.other,***TO BE TRANSLATED***There are flags that were submitted over %{count} hours ago.
-flags_reminder.flags_were_submitted.one,***TO BE TRANSLATED***There are flags that were submitted over 1 hour ago.
-embed.permalink,***TO BE TRANSLATED***Permalink
-embed.loading,***TO BE TRANSLATED***Loading Discussion...
-embed.more_replies.other,***TO BE TRANSLATED***%{count} more replies
-embed.more_replies.one,***TO BE TRANSLATED***1 more reply
-embed.start_discussion,***TO BE TRANSLATED***Begin the Discussion
-embed.continue,***TO BE TRANSLATED***Continue the Discussion
-embed.replies.other,***TO BE TRANSLATED***%{count} replies
-embed.replies.one,***TO BE TRANSLATED***1 reply
-embed.in_reply_to,***TO BE TRANSLATED***in reply to %{username}
-embed.imported_from,***TO BE TRANSLATED***This is a companion discussion topic for the original entry at: %{link}
-invite_forum_mailer.subject_template,[%{site_name}] %{invitee_name} が %{site_name} にあたなを招待しています
-invite_forum_mailer.text_body_template,"%{invitee_name} が %{site_name} にあなたを招待しています。
-
-もしよろしければ、以下のリンクをクリックして参加してください:
-
-[Visit %{site_name}][1]
-
-もしトラステッドユーザより招待された場合は、ログインすることなくすぐに参加することができます。
-
-[1]: %{invite_link}
-"
-staff_category_description,***TO BE TRANSLATED***Private category for staff discussions. Topics are only visible to admins and moderators.
-too_many_replies.other,"***TO BE TRANSLATED***We're sorry, but new users are temporarily limited to %{count} replies in the same topic."
-too_many_replies.one,"***TO BE TRANSLATED***We're sorry, but new users are temporarily limited to 1 reply in the same topic."
-original_poster,Original Poster
-next_page,次のページ →
-archetypes.regular.title,通常のトピック
-meta_category_description,"***TO BE TRANSLATED***Discussion about this forum, its organization, how it works, and how we can improve it."
-is_invalid,は不正です。もう少し説明を追加してください
-read_only_mode_enabled,***TO BE TRANSLATED***The site is in read only mode. Interactions are disabled.
-new_version_mailer.subject_template,[%{site_name}] アップデートがあります
-new_version_mailer.text_body_template,"新しいバージョンの Discourse が利用可能です。
-
-**新しいバージョン: %{new_version}**
-
-現在のバージョン: %{installed_version}
-
-最新のバグフィックスや新機能を適用するために、早めのアップグレードを検討してください。
-"
-invite_mailer.subject_template,[%{site_name}] %{invitee_name} が %{site_name} のディスカッションにあなたを招待しています
-invite_mailer.text_body_template,"%{invitee_name} が %{site_name} の ""%{topic_title}"" トピックにあなたを招待しています。
-
-もしよろしければ、以下のリンクよりディスカッションをご確認ください:
-
-[Visit %{site_name}][1]
-
-もしトラステッドユーザより招待された場合は、ログインすることなくすぐに回答を投稿することができます。
-
-[1]: %{invite_link}
-"
-frequent_poster,Frequent Poster
-education.sequential_replies,"### 一度に複数のポストに回答する
-
-トピックに数多くの回答を投稿する代わりに、以前のポストへの @name 参照や引用などを活用して回答を一つのポストにまとめられないか検討してください。
-
-細かい回答を数多く投稿するより、掘り下げた内容をカバーした数少ない回答を投稿した方がトピックの議論を追いやすくなります。
-"
-education.new-reply,"%{site_name} へようこそ &mdash; **コミュニティへの貢献ありがとうございます!**
-
-- あなたの回答は議論に何らかの形で貢献していますか?
-
-- コミュニティメンバー同士のやりとりは礼儀正しく、マナーを保ちましょう。
-
-- 建設的な批判は歓迎します。ただし批判は「人」に対してではなく「アイデア」に対して行いましょう。
-
-このパネルは最初の %{education_posts_text} のみに表示されます。
-"
-education.new-topic,"%{site_name} へようこそ &mdash; **新たなトピックの作成ありがとうございます!**
-
-- タイトルはトピックの内容を正しく説明していますか? 他の人にとって興味深いタイトルになっていますか?
-
-- このトピックは何をカバーするものですか? このトピックに興味を示しそうなのは誰でしょう? なぜこのトピックは重要なのでしょうか? コミュニティよりどのような回答を期待していますか?
-
-- トピックに適切な検索用ワードを含めると、他の人がトピックを *発見* しやすくなります。適切なカテゴリを選択すると、他の関連トピックとのグルーピングができます。
-
-このパネルは最初の %{education_posts_text} のみに表示されます。
-"
-education.reviving_old_topic,"***TO BE TRANSLATED***### Revive this topic?
-
-The last reply to this topic is now over %{days} days old. Your reply will bump the topic to the top of its list and notify anyone previously involved in the conversation.
-
-Are you sure you want to continue this old conversation?
-"
-education.until_posts.other,%{count} posts
-education.until_posts.one,post
-education.avatar,"### アカウント用の画像を用意してみては?
-
-コミュニティへの貢献ありがとうございます。アバターがデフォルトのままのようですが、**[ユーザプロファイル](%{profile_path})** にてアバター画像をアップロードしてみてはいかがでしょう?
-
-ユニークなアバターは、コミュニティにおける議論の活性化にもつながりますので、ぜひご検討ください!
-"
-education.dominating_topic,"### 他のユーザも議論に参加させてあげましょう
-
-このトピックはあなたにとても重要なもののようですね &ndash; ここの回答のうち %{percent}% 以上があなたによってなされています。
-
-他のユーザが回答するために十分な時間的猶予を与えているか、ちょっと振り返ってみませんか?
-"
-education.too_many_replies,"***TO BE TRANSLATED***### You have reached the reply limit for this topic
-
-We're sorry, but new users are temporarily limited to %{newuser_max_replies_per_topic} replies in the same topic.
-
-Instead of adding another reply, please consider editing your previous replies, or visiting other topics.
-"
-category.topic_prefix,%{category} カテゴリの定義
-category.replace_paragraph,[この最初のパラグラフを、本カテゴリの簡単な紹介文に置き換えてください。このガイダンスはカテゴリ選択エリアに表示されるため、パラグラフは200文字以内にしてください。]
-category.errors.depth,他のサブカテゴリの下にサブカテゴリを作成することはできません。
-category.errors.self_parent,自分自身がサブカテゴリの親になることはできません。
-category.post_template,"%{replace_paragraph}
-
-これ以降のパラグラフに、カテゴリのガイドライン等を書いてください。
-
-いくつかのヒント:
-
-- このカテゴリは何か? どのようなトピックをこのカテゴリに入れるべきか?
-
-- 既に存在するカテゴリとの違いは何か?
-
-- このカテゴリはなぜ必要か?
-
-- 他のカテゴリとの統合や、複数カテゴリへの分割をするべきか?
-"
-errors.embed.load_from_remote,***TO BE TRANSLATED***There was an error loading that post.
-too_late_to_edit,***TO BE TRANSLATED***That post was created too long ago. It can no longer be edited or deleted.
-user_notifications.previous_discussion,以前の回答
-user_notifications.forgot_password.subject_template,[%{site_name}] パスワードのリセット
-user_notifications.forgot_password.text_body_template,"[%{site_name}](%{base_url}) のあなたのパスワードに対してリセット依頼が行われました。
-
-もし依頼を行ったのがあなたではない場合は、このメールを無視してください。
-
-新たなパスワードを設定する場合は次のリンクをクリックしてください:
-%{base_url}/users/password-reset/%{email_token}
-"
-user_notifications.signup.subject_template,[%{site_name}] 新たなアカウントのアクティベーション
-user_notifications.signup.text_body_template,"Welcome to %{site_name}!
-
-次のリンクをクリックして、新たなアカウントの承認およびアクティベーションを行ってください:
-%{base_url}/users/activate-account/%{email_token}
-
-もし上記リンクがクリックできない場合は、ブラウザのアドレスバーにリンクアドレスをコピー&ペーストしてください。
-"
-user_notifications.user_mentioned.subject_template,[%{site_name}] '%{topic_title}' で %{username} があなたをメンションしました
-user_notifications.user_mentioned.text_body_template,"%{message}
-
-%{context}
-
----
-%{respond_instructions}
-"
-user_notifications.signup_after_approval.subject_template,%{site_name} への参加承認完了!
-user_notifications.signup_after_approval.text_body_template,"%{site_name} へようこそ!
-
-%{site_name} への参加が承認されました。コミュニティへようこそ!
-
-次のリンクをクリックして、新たなアカウントの承認およびアクティベーションを行ってください:
-%{base_url}/users/activate-account/%{email_token}
-
-もし上記リンクがクリックできない場合は、ブラウザのアドレスバーにリンクアドレスをコピー&ペーストしてください。
+system_messages.welcome_user.subject_template,%{site_name} へようこそ!
+system_messages.welcome_user.text_body_template,"%{site_name}への参加ありがとうございます!
 
 %{new_user_tips}
 
@@ -515,388 +856,10 @@ user_notifications.signup_after_approval.text_body_template,"%{site_name} へよ
 
 それではお楽しみください!
 "
-user_notifications.user_posted_pm.subject_template,***TO BE TRANSLATED***[%{site_name}] [PM] %{topic_title}
-user_notifications.user_posted_pm.text_body_template,"***TO BE TRANSLATED***%{message}
-
-%{context}
-
----
-%{respond_instructions}
+terms_of_service.miscellaneous,"This Agreement constitutes the entire agreement between %{company_short_name} and you concerning the subject matter hereof, and they may only be modified by a written amendment signed by an authorized executive of %{company_short_name}, or by the posting by %{company_short_name} of a revised version. Except to the extent applicable law, if any, provides otherwise, this Agreement, any access to or use of the Website will be governed by the laws of the state of California, U.S.A., excluding its conflict of law provisions, and the proper venue for any disputes arising out of or relating to any of the same will be the state and federal courts located in San Francisco County, California. Except for claims for injunctive or equitable relief or claims regarding intellectual property rights (which may be brought in any competent court without the posting of a bond), any dispute arising under this Agreement shall be finally settled in accordance with the Comprehensive Arbitration Rules of the Judicial Arbitration and Mediation Service, Inc. (“JAMS”) by three arbitrators appointed in accordance with such Rules. The arbitration shall take place in San Francisco, California, in the English language and the arbitral decision may be enforced in any court. The prevailing party in any action or proceeding to enforce this Agreement shall be entitled to costs and attorneys’ fees. If any part of this Agreement is held invalid or unenforceable, that part will be construed to reflect the parties’ original intent, and the remaining portions will remain in full force and effect. A waiver by either party of any term or condition of this Agreement or any breach thereof, in any one instance, will not waive such term or condition or any subsequent breach thereof. You may assign your rights under this Agreement to any party that consents to, and agrees to be bound by, its terms and conditions; %{company_short_name} may assign its rights under this Agreement without condition. This Agreement will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns."
+terms_of_service.signup_form_message,"***TO BE TRANSLATED***I have read and accept the <a href=""/tos"" target=""_blank"">Terms of Service</a>."
+terms_of_service.user_content_license,"User contributions are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US). Without limiting any of those representations or warranties, %{company_short_name} has the right (though not the obligation) to, in %{company_short_name}’s sole discretion (i) refuse or remove any content that, in %{company_short_name}’s reasonable opinion, violates any %{company_short_name} policy or is in any way harmful or objectionable, or (ii) terminate or deny access to and use of the Website to any individual or entity for any reason, in %{company_short_name}’s sole discretion. %{company_short_name} will have no obligation to provide a refund of any amounts previously paid.
 "
-user_notifications.unsubscribe.description,メールに興味がありませんか? 下のリンクをクリックすると、即座にメール解除ができます:
-user_notifications.unsubscribe.title,解除
-user_notifications.set_password.subject_template,***TO BE TRANSLATED***[%{site_name}] Set Password
-user_notifications.set_password.text_body_template,"***TO BE TRANSLATED***Somebody asked to add a password to your account on [%{site_name}](%{base_url}). Alternatively, you can log in using any supported online service (Google, Facebook, etc) that is associated with this validated email address.
-
-If you did not make this request, you can safely ignore this email.
-
-Click the following link to choose a password:
-%{base_url}/users/password-reset/%{email_token}
-"
-user_notifications.digest.new_activity,あなたのトピックおよびポストにおけるアクティビティ:
-user_notifications.digest.other_new_topics,その他の新トピック:
-user_notifications.digest.read_more,もっと読む
-user_notifications.digest.top_topics,コミュニティで人気のあった新規ポスト:
-user_notifications.digest.posts.other,%{count}個のポスト
-user_notifications.digest.posts.one,1個のポスト
-user_notifications.digest.click_here,ここをクリック
-user_notifications.digest.unsubscribe,This summary email is sent as a courtesy notification from %{site_link} when we haven't seen you in a while. To unsubscribe %{unsubscribe_link}.
-user_notifications.digest.subject_template,[%{site_name}] %{date} のフォーラムアクティビティ
-user_notifications.digest.from,%{site_name} ダイジェスト
-user_notifications.digest.why,あなたが最後にアクセスした %{last_seen_at} 以降に %{site_link} で行われた議論のサマリーです。
-user_notifications.authorize_email.subject_template,[%{site_name}] メールアドレスの確認
-user_notifications.authorize_email.text_body_template,"次のリンクをクリックして %{site_name} 用のメールアドレスを確認してください:
-
-%{base_url}/users/authorize-email/%{email_token}
-"
-user_notifications.visit_link_to_respond,回答するにはブラウザで %{base_url}%{url} にアクセスしてください。
-user_notifications.posted_by,%{post_date} に %{username} が投稿
-user_notifications.user_replied.subject_template,[%{site_name}] '%{topic_title}' 内のあなたのポストに新たな回答が投稿されました
-user_notifications.user_replied.text_body_template,"%{message}
-
-%{context}
-
----
-%{respond_instructions}
-"
-user_notifications.user_invited_to_private_message_pm.subject_template,***TO BE TRANSLATED***[%{site_name}] %{username} invited you to a private message '%{topic_title}'
-user_notifications.user_invited_to_private_message_pm.text_body_template,"***TO BE TRANSLATED***%{username} invited you to a private message '%{topic_title}' on %{site_name}:
-
-Please visit this link to view the topic: %{base_url}%{url}
-"
-user_notifications.reply_by_email,回答するにはこのメールに返信するか、ブラウザで %{base_url}%{url} にアクセスしてください。
-user_notifications.user_posted.subject_template,[%{site_name}] '%{topic_title}' に %{subject_prefix}個の新しいポストが投稿されました
-user_notifications.user_posted.text_body_template,"%{message}
-
-%{context}
-
----
-%{respond_instructions}
-"
-user_notifications.user_quoted.subject_template,[%{site_name}] '%{topic_title}' で %{username} があなたを引用しました
-user_notifications.user_quoted.text_body_template,"%{message}
-
-%{context}
-
----
-%{respond_instructions}
-"
-too_many_mentions.zero,申し訳ありませんが、このポストにおいて他のユーザをメンションできません。
-too_many_mentions.other,申し訳ありませんが、このポストにおいてあと%{count}人しかメンションできません。
-too_many_mentions.one,申し訳ありませんが、このポストにおいてあと1人しかメンションできません。
-unsubscribed.not_found_description,申し訳ありませんが購読解除に失敗しました。メール内のリンクの有効期限が切れているのかもしれません。
-unsubscribed.title,購読解除
-unsubscribed.not_found,購読解除エラー
-unsubscribed.oops,誤って購読解除した場合は、下をクリックしてください。
-unsubscribed.description,購読解除されました。メールの送信をストップしました。
-site_settings.ga_universal_domain_name,"***TO BE TRANSLATED***Google Universal Analytics (analytics.js) domain name, eg: mysite.com; see http://google.com/analytics"
-site_settings.flags_required_to_hide_post,ポストが自動的に非表示状態になりユーザにプライベートメッセージが送信されるフラグ数 (0で無効)
-site_settings.detect_custom_avatars,ユーザがカスタムアバターをアップロードしたか確認する
-site_settings.max_topics_per_day,一日のうちにユーザが作成できるトピックの最大数
-site_settings.queue_jobs,開発者ONLY! 警告! デフォルトでキューは sidekiq により処理されます。これを無効にするとサイトが動作不能になります。
-site_settings.max_word_length,トピックタイトルにおける最大単語長 (文字数)
-site_settings.favicon_url,サイトの favicon。参照: http://en.wikipedia.org/wiki/Favicon
-site_settings.max_daily_gravatar_crawls,一日に、Discourse がカスタムアバターの確認を gravatar に行う最大回数
-site_settings.facebook_app_id,Facebook 認証用の app id。https://developers.facebook.com/apps で入手可能
-site_settings.post_onebox_maxlength,oneboxed Discourse ポストの最大長
-site_settings.summary_score_threshold,'サマリー' にポストが含まれるために必要な最低スコア
-site_settings.notification_email,パスワードリセットや新規アカウント作成等をユーザに通知するシステムメールを送信するメールアドレス
-site_settings.topics_per_period_in_top_page,***TO BE TRANSLATED***How many topics loaded on the top topics page
-site_settings.email_in_category,***TO BE TRANSLATED***The category new emails are posted into
-site_settings.use_https,***TO BE TRANSLATED***Should the full url for the site (Discourse.base_url) be http or https? DO NOT ENABLE THIS UNLESS HTTPS IS ALREADY SET UP AND WORKING!
-site_settings.topics_per_period_in_top_summary,***TO BE TRANSLATED***How many topics loaded on the top topics summary
-site_settings.ga_domain_name,Google analytics のドメイン名。例: mysite.com; 参考 http://google.com/analytics
-site_settings.share_links,シェアダイアログに表示する項目を指定。例 twitter|facebook|google+|email
-site_settings.email_editable,登録後、ユーザによるメールアドレスの変更を許可する。
-site_settings.email_in_min_trust,***TO BE TRANSLATED***The minimum trust level an users needs to have to be allowed to post new topics via email
-site_settings.title,サイトのタイトル。タイトルタグを含め、様々な場所で利用されます
-site_settings.force_hostname,開発者用! 警告! URL 内のホスト名を指定。空欄でデフォルト値を利用。
-site_settings.login_required,ポストを読むのにログインを必須にする
-site_settings.category_colors,カテゴリに利用可能な色 (16進数指定) のリスト。パイプ (|) 区切りで指定
-site_settings.num_users_to_block_new_user,新規ユーザのポストに対して、ここで指定した数のユーザより (x) 個のスパムフラグが立てられたら、全てのポストを非表示状態にした上でこのユーザからのポストを拒否する。0 でこの機能を無効化。
-site_settings.redirect_users_to_top_page,***TO BE TRANSLATED***Automatically redirect new & long-time-no-see users to top page
-site_settings.allow_duplicate_topic_titles,トピックタイトルの重複を許可するか
-site_settings.allow_index_in_robots_txt,サーチエンジンによるサイトのインデックス構築を許可する (robots.txt を更新)
-site_settings.feed_polling_enabled,***TO BE TRANSLATED***Whether to import a RSS/ATOM feed as posts
-site_settings.unique_posts_mins,同じ内容のポストを再投稿可能にする時間 (分)
-site_settings.min_password_length,***TO BE TRANSLATED***Minimum password length.
-site_settings.max_bookmarks_per_day,一日のうちにユーザがブックマークできる最大数
-site_settings.enable_badges,***TO BE TRANSLATED***Enable the badge system (experimental)
-site_settings.suppress_reply_directly_below,すぐ下に1つしか回答がない場合、ポスト内の回答数を表示しない
-site_settings.enable_sso,***TO BE TRANSLATED***Enable single sign on via an external site
-site_settings.suggested_topics,トピック下部に表示されるおすすめトピックの数
-site_settings.regular_requires_read_posts,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために投稿しなければならないポストの数
-site_settings.enable_twitter_logins,Twitter 認証を有効にする (twitter_consumer_key と twitter_consumer_secret の設定が必要)
-site_settings.enable_s3_uploads,Amazon S3 にファイルをアップロードする
-site_settings.notify_mods_when_user_blocked,ユーザが自動的にブロックされた際に、すべてのモデレータにメッセージを送信する。
-site_settings.category_featured_topics,/categories ページに表示されるカテゴリ毎のトピック数
-site_settings.embed_by_username,***TO BE TRANSLATED***Discourse username of the user who creates the topics
-site_settings.minimum_topics_similar,類似トピック表示のためにデータベースに存在しなければならないトピック数。
-site_settings.white_listed_spam_host_domains,"***TO BE TRANSLATED***A comma delimited list of domains excluded from spam host testing, new users will be able to create an unrestricted count of posts with links to this domain"
-site_settings.enable_google_logins,Google 認証を有効にする
-site_settings.username_change_period,ユーザ名の変更が可能になるまでの登録日からの日数 (0を指定でユーザ名の変更自体を無効化)。
-site_settings.newuser_max_images,新規ユーザがポストに追加可能な画像の最大数
-site_settings.facebook_app_secret,Facebook 認証用の app secret。https://developers.facebook.com/apps で入手可能
-site_settings.enable_local_logins,従来型のローカルユーザ名とパスワードによる認証を有効にする
-site_settings.logo_url,サイトのロゴ。例: http://example.com/logo.png
-site_settings.top_menu,ホームページナビゲーションに表示する項目を指定。例 latest|hot|read|favorited|unread|new|posted|categories
-site_settings.educate_until_posts,ポスト編集時におけるヒントパネルのポップアップを止めるまでのポスト投稿数
-site_settings.min_username_length,***TO BE TRANSLATED***Minimum username length. (Does not apply if global nickname uniqueness is forced)
-site_settings.site_contact_username,フォーラムより自動送信したプライベートメッセージ作成者のユーザ名
-site_settings.traditional_markdown_linebreaks,Markdown の従来形式のラインブレーク (行の終わりにダブルスペース) を使う
-site_settings.max_post_length,ポストの最大文字数
-site_settings.site_description,このフォーラムの説明 (1行)。meta タグの description に利用されます。
-site_settings.crawl_images,第三者ソースからの画像読み込み (width および height 読み込み）を有効にする
-site_settings.anon_polling_interval,匿名ユーザのクライアントのポーリング間隔 (ミリ秒)
-site_settings.enable_long_polling,通知用のメッセージバスによるロングポーリングの利用を許可する
-site_settings.allow_profile_backgrounds,***TO BE TRANSLATED***Allows users to upload profile backgrounds
-site_settings.enable_flash_video_onebox,onebox において swf のエンベッドや flv リンクを許可する。注意: セキュリティリスクになる可能性があります
-site_settings.create_thumbnails,ライトボックスのイメージ用サムネイルを作成する
-site_settings.email_in,***TO BE TRANSLATED***Allow users to post new topics via email
-site_settings.email_domains_whitelist,ユーザ登録を許可するメールドメインのリスト (パイプ区切りで指定)。注意: ここで指定したメールドメインからの登録が拒否されます。
-site_settings.short_progress_text_threshold,プログレスバーが現在のポスト番号のみを表示するようになるポスト数のしきい値。プログレスバーの幅を変更した際には、この値を変更することをおすすめします。
-site_settings.post_menu,ポストメニューに表示する項目を指定。例 like|edit|flag|delete|share|bookmark|reply
-site_settings.delete_removed_posts_after,執筆者により削除されたポストを実際に削除するまでの時間。
-site_settings.send_welcome_message,ユーザに「ようこそ」プライベートメッセージを送信するか?
-site_settings.dominating_topic_minimum_percent,ユーザがトピックを占拠していると判断するポスト投稿支配率 (パーセント)。
-site_settings.clean_up_uploads,不正アップロードを防ぐためにどこからもリンクされていないアップロードファイルを削除する。警告: この設定を有効にする前に /uploads ディレクトリのバックアップを取ることをおすすめします。
-site_settings.topic_views_heat_low,トピックのヒートレベルを低に設定する閲覧数。
-site_settings.summary_percent_filter,ユーザがサマリーをクリックした際に表示するトップ何パーセントのポストを表示するか
-site_settings.rate_limit_create_post,ポスト投稿後、次のポストを投稿するまでにユーザが待たなければならない時間 (秒)
-site_settings.digest_min_excerpt_length,***TO BE TRANSLATED***How many characters we're aiming for for each post in the email digest
-site_settings.min_topic_title_length,トピックタイトルの最小文字数
-site_settings.port,開発者用! 警告! デフォルトの80番ポートではなく、ここで指定した HTTP ポートを利用する。空欄でデフォルトの80番ポートを利用。
-site_settings.default_code_lang,"Github コードブロックにデフォルトで適用されるプログラム言語シンタックスハイライト (lang-auto, ruby, python 等)"
-site_settings.default_locale,この Discourse インスタンスのデフォルト言語 (ISO 639-1 Code)
-site_settings.company_full_name,このサイトを運営する会社の名前。/tos などの法的ドキュメントに利用されます
-site_settings.regular_requires_topics_entered,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために作成しなければならないトピックの数
-site_settings.download_remote_images_to_local,ポストにホットリンクされたリモート画像をダウンロードする
-site_settings.enable_names,ユーザのフルネームを表示する
-site_settings.min_private_message_post_length,プライベートメッセージ本文の最小文字数
-site_settings.redirect_new_users_to_top_page_duration,***TO BE TRANSLATED***Number of days during which new users are automatically redirect to the top page
-site_settings.logo_small_url,トピックスクロール時に表示するサイトの小さなロゴ。例: http://example.com/logo-small.png
-site_settings.newuser_max_replies_per_topic,***TO BE TRANSLATED***Maximum number of replies a new user can make in a single topic
-site_settings.display_name_on_posts,ポストにおいてもユーザのフルネームを表示する
-site_settings.s3_upload_bucket,ファイルをアップロードする Amazon S3 のバケツ名。注意: 小文字指定のみ (cf. http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
-site_settings.reply_by_email_enabled,めーるによるトピックへの回答を有効にする
-site_settings.github_client_id,Github 認証用の client id。https://github.com/settings/applications で入手可能
-site_settings.posts_per_page,トピックページに表示されるポスト数のデフォルト (さらにポストを読み込んだ際にもこの数を適用)
-site_settings.global_notice,"***TO BE TRANSLATED***Display a global banner to all users of the site, change to blank to hide it (HTML is allowed)"
-site_settings.sequential_replies_threshold,ユーザに警告通知を行う、連続ポスト投稿のしきい値
-site_settings.default_invitee_trust_level,招待ユーザのデフォルトトラストレベル (0-4)
-site_settings.s3_secret_access_key,画像をアップロードする Amazon S3 の secret access key
-site_settings.email_in_address,***TO BE TRANSLATED***The email address the users can post new topics to. None means users can't post globally.
-site_settings.maximum_backups,***TO BE TRANSLATED***The maximum amount of backups to keep on disk. Older backups are automatically deleted
-site_settings.block_common_passwords,***TO BE TRANSLATED***Don't allow passwords that are in the 5000 most common passwords.
-site_settings.regular_requires_time_spent_mins,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにポストを読まなければならない時間 (分)
-site_settings.rate_limit_create_topic,トピック作成後、次のトピックを作成するまでにユーザが待たなければならない時間 (秒)
-site_settings.topics_per_page,トピックリストページに表示されるトピック数のデフォルト
-site_settings.max_image_height,ポストに添付する画像の最大縦幅
-site_settings.digest_logo_url,***TO BE TRANSLATED***The logo used in your site's email digest. If left blank `logo_url` will be used. eg: http://example.com/logo.png
-site_settings.long_polling_interval,新たなロングポーリングを開始するまでの間隔 (ミリ秒)
-site_settings.flag_sockpuppets,"トピックを作成した新規ユーザ (i.e., 過去24時間以内に登録を行ったユーザ) と、このトピックに対して回答したユーザが同一 IPアドレスよりアクセスしている場合、自動的にこれらのポストにスパムフラグを立てる。"
-site_settings.apple_touch_icon_url,Apple のタッチデバイス用のアイコン。推奨サイズは 144px x 144px
-site_settings.default_trust_level,ユーザのデフォルトトラストレベル (0-4)
-site_settings.suppress_reply_directly_above,すぐ上に1つしか回答がない場合、ポスト内の in-reply-to を表示しない
-site_settings.email_posts_context,通知メールのコンテンツに含める先行回答の数
-site_settings.enable_escaped_fragments,古いサーチエンジンクローラがあなたのサイトのインデックスを構築するのをサポートするワークアラウンドを有効にする。注意: 必要な場合のみ有効にすることを推奨。
-site_settings.must_approve_users,管理者が全てのユーザの承認を行う
-site_settings.basic_requires_time_spent_mins,新規ユーザがベーシック (1) トラストレベルに昇格するためにポストを読まなければならない時間 (分)
-site_settings.relative_date_duration,ポスト投稿後、ポスト日が相対的表記 (例: 7d) から絶対的表記 (例: Feb 20) に変わるまでの時間 (日)
-site_settings.max_attachment_size_kb,アップロード可能な添付ファイルの最大サイズ (kB) - nginx 側での設定 (client_max_body_size) / apache または proxy における設定も同時に行ってください
-site_settings.summary_likes_required,トピックの 'サマリー' モードが有効になるために必要な最小「いいね!」数
-site_settings.invite_expiry_days,招待キーの有効期間 (日)
-site_settings.basic_requires_read_posts,新規ユーザがベーシック (1) トラストレベルに昇格するために投稿しなければならないポストの数
-site_settings.edit_history_visible_to_public,すべてのユーザに対してポストの編集履歴を許可する。無効の場合はスタッフメンバーのみが編集履歴を確認できます。
-site_settings.min_search_term_length,検索語の最小文字数
-site_settings.new_version_emails,新しいバージョンが利用可能になった際に contact_email アドレスにメールで通知する。
-site_settings.ga_universal_tracking_code,"***TO BE TRANSLATED***Google Universal Analytics (analytics.js) tracking code code, eg: UA-12345678-9; see http://google.com/analytics"
-site_settings.feed_polling_url,***TO BE TRANSLATED***URL of RSS/ATOM feed to import
-site_settings.post_undo_action_window_mins,ポストに対するアクション (「いいね!」、フラグ等) 取り消しを許可する時間 (秒)
-site_settings.flush_timings_secs,サーバにタイミングデータを送信する頻度 (秒)
-site_settings.min_posts_for_search_in_topic,***TO BE TRANSLATED***Disable search within topic if topics have less than minimum number posts
-site_settings.autohighlight_all_code,***TO BE TRANSLATED***Apply code highlighting to all preformatted code blocks even when they didn't specify the language
-site_settings.topic_views_heat_high,トピックのヒートレベルを高に設定する閲覧数。
-site_settings.s3_backup_bucket,***TO BE TRANSLATED***The remote bucket to hold backups. WARNING: Make sure it is a private bucket.
-site_settings.title_prettify,よくあるタイトルのミススペルや文法エラー (例: 最初の文字が小文字、文の最後で ! や ? や . などが重複) を防止する
-site_settings.max_likes_per_day,一日のうちにユーザが「いいね!」をつけられる最大数
-site_settings.tos_accept_required,"***TO BE TRANSLATED***If enabled, users will need to check a box on the signup form to confirm that they accept the terms of service. Edit 'Signup Form: Terms of Service Message' in the Content tab to change the message."
-site_settings.new_topic_duration_minutes,トピックが新規と見なされるデフォルト時間 (分)。なお、ユーザはこの設定をカスタマイズできます。(-1で常に新規とみなす、-2で最終訪問したものを新規とみなす)
-site_settings.enable_github_logins,Github 認証を有効にする (github_client_id と github_client_secret の設定が必要)
-site_settings.email_prefix,***TO BE TRANSLATED***The [label] used in the subject of emails. It will default to 'title' if not set
-site_settings.twitter_consumer_key,Twitter 認証用の consumer key。http://dev.twitter.com で入手可能
-site_settings.add_rel_nofollow_to_user_content,"(親ドメインを含む) 内部リンクを除き、投稿されたすべてのユーザコンテンツに rel nofollow を追加する。この設定変更を反映するには ""rake posts:rebake"" を実行して baked markdown をすべて更新する必要があります"
-site_settings.basic_requires_topics_entered,新規ユーザがベーシック (1) トラストレベルに昇格するために作成しなければならないトピックの数
-site_settings.regular_requires_likes_received,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために貰わなければならない「いいね!」の数
-site_settings.pop3s_polling_port,POP3S アカウントのポーリングを行うポート番号
-site_settings.staff_like_weight,スタッフにより「いいね!」された場合、より高めの評価をする。
-site_settings.allow_animated_avatars,ユーザがアニメ gif をアバターとしてアップロードするのを許可する。注意: この設定を変更した場合 avatars:regenerate rake タスクを走らせることを強く推奨します。
-site_settings.enable_yahoo_logins,Yahoo 認証を有効にする
-site_settings.min_body_similar_length,類似トピックのチェックに必要なポスト本文の最小長
-site_settings.backup_daily,***TO BE TRANSLATED***Automatically create a site backup once a day
-site_settings.s3_access_key_id,画像をアップロードする Amazon S3 の access key id
-site_settings.clean_orphan_uploads_grace_period_hours,どこからもリンクされていないアップロードファイルを削除するまでの猶予期間 (単位：時間)。
-site_settings.enable_s3_backups,***TO BE TRANSLATED***Upload backups to S3 when complete. Make sure you have filled in your s3 credentials.
-site_settings.title_min_entropy,トピックタイトルの最小許容エントロピー (ユニークキャラクターや英語以外の単語を含むとより大きな値になります)
-site_settings.company_short_name,このサイトを運営する会社の略称。/tos などの法的ドキュメントに利用されます
-site_settings.previous_visit_timeout_hours,'previous' visit とみなす時間 (時間)
-site_settings.sso_url,***TO BE TRANSLATED***URL of single sign on endpoint
-site_settings.post_excerpt_maxlength,ポスト引用の最大文字数
-site_settings.num_flags_to_block_new_user,新規ユーザのポストに対して、(n) 人ののユーザによりここで指定した数のスパムフラグが立てられたら、全てのポストを非表示状態にした上でこのユーザからのポストを拒否する。0 でこの機能を無効化。
-site_settings.default_digest_email_frequency,ユーザがダイジェストメールを受け取る頻度のデフォルト値。ユーザは設定画面でこの値をカスタマイズできます。
-site_settings.regular_requires_likes_given,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにしなければならない「いいね!」の数
-site_settings.track_external_right_clicks,右クリックされた外部リンクをトラックする (例: 新しいタブで開く)。URL のリライトを要するためデフォルトでは無効化されています
-site_settings.enable_mobile_theme,モバイル端末にモバイル向けテーマ (通常サイト用テーマにスイッチ可能) を利用する。レスポンシブなスタイルシートを使用する場合はこの設定を無効にしてください。
-site_settings.contact_email,サイトの連絡先メールアドレス。重要なアップデートのお知らせ等、Discourse.org からの連絡がこちらのアドレスに送信されます。
-site_settings.newuser_max_mentions_per_post,新規ユーザがポストに書くことができる @name 通知の最大数
-site_settings.newuser_max_attachments,新規ユーザがポストに追加可能な添付ファイルの最大数
-site_settings.max_similar_results,新規トピック編集中に類似トピックをいくつ表示するか
-site_settings.embed_truncate,***TO BE TRANSLATED***Truncate the imported posts
-site_settings.default_external_links_in_new_tab,***TO BE TRANSLATED***Open external links in a new tab. Users can change this in their preferences.
-site_settings.sso_overrides_username,***TO BE TRANSLATED***Overrides local username with external site username from SSO payload (WARNING: discrepancies can occur due to differences in username length/requirements)
-site_settings.delete_user_max_post_age,"***TO BE TRANSLATED***The maximum age of a user's first post, in days, which allows a user to be deleted."
-site_settings.embed_category,***TO BE TRANSLATED***Category of created topics
-site_settings.max_private_messages_per_day,一日のうちにユーザが送信可能なプライベートメッセージの最大数
-site_settings.privacy_policy_url,他サイトにプライバシーポリシーをホストしている場合は、フル URL を個々に指定。
-site_settings.max_mentions_per_post,ポストに書くことができる @name 通知の最大値
-site_settings.pop3s_polling_password,POP3S でメール取得のポーリングを行うためのパスワード
-site_settings.allow_uncategorized_topics,カテゴリなしのトピック作成を許可するか。
-site_settings.active_user_rate_limit_secs,'last_seen_at' フィールドを更新する頻度 (秒)
-site_settings.invite_only,一般登録を無効化し、招待されたユーザのみ登録可能にする
-site_settings.pop3s_polling_enabled,メール回答取得のために POP3S をポーリングする
-site_settings.download_remote_images_threshold,リモート画像をダウンロードするために必要なディスクスペースの最低残容量 (パーセント)
-site_settings.min_private_message_title_length,プライベートメッセージタイトルの最小文字数
-site_settings.enable_noscript_support,noscript タグ経由でアクセスしてきた標準サーチエンジンクローラのサポートを有効にする
-site_settings.auto_track_topics_after,トピックが自動的にトラックされるまでのデフォルト時間 (ミリ秒)。なお、ユーザはこの設定をカスタマイズできます。(0で常にトラック、-1で常にトラックしない)
-site_settings.embeddable_host,***TO BE TRANSLATED***Host that can embed the comments from this Discourse forum
-site_settings.max_image_size_kb,アップロード可能な画像の最大サイズ (kB) - nginx 側での設定 (client_max_body_size) / apache または proxy における設定も同時に行ってください
-site_settings.enforce_global_nicknames,ニックネームのグローバルユニーク性を強制する (警告: この設定は初回セットアップ時にのみ変更してください)
-site_settings.allow_restore,"***TO BE TRANSLATED***Allow restore, which can replace ALL site data! Leave false unless you plan to do restore a backup"
-site_settings.authorized_extensions,アップロード可能なファイルの拡張子のリスト。パイプ (|) 区切りで指定
-site_settings.max_replies_in_first_day,サイト利用日にユーザが作成することのできる回答の最大数
-site_settings.cooldown_minutes_after_hiding_posts,フラグにより非表示状態になったポストをユーザが編集可能になるまでの時間 (分)
-site_settings.min_title_similar_length,類似トピックのチェックに必要な最小タイトル長
-site_settings.company_domain,このサイトを運営する会社が保持するドメイン名。/tos などの法的ドキュメントに利用されます
-site_settings.invites_shown,ユーザページに表示する招待履歴の最大数
-site_settings.topic_views_heat_medium,トピックのヒートレベルを中に設定する閲覧数。
-site_settings.pop3s_polling_username,POP3S でメール取得のポーリングを行うためのユーザ名
-site_settings.exclude_rel_nofollow_domains,nofollow を設定しないドメイン一覧 (カンマ区切り) (tld.com を設定すると、自動的に sub.tld.com も対象になります)
-site_settings.suppress_uncategorized_badge,***TO BE TRANSLATED***Don't show the badge for uncategorized topics in topic lists
-site_settings.enable_private_messages,トラストレベルがベーシック (1) なユーザにプライベートメッセージの作成およびプライベートメッセージへの返信を許可
-site_settings.sso_secret,"***TO BE TRANSLATED***Secret string used to encrypt/decrypt SSO information, be sure it is 10 chars or longer"
-site_settings.version_checks,Discourse Hub にバージョン更新の有無を問い合わせ /admin ダッシュボードにバージョンメッセージを表示する
-site_settings.ninja_edit_window,ポスト投稿後、実際に新しいバージョンが作られるまでの秒数 (ninja-edit)
-site_settings.ga_tracking_code,Google analytics のトラッキングコード。例: UA-12345678-9; 参考 http://google.com/analytics
-site_settings.email_domains_blacklist,ユーザ登録を拒否するメールドメインのリスト (パイプ区切りで指定)。例: mailinator.com|trashmail.net
-site_settings.github_client_secret,Github 認証用の client secret。https://github.com/settings/applications で入手可能
-site_settings.reply_by_email_address,メールアドレスによる回答のテンプレート。例: %{reply_key}@reply.myforum.com
-site_settings.max_flags_per_day,一日のうちにユーザがフラグを立てられる最大数
-site_settings.email_custom_headers,カスタムメールヘッダのリスト (パイプ(バーティカルバー) 区切り)
-site_settings.polling_interval,ログイン済ユーザのクライアントのポーリング間隔 (ミリ秒)
-site_settings.purge_deleted_uploads_grace_period_days,削除されたアップロードファイルが完全削除されるまでの猶予期間 (単位：日)。
-site_settings.tos_url,他サイトに利用規約をホストしている場合は、フル URL をここに指定。
-site_settings.warn_reviving_old_topic_age,"***TO BE TRANSLATED***When someone starts replying to a topic older than this many days, a warning will be displayed to discourage the user from reviving an old discussion. Disable by setting to 0."
-site_settings.pop3s_polling_host,POP3S でメール取得のポーリングを行うホスト
-site_settings.regular_requires_days_visited,ベーシックユーザがレギュラー (2) トラストレベルに昇格するためにサイトを訪問しなければならない日数
-site_settings.category_post_template,新規カテゴリ作成時におけるカテゴリ定義ポストのテンプレート
-site_settings.sso_overrides_name,***TO BE TRANSLATED***Overrides local name with external site name from SSO payload (WARNING: discrepancies can occur due to normalization of local names)
-site_settings.notify_about_flags_after,"***TO BE TRANSLATED***If there are flags that haven't been handled after this many hours, send an email to the contact_email. Set to 0 to disable."
-site_settings.allow_uploaded_avatars,ユーザがカスタムアバターをアップロードするのを許可する
-site_settings.summary_posts_required,トピックの 'サマリー' モードが有効になるために必要な最小ポスト数
-site_settings.max_image_width,ポストに添付する画像の最大横幅
-site_settings.email_time_window_mins,ユーザによるポストの最終編集チャンスを与えるために、回答通知メール送信までに待つ時間 (分)
-site_settings.onebox_max_chars,onebox が外部 Web サイトよりポストにインポートする最大文字数
-site_settings.twitter_consumer_secret,Twitter 認証用の consumer secret。http://dev.twitter.com で入手可能
-site_settings.allow_user_locale,***TO BE TRANSLATED***Allow users to choose their own language interface preference
-site_settings.max_edits_per_day,一日のうちにユーザが編集できる最大数
-site_settings.min_trust_to_create_topic,新規にトピックを作成するために必要な最低トラストレベル。
-site_settings.post_edit_time_limit,***TO BE TRANSLATED***Amount of time in minutes in which posts can be edited and deleted by the author. Set to 0 to allow editing and deleting posts at any time.
-site_settings.faq_url,他サイトに FAQ をホストしている場合は、フル URL をここに指定。
-site_settings.s3_region,画像をアップロードする Amazon S3 のリージョン名
-site_settings.delete_all_posts_max,すべてのポストを削除ボタンで一度に削除可能な最大ポスト数。ユーザがここで指定した以上のポストを投稿していた場合は、一度に全ポストを削除することができません。またユーザも削除されません。
-site_settings.enable_facebook_logins,Facebook 認証を有効にする (facebook_app_id と facebook_app_secret の設定が必要)
-site_settings.newuser_spam_host_threshold,新規ユーザが、スパム認定されることなく `newuser_spam_host_posts` ポスト内にに同一ホストへのリンクを貼ることができる数。
-site_settings.body_min_entropy,ポスト本文の最小許容エントロピー (ユニークキャラクターや英語以外の単語を含むとより大きな値になります)
-site_settings.max_topic_title_length,トピックタイトルの最大文字数
-site_settings.newuser_max_links,新規ユーザがポストに貼ることができるリンクの最大数
-site_settings.regular_requires_topic_reply_count,ベーシックユーザがレギュラー (2) トラストレベルに昇格するために回答しなければならないトピックの数
-site_settings.sso_overrides_email,***TO BE TRANSLATED***Overrides local email with external site email from SSO payload (WARNING: discrepancies can occur due to normalization of local emails)
-site_settings.max_stars_per_day,***TO BE TRANSLATED***Maximum number of topics that can be starred per user per day
-site_settings.discourse_org_access_key,discourse.org の Discourse Hub ニックネームレジストリにアクセスするためのキー
-site_settings.max_topics_in_first_day,サイト利用初日にユーザが作成することのできるトピックの最大数
-site_settings.embed_post_limit,***TO BE TRANSLATED***Maximum number of posts to embed
-site_settings.title_fancy_entities,トピックタイトルの一般的な ASCII 文字をファンシーな HTML エンティティに変換する; SmartyPants http://daringfireball.net/projects/smartypants/
-site_settings.min_post_length,ポストの最小文字数
-topic_statuses.archived_disabled,このトピックはアーカイブ解除されました。凍結解除され、変更可能になりました。
-topic_statuses.closed_disabled,このトピックはオープンされました。新たに回答を投稿することができます。
-topic_statuses.pinned_disabled,このトピックのピン留めが解除されました。以後、カテゴリのトップに表示されません。
-topic_statuses.autoclosed_enabled_minutes.zero,このトピックは1分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_minutes.other,このトピックは%{count}分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_minutes.one,このトピックは1分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.archived_enabled,このトピックはアーカイブされました。すべての内容は凍結されており、一切の変更ができません。
-topic_statuses.closed_enabled,このトピックは終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_hours.zero,このトピックは1時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_hours.other,このトピックは%{count}時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_hours.one,このトピックは1時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_days.zero,このトピックは1日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_days.other,このトピックは%{count}日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.autoclosed_enabled_days.one,このトピックは1日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
-topic_statuses.pinned_globally_disabled,***TO BE TRANSLATED***This topic is now unpinned. It will no longer appear at the top of its category.
-topic_statuses.pinned_globally_enabled,"***TO BE TRANSLATED***This topic is now pinned globally. It will appear at the top of its category and all topic lists until it is either unpinned by a moderator, or the Clear Pin button is pressed."
-topic_statuses.pinned_enabled,このトピックはピン留めされました。ピン留めボタンが押されるかモデレータによってピン留めが解除されるまで、カテゴリのトップに表示されます。
-topic_statuses.visible_enabled,このトピックは表示状態になりました。トピックリストに表示されます。
-topic_statuses.visible_disabled,このトピックは非表示状態になりました。トピックリストには表示されません。直接リンク経由でのみこのトピックにアクセスできます。
-topic_statuses.autoclosed_disabled,このトピックは再オープンされました。新しい回答が投稿できるようになりました。。
-dashboard.github_config_warning,"サーバが Github アカウントによるサインアップ・ログイン可能な設定 (enable_github_logins) になっていますが、client id と secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
-dashboard.enforce_global_nicknames_warning,enforce_global_nicknames setting 設定が有効になっていますが、discourse_org_access_key 設定が空欄です。enforce_global_nicknames 設定を有効にするには Discourse.org へのアクセスキーが必要です。<a href='/admin/site_settings'>サイトの設定</a> にて正しい値を設定してください。
-dashboard.ruby_version_warning,現在起動中の Ruby 2.0.0 にはいくつか問題があります。パッチレベル p247 以降にアップグレードしてください。
-dashboard.rails_env_warning,サーバは %{env} モードで起動中です。
-dashboard.queue_size_warning,キューに入っているジョブの数が多すぎます (%{queue_size})。Sidekiq プロセスに問題があるか、Sidekiq ワーカを追加する必要がある可能性があります。
-dashboard.sidekiq_warning,"Sidekiq が起動していません。メール送信等、多くのタスクが sidekiq により非同期に実行されます。少なくとも sidekiq のプロセスを1つは起動してください。<a href=""https://github.com/mperham/sidekiq"" target=""_blank"">Sidekiq についてはこちらを参考にしてください</a>。"
-dashboard.memory_warning,現在サーバが 1GB 未満の総メモリで起動しています。推奨メモリサイズは 1GB 以上です。
-dashboard.host_names_warning,現在 config/database.yml ファイルは、デフォルトの localhost をホスト名として使用しています。あなたのサイトのホスト名に更新してください。
-dashboard.s3_backup_config_warning,"***TO BE TRANSLATED***The server is configured to upload backups to s3, but at least one the following setting is not set: s3_access_key_id, s3_secret_access_key or s3_backup_bucket. Go to <a href=""/admin/site_settings"">the Site Settings</a> and update the settings. <a href=""http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229"" target=""_blank"">See ""How to set up image uploads to S3?"" to learn more</a>."
-dashboard.site_description_missing,サイトの site_description 設定が空欄になっています。<a href='/admin/site_settings'>サイトの設定</a>においてこのフォーラムに関する簡単な説明文を追加してください。
-dashboard.facebook_config_warning,"サーバが Facebook アカウントによるサインアップ・ログイン可能な設定 (enable_facebook_logins) になっていますが、app id と app secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-facebook-logins"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
-dashboard.contact_email_invalid,サイトの連絡先メールアドレスが正しくありません。<a href='/admin/site_settings'>サイトの設定</a>において contact_email を更新してください。
-dashboard.s3_config_warning,"サーバが S3 にファイルをアップロードするように設定されていますが、次のうち少なくとも1つが設定されていません: s3_access_key_id, s3_secret_access_key or s3_upload_bucket。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""http://meta.discourse.org/t/how-to-set-up-image-uploads-to-s3/7229"" target=""_blank"">詳しくは ""How to set up image uploads to S3?"" を参考にしてください</a>。"
-dashboard.title_nag,サイトのタイトルがデフォルトのままになっています。<a href='/admin/site_settings'>サイトの設定</a>において正しいサイトのタイトルを設定してください。
-dashboard.contact_email_missing,サイトの連絡先メールアドレスが設定されていません。<a href='/admin/site_settings'>サイトの設定</a>において contact_email を更新してください。
-dashboard.notification_email_warning,notification_email 設定が空欄です。<a href='/admin/site_settings'>サイトの設定</a>にて正しい値を設定してください。
-dashboard.gc_warning,"現在サーバはデフォルトの ruby ガベージコレクションパラメータを使用しており、パフォーマンスが最適化されていません。パフォーマンス・チューニングの方法についてはこちらのトピックを参考にしてください: <a href=""http://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126"" target=""_blank"">Tuning Ruby and Rails for Discourse</a>."
-dashboard.consumer_email_warning,サイトはメール送信に Gmail (または他のカスタムメールサービス) を利用するように設定されています。<a href='http://support.google.com/a/bin/answer.py?hl=en&answer=166852' target='_blank'>Gmail で送信可能なメール数には制限があります</a>。メールを確実に送信するために mandrill.com などのメールサービスプロバイダーのり用を検討してください。
-dashboard.image_magick_warning,"サーバが大きな画像のサムネイルを作成する設定になっていますが、ImageMagick がインストールされていません。お好きなパッケージマネージャを使って ImageMagick をインストールするか、<a href=""http://www.imagemagick.org/script/binary-releases.php"" target=""_blank"">最新のリリースをダウンロードしてください</a>。"
-dashboard.access_password_removal,現在サイトは access_password 設定を利用していますが、この設定は廃止されたため代わりに login_required と must_approve_users 設定を利用してください。<a href='/admin/site_settings'>サイトの設定</a>にて変更ができます。この際、<a href='/admin/users/list/pending'>保留中リストのユーザを承認</a>してください。(このメッセージは2日後に削除されます)
-dashboard.twitter_config_warning,"サーバが Twitter アカウントによるサインアップ・ログイン可能な設定 (enable_twitter_logins) になっていますが、key と secret が設定されていません。<a href=""/admin/site_settings"">サイトの設定</a> にて設定を更新してください。<a href=""https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide#enable-twitter-logins"" target=""_blank"">詳しくはこちらを参考にしてください</a>。"
-dashboard.failing_emails_warning,"%{num_failed_jobs}個のメールジョブが失敗しています。config/environments/production.rb ファイルを確認して config.action_mailer の設定が正しいか確認してください。<a href=""/sidekiq/retries"" target=""_blank"">Sidekiq で失敗したジョブを確認</a>。"
-dashboard.default_logo_warning,"サイトのロゴ画像をカスタマイズしていません。<a href='/admin/site_settings'>サイトの設定</a>において logo_url, logo_small_url, favicon_url を更新してください。"
-dashboard.site_contact_username_warning,site_contact_username 設定が空欄です。<a href='/admin/site_settings'>サイトの設定</a>にてシステムメッセージの送信者となる管理者のユーザ名を設定してください。
-invalid_characters,は不正なキャラクターを含んでいます
-read_full_topic,Read full topic
-user_profile.no_info_me,<div class='missing-profile'>プロフィールの自己紹介フィールドが空欄のようです。<a href='/users/%{username_lower}/preferences/about-me'>自己紹介をしてみませんか?</a></div>
-user_profile.no_info_other,<div class='missing-profile'>%{name} は、まだプロフィールの自己紹介フィールドに何も書いていません</div>
-deleted,deleted
-vip_category_description,***TO BE TRANSLATED***A category exclusive to members with trust level 3 and higher.
-too_many_images.zero,申し訳ありませんが、新規ユーザはこのポストに画像をアップロードできません。
-too_many_images.other,申し訳ありませんが、新規ユーザはこのポストに画像を%{count}個しかアップロードできません。
-too_many_images.one,申し訳ありませんが、新規ユーザはこのポストに画像を1つしかアップロードできません。
-change_email.please_continue,%{link} に進んでください
-change_email.confirmed,メールアドレスが更新されました。
-change_email.error,メールアドレスの更新に失敗しました。アドレスが既に使用されているかもしれません。
-redirected_to_top_reasons.new_user,"***TO BE TRANSLATED***Welcome! As a new visitor, this will be your homepage until you've had time to look around. Here's some of the most popular topics from the past."
-redirected_to_top_reasons.not_seen_in_a_month,***TO BE TRANSLATED***Welcome back! We haven't seen you in a while. These are the top discussion topics since you've been away.
-resubscribe.action,再購読
-resubscribe.description,再購読が完了しました。
-resubscribe.title,再購読!
-groups.errors.can_not_modify_automatic,自動作成グループの変更はできません
-groups.default_names.admins,管理者
-groups.default_names.moderators,モデレータ
-groups.default_names.trust_level_5,trust_level_5
-groups.default_names.trust_level_4,trust_level_4
-groups.default_names.trust_level_2,trust_level_2
-groups.default_names.trust_level_1,trust_level_1
-groups.default_names.trust_level_3,trust_level_3
-groups.default_names.staff,スタッフ
 test_mailer.subject_template,[%{site_name}] メール送信テスト
 test_mailer.text_body_template,"これは、あなたの %{site_name} フォーラムより送信されたテストメールです:
 
@@ -938,173 +901,199 @@ Your friends at [Discourse](http://www.discourse.org)
 
 <small>There should be an unsubscribe footer on every email you send, so let's mock one up. This email was sent by Name of Company, 55 Main Street, Anytown, USA 12345. If you would like to opt out of future emails, [click here to unsubscribe][5].</small>
 "
-topics_in_category,'%{category}' カテゴリ内のトピック
-by,By
-rss_posts_in_topic,'%{topic}' の RSS フィード
-search.within_post,***TO BE TRANSLATED***#%{post_number} by %{username}: %{excerpt}
-search.types.category,カテゴリ
-search.types.topic,トピック
-search.types.user,ユーザ
-rss_description.hot,ホットトピック
-rss_description.latest,最新トピック
-activerecord.attributes.category.name,カテゴリ名
-activerecord.attributes.post.raw,本文
-activerecord.attributes.user.ip_address,
-activerecord.errors.models.topic.attributes.archetype.cant_send_pm,申し訳ありませんが、このユーザにはプライベートメッセージを送信できません。
-activerecord.errors.models.user.attributes.password.common,***TO BE TRANSLATED***is one of the 5000 most common passwords. Please use a more secure password.
-activerecord.errors.models.user.attributes.ip_address.signup_not_allowed,このアカウントからのサインアップできません。
-activerecord.errors.messages.is_invalid,は不正です。もう少し説明を追加してください
-activerecord.errors.messages.has_already_been_used,は既に使用中です
-flag_reason.sockpuppet,新規ユーザがトピックを作成し、同じ IP アドレスより別の新規ユーザが回答を投稿しました。サイトの flag_sockpuppets 設定を確認してください。
-flag_reason.spam_hosts,このユーザは同一ドメインへのリンクを含むポストを複数作成しようとしました。サイトの newuser_spam_host_threshold 設定を確認してください。
-topic_flag_types.spam.long_form,***TO BE TRANSLATED***flagged this as spam
-topic_flag_types.spam.description,"このトピックは広告です。このサイトに関連がなく有益でもない、ただの宣伝です。"
-topic_flag_types.spam.title,スパム
-topic_flag_types.notify_moderators.email_title,"このトピック ""%{title}"" はモデレータの注目を必要とします。"
-topic_flag_types.notify_moderators.long_form,***TO BE TRANSLATED***notified moderators
-topic_flag_types.notify_moderators.title,モデレータに知らせる
-topic_flag_types.notify_moderators.email_body,"***TO BE TRANSLATED***%{link}
-
-%{message}"
-topic_flag_types.notify_moderators.description,"このトピックは<a href=""/faq"">FAQ</a>, <a href=""%{tos_url}"">TOS</a>又はその他の理由に基づきモデレータの全般的な注目を必要とします。"
-topic_flag_types.inappropriate.long_form,***TO BE TRANSLATED***flagged this as inappropriate
-topic_flag_types.inappropriate.description,"このトピックは道義的に見て攻撃的・誹謗中傷又は<a href=""/faq"">コミュニティガイドライン</a>違反と考えられる内容を含んでいます。"
-topic_flag_types.inappropriate.title,不適切
-reports.top_referrers.title,トップリファラ
-reports.top_referrers.num_topics,トピック
-reports.top_referrers.num_clicks,クリック
-reports.top_referrers.xaxis,ユーザ
-reports.top_traffic_sources.num_users,ユーザ
-reports.top_traffic_sources.title,トップトラフィックソース
-reports.top_traffic_sources.num_topics,トピック
-reports.top_traffic_sources.num_clicks,クリック
-reports.top_traffic_sources.xaxis,ドメイン
-reports.moderator_warning_private_messages.title,モデレータ警告
-reports.moderator_warning_private_messages.xaxis,日
-reports.moderator_warning_private_messages.yaxis,プライベートメッセージの数
-reports.topics.title,トピック
-reports.topics.xaxis,日
-reports.topics.yaxis,新規トピック数
-reports.system_private_messages.title,システム
-reports.system_private_messages.xaxis,日
-reports.system_private_messages.yaxis,プライベートメッセージの数
-reports.visits.title,訪問ユーザ
-reports.visits.xaxis,日
-reports.visits.yaxis,訪問者数
-reports.signups.title,ユーザ
-reports.signups.xaxis,日
-reports.signups.yaxis,新規ユーザ数
-reports.users_by_trust_level.title,トラストレベル毎のユーザ
-reports.users_by_trust_level.xaxis,トラストレベル
-reports.users_by_trust_level.yaxis,ユーザ数
-reports.top_referred_topics.xaxis,トピック
-reports.top_referred_topics.num_clicks,クリック
-reports.top_referred_topics.title,トップ被参照トピック
-reports.bookmarks.title,ブックマーク
-reports.bookmarks.xaxis,日
-reports.bookmarks.yaxis,新規ブックマーク数
-reports.emails.title,送信メール
-reports.emails.xaxis,日
-reports.emails.yaxis,メールの数
-reports.notify_user_private_messages.title,ユーザ通知
-reports.notify_user_private_messages.xaxis,日
-reports.notify_user_private_messages.yaxis,プライベートメッセージの数
-reports.posts.title,ポスト
-reports.posts.xaxis,日
-reports.posts.yaxis,新規ポスト数
-reports.notify_moderators_private_messages.title,モデレータ通知
-reports.notify_moderators_private_messages.xaxis,日
-reports.notify_moderators_private_messages.yaxis,プライベートメッセージの数
-reports.flags.title,フラグ
-reports.flags.xaxis,日
-reports.flags.yaxis,フラグの数
-reports.starred.title,***TO BE TRANSLATED***Starred
-reports.starred.xaxis,***TO BE TRANSLATED***Day
-reports.starred.yaxis,***TO BE TRANSLATED***Number of new starred topics
-reports.user_to_user_private_messages.title,ユーザ to ユーザ
-reports.user_to_user_private_messages.xaxis,日
-reports.user_to_user_private_messages.yaxis,プライベートメッセージの数
-reports.likes.title,いいね
-reports.likes.xaxis,日
-reports.likes.yaxis,新規「いいね!」数
-too_many_mentions_newuser.zero,申し訳ありませんが、新規ユーザはこのポストにおいて他のユーザをメンションできません。
-too_many_mentions_newuser.other,申し訳ありませんが、新規ユーザはこのポストにおいてあと%{count}人しかメンションできません。
-too_many_mentions_newuser.one,申し訳ありませんが、新規ユーザはこのポストにおいてあと1人しかメンションできません。
-content_types.head.description,***TO BE TRANSLATED***HTML that will be inserted inside the <head></head> tags.
-content_types.head.title,***TO BE TRANSLATED***HTML head
-content_types.privacy_policy.description,サイトのプライバシーポリシー。空欄でデフォルトポリシーを表示。
-content_types.privacy_policy.title,プライバシーポリシー
-content_types.welcome_user.description,サインアップした全ての新規ユーザに自動送信されるプライベートメッセージの内容。
-content_types.welcome_user.title,ウェルカムメッセージ: 新規ユーザ
-content_types.login_required_welcome_message.description,'login required' 設定有効時に、ユーザに対してログインを促すメッセージの内容。
-content_types.login_required_welcome_message.title,ウェルカムメッセージ: 要ログイン
-content_types.bottom.description,全ページのボトムに追加される HTML
-content_types.bottom.title,ページボトム
-content_types.top.description,全ページのトップに追加される HTML (ヘッダとナビゲーション/トピックタイトルの間に表示されます)
-content_types.top.title,ページトップ
-content_types.login_required.description,要ログイン設定の際に、未ログインユーザに対して表示されるメッセージの内容。
-content_types.login_required.title,ホームページ: 要ログイン
-content_types.education_new_topic.description,新規ユーザが新規トピックの作成を行った際に自動的にポップアップするガイダンスに内容 (最初の2回のみ表示)。
-content_types.education_new_topic.title,新規ユーザ支援: 初めてのポスト
-content_types.faq.description,サイトの FAQ。空欄でデフォルト FAQ を表示。
-content_types.faq.title,FAQ
-content_types.tos_signup_form_message.description,***TO BE TRANSLATED***The message that will appear beside a checkbox on the signup form if the tos_accept_required site setting is enabled.
-content_types.tos_signup_form_message.title,***TO BE TRANSLATED***Signup Form: Terms of Service Message
-content_types.tos_miscellaneous.description,利用規約の「その他」セクションの内容。
-content_types.tos_miscellaneous.title,利用規約: その他
-content_types.welcome_invite.description,ユーザより招待された全ての外部ユーザに自動送信されるプライベートメッセージの内容。
-content_types.welcome_invite.title,ウェルカムメッセージ: 招待ユーザ
-content_types.education_new_reply.description,新規ユーザが回答の入力を開始した際に自動的にポップアップするガイダンスの内容 (最初の2回のみ表示)。
-content_types.education_new_reply.title,新規ユーザ支援: 初めての回答
-content_types.usage_tips.description,新規ユーザ向けのヒントや、ガイド、フォーラムに関する情報など。
-content_types.usage_tips.title,新規ユーザ向けヒント
-content_types.tos_user_content_license.description,利用規約の「コンテンツ使用許諾」セクションの内容。
-content_types.tos_user_content_license.title,利用規約: コンテンツ使用許諾
-password_reset.success,パスワードは無事更新され、ログインに成功しました。
-password_reset.title,パスワードリセット
-password_reset.update,パスワード更新
-password_reset.choose_new,新しいパスワードを選択してください
-password_reset.no_token,申し訳ありませんがトークンの有効期限が切れました。パスワードをリセットを再度試みてください。
-password_reset.continue,%{site_name} に進む
-password_reset.choose,***TO BE TRANSLATED***Please choose a password
-password_reset.success_unapproved,パスワードは無事更新されました。
-password_reset.save,***TO BE TRANSLATED***Set Password
 time.formats.date_only,"%b %-d, %Y"
 time.formats.short,%m-%d-%Y
 time.formats.short_no_year,%B %-d
-notification_types.replied,%{link} で %{display_username} があなたのポストに回答しました
-notification_types.edited,%{link} で %{display_username} があなたのポストを編集しました
-notification_types.liked,%{link} で %{display_username} があなたのポストを「いいね！」しました
-notification_types.invitee_accepted,%{display_username} があなたの招待を受けました
-notification_types.quoted,%{link} で %{display_username} があなたのポストを引用しました
-notification_types.invited_to_private_message,%{display_username} がプライベートメッセージにあなたを招待しました: %{link}
-notification_types.mentioned,%{link} で %{display_username} があなたをメンションしました
-notification_types.private_message,%{display_username} があなたにプラベートメッセージを送信しました: %{link}
-notification_types.moved_post,%{display_username} があなたのポストを %{link} に移動しました
-notification_types.linked,***TO BE TRANSLATED***%{display_username} linked you in %{link}
-notification_types.posted,%{link} に %{display_username} がポストを投稿しました
-login.not_activated,まだログインできません。メールを送信済ですので、メールの指示に従ってあなたのアカウントを有効にしてください。
-login.errors,%{errors}
-login.suspended_with_reason,%{date} までログインできません。アカウントがサスペンドされた理由は次の通りです: %{reason}
-login.incorrect_username_email_or_password,ユーザネーム、メールアドレス、またはパスワードが違います
-login.not_approved,あなたのアカウントはまだ承認されていません。ログイン可能になった際にメールで通知いたします。
-login.activate_email,<b>%{email}</b> にメールを送りました。メールの指示に従ってあなたのアカウントを有効にしてください。
-login.wait_approval,サインアップありがとうござました。アカウントが承認され次第メールにて通知いたします。
-login.active,アカウントが利用可能になりました。
-login.omniauth_error_unknown,ログインに失敗しました。もう一度試してください。
-login.not_available,利用できません。%{suggestion} を試してみては?
-login.suspended,%{date} までログインできません。
-login.omniauth_error,あなたの %{strategy} アカウントの認可に失敗しました。アカウントの認可を許可したか確認してください。
-login.something_already_taken,エラーが発生しました。ユーザ名またはメールアドレスが既に使用中の可能性があります。パスワードリセットを行ってください。
-backup.not_enough_space_on_disk,***TO BE TRANSLATED***There is not enough space on disk to upload this backup.
-backup.backup_file_should_be_tar_gz,***TO BE TRANSLATED***The backup file should be a .tar.gz archive.
-backup.operation_already_running,***TO BE TRANSLATED***An operation is currently running. Can't start a new job right now.
-user.username.short,は %{min} 文字より長い必要があります
-user.username.must_begin_with_alphanumeric,は英数字で始まる必要があります
-user.username.characters,は英数字のみである必要があります
-user.username.blank,は空であってはなりません
-user.username.unique,はユニークである必要があります
-user.username.long,は %{max} 文字より短い必要があります
-user.ip_address.blocked,はブロックされてます。
-user.email.not_allowed,はこのメールプロバイダーを許可していません。他のメールアドレスを使用してください。
+title,Discourse
+too_late_to_edit,***TO BE TRANSLATED***That post was created too long ago. It can no longer be edited or deleted.
+too_many_attachments.one,申し訳ありませんが、新規ユーザはこのポストにファイルを1つしか添付できません。
+too_many_attachments.other,申し訳ありませんが、新規ユーザはこのポストにファイルを%{count}個しか添付できません。
+too_many_attachments.zero,申し訳ありませんが、新規ユーザはこのポストにファイルを添付できません。
+too_many_images.one,申し訳ありませんが、新規ユーザはこのポストに画像を1つしかアップロードできません。
+too_many_images.other,申し訳ありませんが、新規ユーザはこのポストに画像を%{count}個しかアップロードできません。
+too_many_images.zero,申し訳ありませんが、新規ユーザはこのポストに画像をアップロードできません。
+too_many_links.one,申し訳ありませんが、新規ユーザはこのポストにリンクを1つしか貼れません。
+too_many_links.other,申し訳ありませんが、新規ユーザはこのポストにリンクを%{count}個しか貼れません。
+too_many_links.zero,申し訳ありませんが、新規ユーザはこのポストにリンクを貼れません。
+too_many_mentions.one,申し訳ありませんが、このポストにおいてあと1人しかメンションできません。
+too_many_mentions.other,申し訳ありませんが、このポストにおいてあと%{count}人しかメンションできません。
+too_many_mentions.zero,申し訳ありませんが、このポストにおいて他のユーザをメンションできません。
+too_many_mentions_newuser.one,申し訳ありませんが、新規ユーザはこのポストにおいてあと1人しかメンションできません。
+too_many_mentions_newuser.other,申し訳ありませんが、新規ユーザはこのポストにおいてあと%{count}人しかメンションできません。
+too_many_mentions_newuser.zero,申し訳ありませんが、新規ユーザはこのポストにおいて他のユーザをメンションできません。
+too_many_replies.one,"***TO BE TRANSLATED***We're sorry, but new users are temporarily limited to 1 reply in the same topic."
+too_many_replies.other,"***TO BE TRANSLATED***We're sorry, but new users are temporarily limited to %{count} replies in the same topic."
+topic_flag_types.inappropriate.description,"このトピックは道義的に見て攻撃的・誹謗中傷又は<a href=""/faq"">コミュニティガイドライン</a>違反と考えられる内容を含んでいます。"
+topic_flag_types.inappropriate.long_form,***TO BE TRANSLATED***flagged this as inappropriate
+topic_flag_types.inappropriate.title,不適切
+topic_flag_types.notify_moderators.description,"このトピックは<a href=""/faq"">FAQ</a>, <a href=""%{tos_url}"">TOS</a>又はその他の理由に基づきモデレータの全般的な注目を必要とします。"
+topic_flag_types.notify_moderators.email_body,"***TO BE TRANSLATED***%{link}
+
+%{message}"
+topic_flag_types.notify_moderators.email_title,"このトピック ""%{title}"" はモデレータの注目を必要とします。"
+topic_flag_types.notify_moderators.long_form,***TO BE TRANSLATED***notified moderators
+topic_flag_types.notify_moderators.title,モデレータに知らせる
+topic_flag_types.spam.description,このトピックは広告です。このサイトに関連がなく有益でもない、ただの宣伝です。
+topic_flag_types.spam.long_form,***TO BE TRANSLATED***flagged this as spam
+topic_flag_types.spam.title,スパム
+topic_statuses.archived_disabled,このトピックはアーカイブ解除されました。凍結解除され、変更可能になりました。
+topic_statuses.archived_enabled,このトピックはアーカイブされました。すべての内容は凍結されており、一切の変更ができません。
+topic_statuses.autoclosed_disabled,このトピックは再オープンされました。新しい回答が投稿できるようになりました。。
+topic_statuses.autoclosed_enabled_days.one,このトピックは1日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_days.other,このトピックは%{count}日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_days.zero,このトピックは1日が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_hours.one,このトピックは1時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_hours.other,このトピックは%{count}時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_hours.zero,このトピックは1時間が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_minutes.one,このトピックは1分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_minutes.other,このトピックは%{count}分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.autoclosed_enabled_minutes.zero,このトピックは1分が経過したので自動的に終了しました。新たに回答を投稿することはできません。
+topic_statuses.closed_disabled,このトピックはオープンされました。新たに回答を投稿することができます。
+topic_statuses.closed_enabled,このトピックは終了しました。新たに回答を投稿することはできません。
+topic_statuses.pinned_disabled,このトピックのピン留めが解除されました。以後、カテゴリのトップに表示されません。
+topic_statuses.pinned_enabled,このトピックはピン留めされました。ピン留めボタンが押されるかモデレータによってピン留めが解除されるまで、カテゴリのトップに表示されます。
+topic_statuses.visible_disabled,このトピックは非表示状態になりました。トピックリストには表示されません。直接リンク経由でのみこのトピックにアクセスできます。
+topic_statuses.visible_enabled,このトピックは表示状態になりました。トピックリストに表示されます。
+topics,トピック
+topics_in_category,'%{category}' カテゴリ内のトピック
+trust_levels.basic.title,ベーシックユーザ
+trust_levels.change_failed_explanation,%{user_name} を '%{new_trust_level}' に格下げしようとしましたが、既にトラストレベルが '%{current_trust_level}' です。%{user_name} は '%{current_trust_level}' のままになります。
+trust_levels.elder.title,マスター
+trust_levels.leader.title,リーダー
+trust_levels.newuser.title,新規ユーザ
+trust_levels.regular.title,レギュラーユーザ
+unsubscribe_link,メール解除は [ユーザ設定画面](%{user_preferences_url}) で行ってください。
+unsubscribed.description,購読解除されました。メールの送信をストップしました。
+unsubscribed.not_found,購読解除エラー
+unsubscribed.not_found_description,申し訳ありませんが購読解除に失敗しました。メール内のリンクの有効期限が切れているのかもしれません。
+unsubscribed.oops,誤って購読解除した場合は、下をクリックしてください。
+unsubscribed.title,購読解除
+upload.attachments.too_large,申し訳ありませんが、ファイルが大きすぎてアップロードできません (最大サイズは %{max_size_kb}%kb です)
+upload.edit_reason,リモート画像のコピーをダウンロードしました
+upload.images.fetch_failure,申し訳ありませんが、画像取得中にエラーが発生しました。
+upload.images.size_not_found,申し訳ありませんが、画像のサイズを判定できませんでした。画像が壊れているかもしれません。
+upload.images.too_large,申し訳ありませんが、画像が大きすぎてアップロードできません (最大サイズは %{max_size_kb}%kb です)。リサイズして再アップロードしてください。
+upload.images.unknown_image_type,申し訳ありませんが、アップロードしようとしたファイルは画像ではないようです。
+upload.pasted_image_filename,貼り付けた画像
+upload.unauthorized,申し訳ありません、ファイルのアップロードが拒否されました (サポートするファイルの拡張子: %{authorized_extensions}).
 user.email.blocked,は許可されていません。
+user.email.not_allowed,はこのメールプロバイダーを許可していません。他のメールアドレスを使用してください。
+user.ip_address.blocked,はブロックされてます。
+user.username.blank,は空であってはなりません
+user.username.characters,は英数字のみである必要があります
+user.username.long,は %{max} 文字より短い必要があります
+user.username.must_begin_with_alphanumeric,は英数字で始まる必要があります
+user.username.short,は %{min} 文字より長い必要があります
+user.username.unique,はユニークである必要があります
+user_notifications.authorize_email.subject_template,[%{site_name}] メールアドレスの確認
+user_notifications.authorize_email.text_body_template,"次のリンクをクリックして %{site_name} 用のメールアドレスを確認してください:
+
+%{base_url}/users/authorize-email/%{email_token}
+"
+user_notifications.digest.click_here,ここをクリック
+user_notifications.digest.from,%{site_name} ダイジェスト
+user_notifications.digest.new_activity,あなたのトピックおよびポストにおけるアクティビティ:
+user_notifications.digest.other_new_topics,その他の新トピック:
+user_notifications.digest.posts.one,1個のポスト
+user_notifications.digest.posts.other,%{count}個のポスト
+user_notifications.digest.read_more,もっと読む
+user_notifications.digest.subject_template,[%{site_name}] %{date} のフォーラムアクティビティ
+user_notifications.digest.top_topics,コミュニティで人気のあった新規ポスト:
+user_notifications.digest.unsubscribe,This summary email is sent as a courtesy notification from %{site_link} when we haven't seen you in a while. To unsubscribe %{unsubscribe_link}.
+user_notifications.digest.why,あなたが最後にアクセスした %{last_seen_at} 以降に %{site_link} で行われた議論のサマリーです。
+user_notifications.forgot_password.subject_template,[%{site_name}] パスワードのリセット
+user_notifications.forgot_password.text_body_template,"[%{site_name}](%{base_url}) のあなたのパスワードに対してリセット依頼が行われました。
+
+もし依頼を行ったのがあなたではない場合は、このメールを無視してください。
+
+新たなパスワードを設定する場合は次のリンクをクリックしてください:
+%{base_url}/users/password-reset/%{email_token}
+"
+user_notifications.posted_by,%{post_date} に %{username} が投稿
+user_notifications.previous_discussion,以前の回答
+user_notifications.reply_by_email,回答するにはこのメールに返信するか、ブラウザで %{base_url}%{url} にアクセスしてください。
+user_notifications.set_password.subject_template,***TO BE TRANSLATED***[%{site_name}] Set Password
+user_notifications.set_password.text_body_template,"***TO BE TRANSLATED***Somebody asked to add a password to your account on [%{site_name}](%{base_url}). Alternatively, you can log in using any supported online service (Google, Facebook, etc) that is associated with this validated email address.
+
+If you did not make this request, you can safely ignore this email.
+
+Click the following link to choose a password:
+%{base_url}/users/password-reset/%{email_token}
+"
+user_notifications.signup.subject_template,[%{site_name}] 新たなアカウントのアクティベーション
+user_notifications.signup.text_body_template,"Welcome to %{site_name}!
+
+次のリンクをクリックして、新たなアカウントの承認およびアクティベーションを行ってください:
+%{base_url}/users/activate-account/%{email_token}
+
+もし上記リンクがクリックできない場合は、ブラウザのアドレスバーにリンクアドレスをコピー&ペーストしてください。
+"
+user_notifications.signup_after_approval.subject_template,%{site_name} への参加承認完了!
+user_notifications.signup_after_approval.text_body_template,"%{site_name} へようこそ!
+
+%{site_name} への参加が承認されました。コミュニティへようこそ!
+
+次のリンクをクリックして、新たなアカウントの承認およびアクティベーションを行ってください:
+%{base_url}/users/activate-account/%{email_token}
+
+もし上記リンクがクリックできない場合は、ブラウザのアドレスバーにリンクアドレスをコピー&ペーストしてください。
+
+%{new_user_tips}
+
+マナーをお守りいただき、健全なコミュニティとなるよう皆様のご協力をお願いいたします。
+
+それではお楽しみください!
+"
+user_notifications.unsubscribe.description,メールに興味がありませんか? 下のリンクをクリックすると、即座にメール解除ができます:
+user_notifications.unsubscribe.title,解除
+user_notifications.user_invited_to_private_message_pm.subject_template,***TO BE TRANSLATED***[%{site_name}] %{username} invited you to a private message '%{topic_title}'
+user_notifications.user_invited_to_private_message_pm.text_body_template,"***TO BE TRANSLATED***%{username} invited you to a private message '%{topic_title}' on %{site_name}:
+
+Please visit this link to view the topic: %{base_url}%{url}
+"
+user_notifications.user_mentioned.subject_template,[%{site_name}] '%{topic_title}' で %{username} があなたをメンションしました
+user_notifications.user_mentioned.text_body_template,"%{message}
+
+%{context}
+
+---
+%{respond_instructions}
+"
+user_notifications.user_posted.subject_template,[%{site_name}] '%{topic_title}' に %{subject_prefix}個の新しいポストが投稿されました
+user_notifications.user_posted.text_body_template,"%{message}
+
+%{context}
+
+---
+%{respond_instructions}
+"
+user_notifications.user_posted_pm.subject_template,***TO BE TRANSLATED***[%{site_name}] [PM] %{topic_title}
+user_notifications.user_posted_pm.text_body_template,"***TO BE TRANSLATED***%{message}
+
+%{context}
+
+---
+%{respond_instructions}
+"
+user_notifications.user_quoted.subject_template,[%{site_name}] '%{topic_title}' で %{username} があなたを引用しました
+user_notifications.user_quoted.text_body_template,"%{message}
+
+%{context}
+
+---
+%{respond_instructions}
+"
+user_notifications.user_replied.subject_template,[%{site_name}] '%{topic_title}' 内のあなたのポストに新たな回答が投稿されました
+user_notifications.user_replied.text_body_template,"%{message}
+
+%{context}
+
+---
+%{respond_instructions}
+"
+user_notifications.visit_link_to_respond,回答するにはブラウザで %{base_url}%{url} にアクセスしてください。
+user_profile.no_info_me,<div class='missing-profile'>プロフィールの自己紹介フィールドが空欄のようです。<a href='/users/%{username_lower}/preferences/about-me'>自己紹介をしてみませんか?</a></div>
+user_profile.no_info_other,<div class='missing-profile'>%{name} は、まだプロフィールの自己紹介フィールドに何も書いていません</div>
+via,%{username} via %{site_name}
+vip_category_description,***TO BE TRANSLATED***A category exclusive to members with trust level 3 and higher.
+vip_category_name,***TO BE TRANSLATED***Lounge
