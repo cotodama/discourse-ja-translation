@@ -16,5 +16,5 @@ server.ja.csv と client.ja.csv のうち、***TO BE TRANSLATED*** となって�
 
 https://github.com/discourse/discourse/tree/master/config/locales
 
-に上書き保存する。
+に上書き保存することで discourseに反映される。
 
