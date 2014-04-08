@@ -11,14 +11,14 @@ admin_js.admin.api.regenerate,API キーを再生成
 admin_js.admin.api.revoke,無効化
 admin_js.admin.api.title,API
 admin_js.admin.api.user,ユーザ
-admin_js.admin.backups.columns.filename,***TO BE TRANSLATED***Filename
-admin_js.admin.backups.columns.size,***TO BE TRANSLATED***Size
+admin_js.admin.backups.columns.filename,ファイル名
+admin_js.admin.backups.columns.size,サイズ
 admin_js.admin.backups.logs.none,***TO BE TRANSLATED***No logs yet...
-admin_js.admin.backups.menu.backups,***TO BE TRANSLATED***Backups
-admin_js.admin.backups.menu.logs,***TO BE TRANSLATED***Logs
-admin_js.admin.backups.none,***TO BE TRANSLATED***No backup available.
+admin_js.admin.backups.menu.backups,バックアップ
+admin_js.admin.backups.menu.logs,ログ
+admin_js.admin.backups.none,バックアップはありません。
 admin_js.admin.backups.operations.backup.confirm,***TO BE TRANSLATED***Are you sure you want to start a new backup?
-admin_js.admin.backups.operations.backup.text,***TO BE TRANSLATED***Backup
+admin_js.admin.backups.operations.backup.text,バックアップ
 admin_js.admin.backups.operations.backup.title,***TO BE TRANSLATED***Create a backup
 admin_js.admin.backups.operations.cancel.confirm,***TO BE TRANSLATED***Are you sure you want to cancel the current operation?
 admin_js.admin.backups.operations.cancel.text,***TO BE TRANSLATED***Cancel
@@ -37,15 +37,15 @@ admin_js.admin.backups.operations.restore.title,***TO BE TRANSLATED***Restore th
 admin_js.admin.backups.operations.rollback.confirm,***TO BE TRANSLATED***Are your sure you want to rollback the database to the previous working state?
 admin_js.admin.backups.operations.rollback.text,***TO BE TRANSLATED***Rollback
 admin_js.admin.backups.operations.rollback.title,***TO BE TRANSLATED***Rollback the database to previous working state
-admin_js.admin.backups.read_only.disable.text,***TO BE TRANSLATED***Disable read-only mode
+admin_js.admin.backups.read_only.disable.text,読み取り専用モードをやめる
 admin_js.admin.backups.read_only.disable.title,***TO BE TRANSLATED***Disable the read-only mode
 admin_js.admin.backups.read_only.enable.confirm,***TO BE TRANSLATED***Are you sure you want to enable the read-only mode?
-admin_js.admin.backups.read_only.enable.text,***TO BE TRANSLATED***Enable read-only mode
+admin_js.admin.backups.read_only.enable.text,読み取り専用モードにする
 admin_js.admin.backups.read_only.enable.title,***TO BE TRANSLATED***Enable the read-only mode
-admin_js.admin.backups.title,***TO BE TRANSLATED***Backups
+admin_js.admin.backups.title,バックアップ
 admin_js.admin.backups.upload.error,***TO BE TRANSLATED***There has been an error while uploading '{{filename}}': {{message}}
 admin_js.admin.backups.upload.success,***TO BE TRANSLATED***'{{filename}}' has successfully been uploaded.
-admin_js.admin.backups.upload.text,***TO BE TRANSLATED***UPLOAD
+admin_js.admin.backups.upload.text,アップロード
 admin_js.admin.backups.upload.uploading,***TO BE TRANSLATED***UPLOADING
 admin_js.admin.badges.badge_type,***TO BE TRANSLATED***Badge Type
 admin_js.admin.badges.delete,***TO BE TRANSLATED***Delete
@@ -117,7 +117,7 @@ admin_js.admin.dashboard.up_to_date,最新のバージョンです!
 admin_js.admin.dashboard.updates_available,アップデートが存在します。
 admin_js.admin.dashboard.version,Version
 admin_js.admin.dashboard.version_check_pending,アップデートした直後のようですね。素晴らしい!
-admin_js.admin.email.all,***TO BE TRANSLATED***All
+admin_js.admin.email.all,全て
 admin_js.admin.email.delivery_method,送信方法
 admin_js.admin.email.email_type,メールタイプ
 admin_js.admin.email.format,フォーマット
@@ -136,12 +136,12 @@ admin_js.admin.email.refresh,更新
 admin_js.admin.email.reply_key,回答キー
 admin_js.admin.email.send_test,テストメール送信
 admin_js.admin.email.sending_test,***TO BE TRANSLATED***Sending test Email...
-admin_js.admin.email.sent,***TO BE TRANSLATED***Sent
+admin_js.admin.email.sent,送信済み
 admin_js.admin.email.sent_at,送信時間
 admin_js.admin.email.sent_test,送信完了!
 admin_js.admin.email.settings,設定
-admin_js.admin.email.skipped,***TO BE TRANSLATED***Skipped
-admin_js.admin.email.skipped_reason,***TO BE TRANSLATED***Skip Reason
+admin_js.admin.email.skipped,スキップ済み
+admin_js.admin.email.skipped_reason,スキップの理由
 admin_js.admin.email.test_email_address,テスト用メールアドレス
 admin_js.admin.email.test_error,***TO BE TRANSLATED***There was an issue sending email. Please check your settings and try again.
 admin_js.admin.email.text,text
@@ -189,10 +189,10 @@ admin_js.admin.groups.delete_failed,グループの削除に失敗しました�
 admin_js.admin.groups.edit,グループの編集
 admin_js.admin.groups.group_members,***TO BE TRANSLATED***Group members
 admin_js.admin.groups.name_placeholder,グループ名を入力 (ユーザ名同様にスペースなし)
-admin_js.admin.groups.new,***TO BE TRANSLATED***New
+admin_js.admin.groups.new,新規
 admin_js.admin.groups.no_primary,***TO BE TRANSLATED***(no primary group)
 admin_js.admin.groups.primary,***TO BE TRANSLATED***Primary Group
-admin_js.admin.groups.refresh,***TO BE TRANSLATED***Refresh
+admin_js.admin.groups.refresh,再読み込み
 admin_js.admin.groups.selector_placeholder,ユーザの追加
 admin_js.admin.groups.title,グループ
 admin_js.admin.impersonate.help,デバッグ用途でユーザアカウントになりすますためのツールです。
@@ -260,9 +260,9 @@ admin_js.admin.site_settings.categories.backups,***TO BE TRANSLATED***Backups
 admin_js.admin.site_settings.categories.basic,基本設定
 admin_js.admin.site_settings.categories.developer,開発者向け
 admin_js.admin.site_settings.categories.email,メール
-admin_js.admin.site_settings.categories.embedding,***TO BE TRANSLATED***Embedding
+admin_js.admin.site_settings.categories.embedding,埋め込み
 admin_js.admin.site_settings.categories.files,ファイル
-admin_js.admin.site_settings.categories.legal,***TO BE TRANSLATED***Legal
+admin_js.admin.site_settings.categories.legal,法律に基づく情報
 admin_js.admin.site_settings.categories.posting,ポスト
 admin_js.admin.site_settings.categories.rate_limits,投稿制限
 admin_js.admin.site_settings.categories.required,必須設定
@@ -272,7 +272,7 @@ admin_js.admin.site_settings.categories.spam,スパム
 admin_js.admin.site_settings.categories.trust,トラストレベル
 admin_js.admin.site_settings.categories.uncategorized,その他
 admin_js.admin.site_settings.categories.users,ユーザ
-admin_js.admin.site_settings.clear_filter,***TO BE TRANSLATED***Clear
+admin_js.admin.site_settings.clear_filter,クリア
 admin_js.admin.site_settings.no_results,何も見つかりませんでした。.
 admin_js.admin.site_settings.none,なし
 admin_js.admin.site_settings.reset,デフォルトに戻す
