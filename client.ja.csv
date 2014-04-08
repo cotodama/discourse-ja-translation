@@ -18,7 +18,7 @@ admin_js.admin.backups.menu.backups,バックアップ
 admin_js.admin.backups.menu.logs,ログ
 admin_js.admin.backups.none,バックアップはありません。
 admin_js.admin.backups.operations.backup.confirm,***TO BE TRANSLATED***Are you sure you want to start a new backup?
-admin_js.admin.backups.operations.backup.text,バックアップ
+admin_js.admin.backups.operations.backup.text,バックアップする
 admin_js.admin.backups.operations.backup.title,***TO BE TRANSLATED***Create a backup
 admin_js.admin.backups.operations.cancel.confirm,***TO BE TRANSLATED***Are you sure you want to cancel the current operation?
 admin_js.admin.backups.operations.cancel.text,***TO BE TRANSLATED***Cancel
