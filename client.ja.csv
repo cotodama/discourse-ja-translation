@@ -627,7 +627,7 @@ js.filters.hot.title,ホット
 js.filters.latest.help,最新のトピック
 js.filters.latest.title,最新
 js.filters.new.help,前回ログイン時からの新規トピック
-js.filters.new.lower_title,***TO BE TRANSLATED***new
+js.filters.new.lower_title,新着
 js.filters.new.lower_title_with_count.one,***TO BE TRANSLATED***1 new
 js.filters.new.lower_title_with_count.other,***TO BE TRANSLATED***{{count}} new
 js.filters.new.lower_title_with_count.zero,***TO BE TRANSLATED***
