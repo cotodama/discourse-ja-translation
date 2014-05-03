@@ -47,6 +47,8 @@ admin_js.admin.backups.upload.error,***TO BE TRANSLATED***There has been an erro
 admin_js.admin.backups.upload.success,***TO BE TRANSLATED***'{{filename}}' has successfully been uploaded.
 admin_js.admin.backups.upload.text,アップロード
 admin_js.admin.backups.upload.uploading,***TO BE TRANSLATED***UPLOADING
+admin_js.admin.badges.allow_title,***TO BE TRANSLATED***Allow badge to be used as a title
+admin_js.admin.badges.badge,***TO BE TRANSLATED***Badge
 admin_js.admin.badges.badge_type,***TO BE TRANSLATED***Badge Type
 admin_js.admin.badges.delete,***TO BE TRANSLATED***Delete
 admin_js.admin.badges.delete_confirm,***TO BE TRANSLATED***Are you sure you want to delete this badge?
@@ -70,7 +72,18 @@ admin_js.admin.badges.title,***TO BE TRANSLATED***Badges
 admin_js.admin.commits.by,by
 admin_js.admin.commits.latest_changes,最新の更新内容:
 admin_js.admin.customize.about,サイトカスタマイズ設定により、サイトのヘッダとスタイルシートを変更できます。設定を選択するか、編集を開始して新たな設定を追加してください。
+admin_js.admin.customize.color,***TO BE TRANSLATED***Color
+admin_js.admin.customize.colors.about,***TO BE TRANSLATED***Color schemes allow you to modify the colors used on the site without writing CSS. Choose or add one to start.
+admin_js.admin.customize.colors.copy_name_prefix,***TO BE TRANSLATED***Copy of
+admin_js.admin.customize.colors.delete_confirm,***TO BE TRANSLATED***Delete this color scheme?
+admin_js.admin.customize.colors.long_title,***TO BE TRANSLATED***Color Schemes
+admin_js.admin.customize.colors.new_name,***TO BE TRANSLATED***New Color Scheme
+admin_js.admin.customize.colors.title,***TO BE TRANSLATED***Colors
+admin_js.admin.customize.colors.under_construction,***TO BE TRANSLATED***NOTE: Changes made here will do nothing! This feature is under construction!
+admin_js.admin.customize.copy,***TO BE TRANSLATED***Copy
 admin_js.admin.customize.css,スタイルシート
+admin_js.admin.customize.css_html.long_title,***TO BE TRANSLATED***CSS and HTML Customizations
+admin_js.admin.customize.css_html.title,"***TO BE TRANSLATED***CSS, HTML"
 admin_js.admin.customize.delete,削除
 admin_js.admin.customize.delete_confirm,このカスタマイズ設定を削除しますか?
 admin_js.admin.customize.enabled,有効にする
@@ -80,6 +93,7 @@ admin_js.admin.customize.mobile_css,モバイル向けスタイルシート
 admin_js.admin.customize.mobile_header,モバイル向けヘッダ
 admin_js.admin.customize.new,新規
 admin_js.admin.customize.new_style,新規スタイル
+admin_js.admin.customize.opacity,***TO BE TRANSLATED***Opacity
 admin_js.admin.customize.override_default,標準のスタイルシートを読み込まない
 admin_js.admin.customize.preview,プレビュー
 admin_js.admin.customize.save,保存
@@ -143,7 +157,7 @@ admin_js.admin.email.settings,設定
 admin_js.admin.email.skipped,スキップ済み
 admin_js.admin.email.skipped_reason,スキップの理由
 admin_js.admin.email.test_email_address,テスト用メールアドレス
-admin_js.admin.email.test_error,***TO BE TRANSLATED***There was an issue sending email. Please check your settings and try again.
+admin_js.admin.email.test_error,"***TO BE TRANSLATED***There was a problem sending the test email. Please double-check your mail settings, verify that your host is not blocking mail connections, and try again."
 admin_js.admin.email.text,text
 admin_js.admin.email.time,***TO BE TRANSLATED***Time
 admin_js.admin.email.title,メール
@@ -263,6 +277,7 @@ admin_js.admin.site_settings.categories.email,メール
 admin_js.admin.site_settings.categories.embedding,埋め込み
 admin_js.admin.site_settings.categories.files,ファイル
 admin_js.admin.site_settings.categories.legal,法律に基づく情報
+admin_js.admin.site_settings.categories.onebox,***TO BE TRANSLATED***Onebox
 admin_js.admin.site_settings.categories.posting,ポスト
 admin_js.admin.site_settings.categories.rate_limits,投稿制限
 admin_js.admin.site_settings.categories.required,必須設定
@@ -292,8 +307,10 @@ admin_js.admin.user.block,ブロック
 admin_js.admin.user.block_explanation,ブロック中のユーザはポストの投稿およびトピックの作成ができません。
 admin_js.admin.user.block_failed,ユーザのブロックに失敗しました。
 admin_js.admin.user.blocked,ブロック中?
-admin_js.admin.user.cant_delete_all_posts.one,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} day old.
-admin_js.admin.user.cant_delete_all_posts.other,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} days old.
+admin_js.admin.user.cant_delete_all_posts.one,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} day old. (The delete_user_max_post_age setting.)
+admin_js.admin.user.cant_delete_all_posts.other,***TO BE TRANSLATED***Can't delete all posts. Some posts are older than %{count} days old. (The delete_user_max_post_age setting.)
+admin_js.admin.user.cant_delete_all_too_many_posts.one,***TO BE TRANSLATED***Can't delete all posts because the user has more than 1 post. (The delete_all_posts_max setting.)
+admin_js.admin.user.cant_delete_all_too_many_posts.other,***TO BE TRANSLATED***Can't delete all posts because the user has more than %{count} posts.  (The delete_all_posts_max setting.)
 admin_js.admin.user.deactivate_account,アカウントのアクティベート解除
 admin_js.admin.user.deactivate_explanation,アクティベート解除されたユーザは、メールで再アクティベートする必要があります。
 admin_js.admin.user.deactivate_failed,ユーザのアクティベート解除に失敗しました。
@@ -393,8 +410,16 @@ admin_js.admin.users.titles.newuser,トラストレベル0のユーザ (新規�
 admin_js.admin.users.titles.pending,保留中のユーザ
 admin_js.admin.users.titles.regular,トラストレベル2のユーザ (レギュラーユーザ)
 admin_js.admin.users.titles.suspended,サスペンド中のユーザ
+admin_js.badges.badge_count.one,***TO BE TRANSLATED***1 Badge
+admin_js.badges.badge_count.other,***TO BE TRANSLATED***%{count} Badges
 admin_js.badges.example_badge.description,***TO BE TRANSLATED***This is a generic example badge.
 admin_js.badges.example_badge.name,***TO BE TRANSLATED***Example Badge
+admin_js.badges.granted.one,***TO BE TRANSLATED***1 granted
+admin_js.badges.granted.other,***TO BE TRANSLATED***%{count} granted
+admin_js.badges.more_badges.one,***TO BE TRANSLATED***+1 More
+admin_js.badges.more_badges.other,***TO BE TRANSLATED***+%{count} More
+admin_js.badges.select_badge_for_title,***TO BE TRANSLATED***Select a badge to use as your title
+admin_js.badges.title,***TO BE TRANSLATED***Badges
 admin_js.keyboard_shortcuts_help.actions.bookmark,***TO BE TRANSLATED***<b>b</b> Bookmark post
 admin_js.keyboard_shortcuts_help.actions.delete,***TO BE TRANSLATED***<b>d</b> Delete post
 admin_js.keyboard_shortcuts_help.actions.edit,***TO BE TRANSLATED***<b>e</b> Edit post
@@ -693,6 +718,7 @@ js.groups.members,***TO BE TRANSLATED***Members
 js.groups.posts,***TO BE TRANSLATED***Posts
 js.groups.title.one,***TO BE TRANSLATED***group
 js.groups.title.other,***TO BE TRANSLATED***groups
+js.groups.visible,***TO BE TRANSLATED***Group is visible to all users
 js.history,History
 js.in_n_days.one,あと1日
 js.in_n_days.other,あと{{count}}日
@@ -749,6 +775,7 @@ js.no_value,いいえ
 js.not_implemented,申し訳ありませんが、この機能はまだ実装されていません
 js.not_logged_in_user,***TO BE TRANSLATED***user page with summary of current activity and preferences
 js.notifications.edited,<i title='edited' class='fa fa-pencil'></i> {{username}} {{link}}
+js.notifications.granted_badge,***TO BE TRANSLATED***<i title='badge granted' class='fa fa-certificate'></i> You were granted {{link}}
 js.notifications.invited_to_private_message,<i class='fa fa-envelope-o' title='private message'></i> {{username}} {{link}}
 js.notifications.invitee_accepted,<i title='accepted your invitation' class='fa fa-sign-in'></i> {{username}} が招待を受理しました
 js.notifications.liked,<i title='liked' class='fa fa-heart'></i> {{username}} {{link}}
@@ -904,6 +931,7 @@ js.post.revisions.displays.side_by_side.button,"<i class=""fa fa-columns""></i> 
 js.post.revisions.displays.side_by_side.title,差分を横に並べて表示
 js.post.revisions.displays.side_by_side_markdown.button,"<i class=""fa fa-columns""></i> Markdown"
 js.post.revisions.displays.side_by_side_markdown.title,Markdown ソースの差分を横に並べて表示
+js.post.show_full,***TO BE TRANSLATED***Show Full Post
 js.posts,投稿
 js.posts_long,このトピックには{{number}}個のポストがあります
 js.preview,プレビュー
@@ -952,6 +980,7 @@ js.topic.actions.invisible,非表示にする
 js.topic.actions.multi_select,移動するポストを選択
 js.topic.actions.open,トピックを開く
 js.topic.actions.pin,トピックのピン留め
+js.topic.actions.pin_globally,***TO BE TRANSLATED***Pin Topic Globally
 js.topic.actions.recover,トピック削除の取り消し
 js.topic.actions.reset_read,読み込みデータをリセット
 js.topic.actions.unarchive,トピックのアーカイブ解除
@@ -963,6 +992,14 @@ js.topic.auto_close_save,保存
 js.topic.auto_close_title,自動終了設定
 js.topic.back_to_list,トピックリストに戻る
 js.topic.browse_all_categories,全てのカテゴリをブラウズする
+js.topic.change_owner.action,***TO BE TRANSLATED***change ownership
+js.topic.change_owner.error,***TO BE TRANSLATED***There was an error changing the ownership of the posts.
+js.topic.change_owner.instructions.one,***TO BE TRANSLATED***Please choose the new owner of the post by <b>{{old_user}}</b>.
+js.topic.change_owner.instructions.other,***TO BE TRANSLATED***Please choose the new owner of the {{count}} posts by <b>{{old_user}}</b>.
+js.topic.change_owner.instructions_warn,"***TO BE TRANSLATED***Note that any notifications about this post will not be transferred to the new user retroactively.<br>Warning: Currently, no post-dependent data is transferred over to the new user. Use with caution."
+js.topic.change_owner.label,***TO BE TRANSLATED***New Owner of Posts
+js.topic.change_owner.placeholder,***TO BE TRANSLATED***username of new owner
+js.topic.change_owner.title,***TO BE TRANSLATED***Change Owner of Posts
 js.topic.clear_pin.help,このトピックのピンを解除し、トピックリストの先頭に表示されないようにする
 js.topic.clear_pin.title,ピンを解除する
 js.topic.create,トピックを作成する
@@ -1040,7 +1077,6 @@ js.topic.notifications.reasons.3_5,***TO BE TRANSLATED***You will receive notifi
 js.topic.notifications.reasons.3_6,***TO BE TRANSLATED***You will receive notifications because you are watching this category.
 js.topic.notifications.regular.description,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。
 js.topic.notifications.regular.title,通常
-js.topic.notifications.title,
 js.topic.notifications.tracking.description,誰かから @ユーザ名 でメンションを受けた際と、あなたのポストに回答がついた際に通知されます。これに加えて、未読および新規ポストの数を確認します。
 js.topic.notifications.tracking.title,トラック中
 js.topic.notifications.tracking_pm.description,***TO BE TRANSLATED***You will be notified only if someone mentions your @name or replies to your post. The count of unread and new posts will also appear next to the topic's listing.
@@ -1091,6 +1127,11 @@ js.topic_statuses.archived.help,このトピックはアーカイブされてい
 js.topic_statuses.invisible.help,このトピックは非表示状態です。トピックリストには表示されません。直接リンクでのみアクセス可能です
 js.topic_statuses.locked.help,"このトピックは終了しています。新たに回答を投稿することはできません"""
 js.topic_statuses.pinned.help,このトピックはピン留めされています。常にカテゴリのトップに表示されます
+js.topic_statuses.pinned.title,***TO BE TRANSLATED***Pinned
+js.topic_statuses.pinned_globally.help,***TO BE TRANSLATED***This topic is pinned globally; it will display at the top of all lists
+js.topic_statuses.pinned_globally.title,***TO BE TRANSLATED***Pinned Globally
+js.topic_statuses.unpinned.help,***TO BE TRANSLATED***This topic is unpinned; it will display in default order
+js.topic_statuses.unpinned.title,***TO BE TRANSLATED***Unpinned
 js.topics.bottom.category,{{category}} トピックは以上です。
 js.topics.bottom.hot,ホットなトピックは以上です。
 js.topics.bottom.latest,最新のトピックは以上です。
@@ -1125,8 +1166,8 @@ js.upload,アップロード
 js.upload_selector.from_my_computer,このデバイスから
 js.upload_selector.from_the_web,Web から
 js.upload_selector.hint,(アップロードする画像をエディタにドラッグ&ドロップすることもできます)
-js.upload_selector.hint_for_chrome,(アップロードする画像をエディタにドラッグ&ドロップまたは貼り付けることもできます)
-js.upload_selector.image_link,***TO BE TRANSLATED***enter the link you want your image to point to
+js.upload_selector.hint_for_supported_browsers,(アップロードする画像をエディタにドラッグ&ドロップまたは貼り付けることもできます)
+js.upload_selector.image_link,***TO BE TRANSLATED***link your image will point to
 js.upload_selector.local_tip,クリックしてアップロードする画像を選択してください
 js.upload_selector.local_tip_with_attachments,クリックしてアップロードする画像/ファイルを選択してください (使用可能な拡張子: {{authorized_extensions}})
 js.upload_selector.remote_tip,画像のアドレスを入力してください (例 http://example.com/image.jpg)。
@@ -1255,6 +1296,7 @@ js.user.preferences,プロフィール
 js.user.private_message,プライベートメッセージ
 js.user.private_messages,メッセージ
 js.user.profile,プロフィール
+js.user.registration_ip_address.title,***TO BE TRANSLATED***Registration IP Address
 js.user.said,{{username}} のコメント:
 js.user.show_profile,プロフィールを見る
 js.user.stream.posted_by,投稿者
